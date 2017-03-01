@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[ansinew]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{textcomp}
+\definecolor{Mycolor1}{HTML}{008000}
+
+\title{Treball Final de Màster}
+\author{Josep Maria Martí }
+\date{February 2017}
+
+\begin{document}
+
+\maketitle
+\newpage
+\section{1.	Per què un motor pas a pas?}
+
+Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, en tot moment es coneix amb exactitud quants graus ha girat el motor. Es un motor fàcil de controlar i amb el qual es pot minimitzar l\textquotesingle error comes. Es pot controlar la seva velocitat. I, per acabar, ofereix una resistència contra la rotació de l\textquotesingle eix quan aquest te velocitat nul·la, fet que evita que giri quan no ho ha de fer. 
+\\*
+\\*
+\section{Funcionament}
+El funcionament del motor pas a pas es bassa en la transformació d\textquotesingle impulsos elèctrics en “steps” o passos del motor, que són rotacions exactes. Típicament poden presentar 12, 24, 72, 144, 180 o 200 passos per volta i això significa que per cada impuls elèctric la seva rotació és de 30, 15, 5, 2.5, 2 o 1.8 graus respectivament. 
+\\*
+\\*
+Presenta dues parts principals, l\textquotesingle estator, que esta format per bobines amb les quals s\textquotesingle indueix un camp magnètic al fer-hi passar corrent elèctric, i el rotor, que consisteix essencialment en un imant permanent. 
+\\*
+\\*
+Al fer passar corrent per una de les bobines de l\textquotesingle estator es crea una polaritat i per tant s\textquotesingle orienta el rotor en funció d\textquotesingle aquesta polaritat, ja que sempre buscarà l\textquotesingle estabilitat magnètica entre els seus pols. Quan canvia l\textquotesingle excitació de l\textquotesingle estator, canvien els pols magnètics i per tant el rotor es reorienta. D\textquotesingle aquesta manera, al anar variant el pas del corrent per les bobines, es provoca un moviment circular del rotor. Aquest moviment és molt precís i es pot controlar fàcilment la velocitat i el sentit de gir del motor.
+\\*
+\\*
+\section{Tipus de motors pas a pas}
+En funció de la connexió i la forma d\textquotesingle excitació de les  bobines, es pot diferencia entre dos tipus de motors pas a pas diferents, els unipolars i els bipolars.
+\\*
+\\*
+\subsection{Unipolars}
+El corrent que passa per les bobines sempre va en el mateix sentit. Normalment tenen 5 o 6 cables de sortida, 6 si el cable d\textquotesingle alimentació comú de cada par de bobines va per separat i 5 si va junt. És més senzill de controlar ja que sempre es té el cable d\textquotesingle alimentació i cada pas es realitza al connectar a terra els altres cables amb un ordre determinat.
+
+\subsection{Bipolars}
+A diferencia dels unipolars aquests motors només presenten 4 cables de sortida, no tenen un comú d\textquotesingle alimentació. El seu funcionament es bassa en el canvi del sentit de circulació del corrent per les bobines en funció de la tensió, fet que provoca una diferencia de polaritat i fa girar el rotor.
+\\*
+\\*
+\section{Alternatives}
+Alhora de triar quins serien els motors adequats pel moviment del robot s\textquotesingle estudiat 3 opcions valides per fer-ho, el motor pas a pas, el motor de corrent continu i el servo-motor de rotació continua. S\textquotesingle ha escollit el motor pas a pas ja que el control de posició és bàsic pel funcionament del robot, i és l\textquotesingle únic que el pot assegurar sense la utilització d\textquotesingle un encoder i és el més fàcil de controlar. En els casos del motor de corrent continu i el servomotor de rotació continua, el seu funcionament es bassa en el control de la velocitat de rotació de l\textquotesingle eix segons la tensió o els impulsos del senyal de control respectivament, i per tant controlar la posició és molt més complicat. 
+\\*
+\\*
+\section{Motor escollit: Nema 14}
+Per escollir un motor pas a pas s\textquotesingle han estudiat els diferents models de la família NEMA i s\textquotesingle ha escollit entre el NEMA14 i el NEMA17 ja que són els que presenten les prestacions idònies pel moviment que es vol realitzar. Finalment la decisió s\textquotesingle ha decantat cap al NEMA14 ja que és més petit i té menys pes, la qual cosa permet adaptar-lo millor al prototip i realitzar un model amb unes dimensions més petites i òptimes. 
+
+
+\end{document}
