@@ -8,6 +8,7 @@
 \usepackage{float}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{textcomp}
+\usepackage{multirow}
 \definecolor{Mycolor1}{HTML}{008000}
 
 \title{Treball Final de Màster}
@@ -18,9 +19,9 @@
 
 \maketitle
 \newpage
-\section{1.	Per què un motor pas a pas?}
+\section{Per què un motor pas a pas?}
 
-Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, en tot moment es coneix amb exactitud quants graus ha girat el motor. Es un motor fàcil de controlar i amb el qual es pot minimitzar l\textquotesingle error comes. Es pot controlar la seva velocitat. I, per acabar, ofereix una resistència contra la rotació de l\textquotesingle eix quan aquest te velocitat nul·la, fet que evita que giri quan no ho ha de fer. 
+Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, fet que permet coneixen en tot moment i amb exactitud quants graus ha girat el motor. És un motor fàcil de controlar i amb el qual es pot minimitzar l\textquotesingle error comés. Es pot controlar la seva velocitat. Un altre avantatge que presenta és que quan el motor està parat, si rep corrent, ofereix una resitència contra la rotació de l\textquotesingle eix, fet que evita que giri quan no ho ha de fer. 
 \\*
 \\*
 \section{Funcionament}
@@ -41,11 +42,95 @@ En funció de la connexió i la forma d\textquotesingle excitació de les  bobines,
 El corrent que passa per les bobines sempre va en el mateix sentit. Normalment tenen 5 o 6 cables de sortida, 6 si el cable d\textquotesingle alimentació comú de cada par de bobines va per separat i 5 si va junt. És més senzill de controlar ja que sempre es té el cable d\textquotesingle alimentació i cada pas es realitza al connectar a terra els altres cables amb un ordre determinat.
 
 \subsection{Bipolars}
-A diferencia dels unipolars aquests motors només presenten 4 cables de sortida, no tenen un comú d\textquotesingle alimentació. El seu funcionament es bassa en el canvi del sentit de circulació del corrent per les bobines en funció de la tensió, fet que provoca una diferencia de polaritat i fa girar el rotor.
+A diferencia dels unipolars aquests motors només presenten 4 cables de sortida, no tenen un comú d\textquotesingle alimentació. El seu funcionament es bassa en el canvi del sentit de circulació del corrent per les bobines en funció de la tensió, fet que provoca una diferencia de polaritat i fa girar el rotor. Per tal de controlar-lo, és necessari utilitzar dos ponts H per poder invertir el sentit del corrent que passa per les dues bobines. 
 \\*
 \\*
 \section{Modes de funcionamet}
-Es poden diferenciar clara ment dos modes de funcionament, el \emph{full step} i el \emph{half step}. La diferencia entre ells és el canvi de corrent i l\textquotesingle exitació de les bobines a cada pas. En el pimer cas, l\textquotesingle exitació es fa d\textquotesingle una bobina en una, provocant un movient continu i controlat, ja que la seqüencia és sempre la mateixa, s\textquotesingle indueix corrent a una de les bobines, després a la següent i així continuament provocant el moviment del rotor. En canvi, el \emph{half step} aconsegueix posicions intermitges del motor induint corrent a dues bobines consequtives i així aconseguir dividir els passos a la meitat, i per la qual cosa el motor nessecita el doble de passos del rotor per aconseguir una volta completa. 
+Existeixen diferents seqüencies per aconseguir el moviment del motor, que dependrà de quines bobines estan excitades, en el cas dels motors unipolars, i en la direcció del corrent en els bipolars. 
+\\*
+\\*
+\subsection{Seqüencia d\textquotesingle una fase}
+Aquesta seqüencia consta de l\textquotesingle excitació d\textquotesingle una sola bobina fet que provoca un pas sencer del motor com es mostra a la imatge.  
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.50\textwidth]{C:/Users/usuario/Documents/GitHub/TFM/Sequencia_1_fase.eps}
+	\caption{Sequencia d\textquotesingle una fase.}
+	\label{fig:1fase}
+\end{figure}
+La seva expressió en forma de taula és la següent:
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Pas & A & B & -A & -B \\
+			\hline \hline
+			1 & 1 & 0 & 0 & 0 \\ \hline
+			2 & 0 & 1 & 0 & 0 \\ \hline
+			3 & 0 & 0 & 1 & 0 \\ \hline
+			4 & 0 & 0 & 0 & 1 \\ \hline
+		\end{tabular}
+		\caption{Seqüencia d\textquotesingle  fase.}
+		\label{tabla:1fase}
+	\end{center}
+\end{table}
+
+\subsection{Seqüencia de dos fases}
+Igual que a la seqüencia anterior, s\textquotesingle aconsegueix un pas per cada un dels estats de la sèrie, però la gran diferència és que per aconseguir-ho s\textquotesingle exciten dues bobines alhora, fet que provoca que la força d\textquotesingle atracció augmenti i aconsegueixi un millor parell de resistència. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.50\textwidth]{C:/Users/usuario/Documents/GitHub/TFM/Sequencia_2_fases.eps}
+	\caption{Sequencia de dos fases.}
+	\label{fig:Sequencia de dos fase}
+\end{figure}
+La seva expressió en forma de taula és la següent:
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Pas & A & B & -A & -B \\
+			\hline \hline
+			1 & 1 & 1 & 0 & 0 \\ \hline
+			2 & 0 & 1 & 1 & 0 \\ \hline
+			3 & 0 & 0 & 1 & 1 \\ \hline
+			4 & 1 & 0 & 0 & 1 \\ \hline
+		\end{tabular}
+		\caption{Seqüencia de dos fases.}
+		\label{tabla:2fase}
+	\end{center}
+\end{table}
+
+
+\subsection{Seqüencia half step }
+Amb una combinació de les dues anteriors, aconseguim que per cada estat de la sèrie el motor realitzi un gir de mig pas, i per tant aconsegueixi un moviment més petit. El seu funcionament es basa en l\textquotesingle excitació d\textquotesingle una sola bobina i de dues alhora de forma seqüencial com es mostra  a la figura.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.750\textwidth]{C:/Users/usuario/Documents/GitHub/TFM/Sequencia_halfstep.eps}
+	\caption{Sequencia half step.}
+	\label{fig:Sequencia half step}
+\end{figure}
+
+\begin{table}[htbp]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Pas & A & B & -A & -B \\
+			\hline \hline
+			1 & 1 & 0 & 0 & 0 \\ \hline
+			2 & 0 & 1 & 0 & 0 \\ \hline
+			3 & 0 & 0 & 1 & 0 \\ \hline
+			4 & 0 & 0 & 0 & 1 \\ \hline
+			5 & 1 & 1 & 0 & 0 \\ \hline
+			6 & 0 & 1 & 1 & 0 \\ \hline
+			7 & 0 & 0 & 1 & 1 \\ \hline
+			8 & 1 & 0 & 0 & 1 \\ \hline
+		\end{tabular}
+		\caption{Seqüencia mig pas (half step).}
+		\label{tabla:hal step}
+	\end{center}
+\end{table}
+La seva taula de funcionament és la següent: 
+
 \section{Alternatives}
 Alhora de triar quins serien els motors adequats pel moviment del robot s\textquotesingle estudiat 3 opcions valides per fer-ho, el motor pas a pas, el motor de corrent continu i el servo-motor de rotació continua. S\textquotesingle ha escollit el motor pas a pas ja que el control de posició és bàsic pel funcionament del robot, i és l\textquotesingle únic que el pot assegurar sense la utilització d\textquotesingle un encoder i és el més fàcil de controlar. En els casos del motor de corrent continu i el servomotor de rotació continua, el seu funcionament es bassa en el control de la velocitat de rotació de l\textquotesingle eix segons la tensió o els impulsos del senyal de control respectivament, i per tant controlar la posició és molt més complicat. 
 \\*
