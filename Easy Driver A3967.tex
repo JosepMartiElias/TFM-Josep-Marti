@@ -18,8 +18,24 @@
 
 \maketitle
 \newpage
-\section{Easy Driver A3967}
+\section{Controlador: Easy Driver A3967}
 
+Els motors pas a pas necessiten un canvi de sentit en el flux de corrent  de les bobines per aconseguir així la seqüencia desitjada per realitzar el moviment. A part d\textquotesingle això, com que els motors estan controlats per un microcontrolador Arduino UNO, s\textquotesingle ha de controlar la intensitat del corrent ja que podria fer malbé la placa. És per aquesta raó que es necessita utilitzar un controlador que es basa en dos ponts H, un per cada bobina del motor, un dispositiu que suporta el flux bidireccional de corrent inversa i permet  canviar-lo de sentit.
+\\*
+\\*
+Un pont H es conforma de 4 interruptors connectats com a la següent figura que permet fer passar el corrent per la bobina en un sentit o en un altre en funció de quina combinació d\textquotesingle interruptors s\textquotesingle utilitza, evitant així treballar amb voltatges negatius.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.40\linewidth]{C:/Users/usuario/Documents/GitHub/TFM/PontH}
+	\caption{Connexió en pont H.}
+	\label{fig:ponth}
+\end{figure}
+
+El seu funcionament és simple, i funciona per parelles d\textquotesingle interruptors que poden ser transistors bipolars, jfets, mosftes o alguna combinació entre ells. Si es tanquen els interruptors A i D el corrent circula en un sentit de la bobina i si al contrari els que es tanquen són B i C el corrent circula en l\textquotesingle altre sentit. Les combinacions A i B o C i D són perilloses pel circuit ja que crearien un curtcircuit. Els díodes són de protecció, ja que l\textquotesingle efecte inductiu de les bobines podria cremar el circuit un cop desconnectat.
+\\*
+\\*
+\subsection{Easy Driver A3967}
 Per facilitar el control dels motors pas a pas utilitzats, s\textquotesingle ha decidit utilitzar dos controladors Easy Driver A3967 que facilitarà el control i la programació dels motors i actuara com etapa de potència per no sobrecarregar l\textquotesingle Arduino amb la potencia requerida pel motor.
 \\*
 \\*
@@ -28,10 +44,10 @@ Com ja s\textquotesingle ha explicat, els motors pas a pas funcionen amb el canv
 \\*
 A la següent imatge es mostra la distribució de les diferents entrades amb les que compta el controlador:
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 		\includegraphics[width=1.00\textwidth]{C:/Users/usuario/Documents/GitHub/TFM/PinsA3967.eps}
-	\caption{Figura 1. Pins del driver A3967.}
+	\caption{Pins del driver A3967.}
 	\label{fig:PinsA3967}
 \end{figure}
 
@@ -72,3 +88,6 @@ La resta de pins permeten modificar el comportament del motor, però són opcional
 \end{itemize}
 
 \end{document}
+
+
+
