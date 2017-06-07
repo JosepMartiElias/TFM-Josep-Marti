@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  7 JUN 2017 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  7 JUN 2017 15:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -1304,7 +1304,7 @@ Package epstopdf Info: Source file: <Sequencia_1_fase.eps>
 ted-to.pdf Sequencia_1_fase.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
- <Sequencia_1_fase-eps-converted-to.pdf, id=455, 112.42pt x 98.3675pt>
+ <Sequencia_1_fase-eps-converted-to.pdf, id=457, 112.42pt x 98.3675pt>
 File: Sequencia_1_fase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_1_fase-eps-converted-to.pdf>
@@ -1312,7 +1312,7 @@ Package pdftex.def Info: Sequencia_1_fase-eps-converted-to.pdf used on input li
 ne 51.
 (pdftex.def)             Requested size: 134.90332pt x 118.04037pt.
 
-<logo.jpg, id=456, 91.09032pt x 113.67468pt>
+<logo.jpg, id=458, 91.09032pt x 113.67468pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 55.
@@ -1336,7 +1336,7 @@ rted-to.pdf Sequencia_2_fases.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_2_fases-eps-converted-to.pdf, id=461, 113.42375pt x 98.3675pt>
+<Sequencia_2_fases-eps-converted-to.pdf, id=463, 113.42375pt x 98.3675pt>
 File: Sequencia_2_fases-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_2_fases-eps-converted-to.pdf>
@@ -1360,7 +1360,7 @@ erted-to.pdf Sequencia_halfstep.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_halfstep-eps-converted-to.pdf, id=472, 189.70876pt x 112.42pt>
+<Sequencia_halfstep-eps-converted-to.pdf, id=474, 189.70876pt x 112.42pt>
 File: Sequencia_halfstep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_halfstep-eps-converted-to.pdf>
@@ -1383,7 +1383,7 @@ ted-to.pdf OnaMicrostepping.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnaMicrostepping-eps-converted-to.pdf, id=482, 733.74126pt x 387.4475pt>
+<OnaMicrostepping-eps-converted-to.pdf, id=484, 733.74126pt x 387.4475pt>
 File: OnaMicrostepping-eps-converted-to.pdf Graphic file (type pdf)
 
 <use OnaMicrostepping-eps-converted-to.pdf>
@@ -1394,7 +1394,7 @@ File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 147.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [7 <./OnaMicrostepping-eps-converted-to.pdf>] <NEMA14.jpg, id=491, 104.3097pt 
+ [7 <./OnaMicrostepping-eps-converted-to.pdf>] <NEMA14.jpg, id=493, 104.3097pt 
 x 78.2925pt>
 File: NEMA14.jpg Graphic file (type jpg)
 
@@ -1417,7 +1417,7 @@ PontH.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<PontH-eps-converted-to.pdf, id=497, 209.78375pt x 146.5475pt>
+<PontH-eps-converted-to.pdf, id=499, 209.78375pt x 146.5475pt>
 File: PontH-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PontH-eps-converted-to.pdf>
@@ -1434,7 +1434,7 @@ pdf PinsA3967.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<PinsA3967-eps-converted-to.pdf, id=498, 1067.99pt x 516.93124pt>
+<PinsA3967-eps-converted-to.pdf, id=500, 1067.99pt x 516.93124pt>
 File: PinsA3967-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PinsA3967-eps-converted-to.pdf>
@@ -1456,13 +1456,13 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 268.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
 
-[11] <entrada-servo.png, id=517, 560.8453pt x 622.57594pt>
+[11] <entrada-servo.png, id=519, 560.8453pt x 622.57594pt>
 File: entrada-servo.png Graphic file (type png)
 
 <use entrada-servo.png>
 Package pdftex.def Info: entrada-servo.png used on input line 278.
 (pdftex.def)             Requested size: 280.42197pt x 311.2872pt.
- <llac-servo.jpg, id=519, 557.08125pt x 178.6675pt>
+ <llac-servo.jpg, id=521, 557.08125pt x 178.6675pt>
 File: llac-servo.jpg Graphic file (type jpg)
 
 <use llac-servo.jpg>
@@ -1473,7 +1473,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 290.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [12 <./entrada-servo.png>]
-<bateria.png, id=525, 426.59375pt x 426.59375pt>
+<bateria.png, id=527, 426.59375pt x 426.59375pt>
 File: bateria.png Graphic file (type png)
  <use bateria.png>
 Package pdftex.def Info: bateria.png used on input line 304.
@@ -1484,7 +1484,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 307.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [13 <./llac-servo.jpg>]
-<retolador.png, id=532, 501.875pt x 501.875pt>
+<retolador.png, id=534, 501.875pt x 501.875pt>
 File: retolador.png Graphic file (type png)
  <use retolador.png>
 Package pdftex.def Info: retolador.png used on input line 317.
@@ -1550,7 +1550,7 @@ Package epstopdf Info: Source file: <inkscape-logo.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<inkscape-logo-eps-converted-to.pdf, id=571, 101.37875pt x 101.37875pt>
+<inkscape-logo-eps-converted-to.pdf, id=573, 101.37875pt x 101.37875pt>
 File: inkscape-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use inkscape-logo-eps-converted-to.pdf>
@@ -1568,7 +1568,7 @@ d-to.pdf 1PropDocumento.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
-<1PropDocumento-eps-converted-to.pdf, id=572, 183.68625pt x 231.86626pt>
+<1PropDocumento-eps-converted-to.pdf, id=574, 183.68625pt x 231.86626pt>
 File: 1PropDocumento-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1PropDocumento-eps-converted-to.pdf>
@@ -1591,7 +1591,7 @@ pdf 2trayecto.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<2trayecto-eps-converted-to.pdf, id=580, 485.815pt x 352.31625pt>
+<2trayecto-eps-converted-to.pdf, id=582, 485.815pt x 352.31625pt>
 File: 2trayecto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2trayecto-eps-converted-to.pdf>
@@ -1609,7 +1609,7 @@ rted-to.pdf 3PuntosReferencia.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<3PuntosReferencia-eps-converted-to.pdf, id=581, 179.67125pt x 227.85126pt>
+<3PuntosReferencia-eps-converted-to.pdf, id=583, 179.67125pt x 227.85126pt>
 File: 3PuntosReferencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 3PuntosReferencia-eps-converted-to.pdf>
@@ -1633,7 +1633,7 @@ Package epstopdf Info: Source file: <4tool.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<4tool-eps-converted-to.pdf, id=592, 477.785pt x 258.9675pt>
+<4tool-eps-converted-to.pdf, id=594, 477.785pt x 258.9675pt>
 File: 4tool-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4tool-eps-converted-to.pdf>
@@ -1650,7 +1650,7 @@ to.pdf 5Trajectoria.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<5Trajectoria-eps-converted-to.pdf, id=593, 303.1325pt x 173.64874pt>
+<5Trajectoria-eps-converted-to.pdf, id=595, 303.1325pt x 173.64874pt>
 File: 5Trajectoria-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5Trajectoria-eps-converted-to.pdf>
@@ -1663,7 +1663,7 @@ Package pdftex.def Info: logo.jpg used on input line 194.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [25 <./3PuntosReferencia-eps-converted-to.pdf> <./4tool-eps-converted-to.pdf>]
 
-<python-logo.png, id=605, 582.175pt x 164.615pt>
+<python-logo.png, id=607, 582.175pt x 164.615pt>
 File: python-logo.png Graphic file (type png)
  <use python-logo.png>
 Package pdftex.def Info: python-logo.png used on input line 210.
@@ -1884,7 +1884,7 @@ File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 386.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [31] <arduino-logo.png, id=710, 1204.5pt x 820.06375pt>
+ [31] <arduino-logo.png, id=712, 1204.5pt x 820.06375pt>
 File: arduino-logo.png Graphic file (type png)
 
 <use arduino-logo.png>
@@ -1895,7 +1895,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 408.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [32 <./arduino-logo.png>]
-<arduino-uno.png, id=716, 501.875pt x 377.41pt>
+<arduino-uno.png, id=718, 501.875pt x 377.41pt>
 File: arduino-uno.png Graphic file (type png)
  <use arduino-uno.png>
 Package pdftex.def Info: arduino-uno.png used on input line 413.
@@ -1906,55 +1906,66 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 425.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [33 <./arduino-uno.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 445.
+<RobotFritz.png, id=723, 727.25034pt x 697.27167pt>
+File: RobotFritz.png Graphic file (type png)
+ <use RobotFritz.png>
+Package pdftex.def Info: RobotFritz.png used on input line 433.
+(pdftex.def)             Requested size: 363.62427pt x 348.63498pt.
+File: logo.jpg Graphic file (type jpg)
+
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg used on input line 440.
+(pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
+ [34 <./RobotFritz.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 450.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 445.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 450.
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 452.
+Package pdftex.def Info: logo.jpg used on input line 465.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
 
-[34]
+[35]
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 477.
-(pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [35]
-File: logo.jpg Graphic file (type jpg)
- <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 515.
+Package pdftex.def Info: logo.jpg used on input line 498.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [36]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 527.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 532.
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 547.
+Package pdftex.def Info: logo.jpg used on input line 534.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [37]
 File: logo.jpg Graphic file (type jpg)
+ <use logo.jpg>
+Package pdftex.def Info: logo.jpg used on input line 571.
+(pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
+ [38]
+File: logo.jpg Graphic file (type jpg)
 
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 597.
+Package pdftex.def Info: logo.jpg used on input line 609.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [38]) (Chapters/Chapter5.tex
+ [39]) (Chapters/Chapter5.tex
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 3.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [39] [40
-
-]
+ [40]
 Cap\IeC {\'\i }tol 5.
 ------------------------------------------------------------------------------
  5 Conclusions i treballs futurs
 ------------------------------------------------------------------------------
-) [41] [42
+) [41
+
+] [42
 
 ]
 ------------------------------------------------------------------------------
@@ -1973,7 +1984,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E8DDA4518ADCF1C59817F5B00CB1CF7D;12068.
+(rerunfilecheck)             Checksum: 7B9CDB0947BA7D65DAEAD57F581F6226;12068.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  )
 (\end occurred inside a group at level 1)
@@ -1981,13 +1992,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
 ### semi simple group (level 1) entered at line 137 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25796 strings out of 493333
- 428439 string characters out of 3139188
- 756127 words of memory out of 3000000
- 28506 multiletter control sequences out of 15000+200000
+ 25803 strings out of 493333
+ 428560 string characters out of 3139188
+ 724190 words of memory out of 3000000
+ 28511 multiletter control sequences out of 15000+200000
  16965 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,56p,1401b,2236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,56p,1401b,2234s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Progr
@@ -2005,9 +2016,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (55 pages, 1144452 bytes).
+Output written on main.pdf (55 pages, 1480527 bytes).
 PDF statistics:
- 996 PDF objects out of 1000 (max. 8388607)
- 321 named destinations out of 1000 (max. 500000)
- 630 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 322 named destinations out of 1000 (max. 500000)
+ 635 words of extra memory for PDF output out of 10000 (max. 10000000)
 

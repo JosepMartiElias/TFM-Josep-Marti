@@ -428,7 +428,12 @@ Per acabar, es connecta el mòdul HC-05. Els senyals TX i RX, que es detallaran 
 Un cop fetes totes les connexions amb els diferents components, s’alimenta l’Arduino directament des de la font compartida amb el motor dret utilitzant les entrades Vin i GND de la pròpia placa. 
 
 Per tal de re-programar el microcontrolador des de l’ordinador, es pot utilitzar l’entrada del port serial USB. És per aquesta raó que el mòdul Bluetooth es connecta als pins 10 i 11 i no als pins 0 i 1 reservats pels canals de lectura i escriptura, ja que si es connectes aquí s’hauria de desconnectar cada cop que es volgués carregar un programa a la placa ja que es podrien crear interferències al estar accedint al mateix canal per dues bandes diferents alhora. 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{RobotFritz}
+	\caption{Connexió dels components.}
+	\label{fig:connexio}
+\end{figure}
 \subsection{Programa Robot.ino}
 
 S’ha creat un programa genèric amb la funció de llegir les ordres enviades des de l’ordinador. S’ha decidit fer d’aquesta manera per evitar la reprogramació constant de la placa a cada trajectòria i aconseguir així el control total del robot des de l’ordinador. 
