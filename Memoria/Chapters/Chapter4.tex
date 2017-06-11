@@ -415,7 +415,7 @@ Per aquest projecte s’ha utilitzat el model Arduino UNO. Aquest model  es basa
 	\label{fig:arduinouno}
 \end{figure}
 
-\subsection{Connexió}
+\subsection{Connexió}\label{sec:connexio}
 
 La connexió de l’Arduino és molt important, ja que es on es connecten tots els elements del robot i l’encarregada de que tot funcioni. Seguidament es presentarà la connexió dels diferents elements.
 
@@ -536,7 +536,7 @@ void loop() {
 }
 \end{lstlisting}
 \begin{itemize}
-	\item getSerialData():
+	\item \textbf{getSerialData()}:
 	
 	El funcionament d’aquesta funció és molt senzill. El primer que avalua és si s’ha rebut un missatge per part de l’ordinador amb la funció bluetooth.available(). Si s’ha rebut es guarda com un String a la variable x, i es crea una variable buff que servirà per emmagatzemar caràcters. 
 	
@@ -576,7 +576,7 @@ void loop() {
 	
 	Per acabar, es canvia el valor de la variable booleana Rebut a True, de manera que així pugui començar a treballar la funció processData() un cop llegit tot el missatge. 
 	
-	\item processData():
+	\item \textbf{processData()}:
 	
 	Un cop rebut i llegit el missatge només cal processar aquesta informació i enviar les ordres adients als motors amb la següent funció:
 	
@@ -608,7 +608,20 @@ void loop() {
 	
 \end{itemize}
 
-\section{Bluetooth: Com es comunique l'ordinador i el robot?}
+\section{Bluetooth: Com es comunica l'ordinador i el robot?}
+
+És de vital importància establir una comunicació bidireccional entre l’ordinador i l’Arduino per tal de poder controlar el robot i programar les noves traçades. Hi ha moltes maneres d’establir aquesta comunicació: per cable, a través d’una xarxa wifi, amb una targeta de memòria... Cadascuna té els seus avantatges i desavantatges, i després d’analitzar-les s’ha decidit utilitzar un dispositiu Bluetooth. En aquest apartat es presentarà el mòdul HC-05 encarregat d’establir aquesta comunicació.
+
+\subsection{Mòdul HC-05}
+
+Els dispositius Bluetooth tenen la capacitat de connectar-se entre si a partir d’ones de radiofreqüència, eliminant així cables o connectors físics. Aquesta comunicació es realitza a una freqüència entre 2,4 i 2,48 GHz i permet crear una xarxa sense fils entre diferents dispositius els quals es poden enviar dades i compartir informació. Aquestes xarxes es regeixen per un element dominant master i un sèrie d’elements esclaus slaves, en aquest cas com a  element master actua l’ordinador, i l’Arduino actua d’esclau mitjançant el mòdul HC-05. Aquestes xarxes poden tenir un abast de 10 metres aproximadament, tot i que n’hi ha que poden arribar fins a 100 m. 
+
+El mòdul HC-05 pot actuar com a master o com a slave, però en aquest cas s’utilitza en la seva configuració per defecte en mode slave, ja que l’ordinador pot actuar com a master. Aquest mòdul és molt utilitzat en projectes Arduino gracies a la seva fàcil connexió i configuració. Presenta 6 pins diferents tot i que només se n’utilitzen 4 per connectar-lo. Els pins Vcc i GND són els encarregats del subministrament de corrent i cal connectar-los als pins de 3,3 V i GND respectivament. Cal afegir que el fabricant recomana no connectar el mòdul a més de 3,6V i volts per no fer-lo malbé i per això s’utilitza el pin de 3,3V. Per altre banda, els pins RX i TX són els encarregats de la recepció i transmissió de dades. Són els encarregats de establir la comunicació desitjada, i, com s’ha explicat a l’apartat \ref{sec:connexio}, es connecten als pins 10 i 11 de la placa. 
+
+Per altre banda existeixen els pins KEY i STATE que no s’utilitzaran en aquesta aplicació. El pin STATE només reflexa la situació a la que es troba el mòdul, i en quin mode de funcionament treballa, mentre que el pin KEY permet accedir a les comandes AT de programació del propi xip del mòdul. Aquesta programació permet canviar el mètode de funcionament, com ara passar de slave a master, canviar la velocitat de transmissió o Baud rate, o canviar el codi d’emparellament utilitzat per emparellar el mòdul amb qualsevol altre dispositiu. Per defecte aquest treballa com a esclau, a una velocitat de 9600 baud/s a la mateixa a la que s’ha programat l’Arduino i el codi d’accés és 1234. No s’ha canviat cap d’aquests paràmetres ja que no va ser necessari. 
+
+Per acabar, també disposa d’un díode LED que indica l’estat de la connexió del mòdul, que mostrarà si el mòdul està correctament connectat. Mentre no es connecta amb l’ordinador aquest parpelleja dues vegades per segon mentre que si la connexió s’ha establert,  aquest ho fa un cop cada dos segons. 
+
 
 \section{Aplicació: Com el controlo?}
 
