@@ -97,9 +97,15 @@ En aquest capítol es presenta la programació del robot per tal d’aconseguir 
 
 \section{Principis de funcionament}
 
-L’objectiu final del projecte és el de dibuixar una figura amb el robot, i per aconseguir-ho s’ha de passar per diferents etapes. En primer lloc s’ha de crear la figura que es vol dibuixar, es recomana fer-ho a partir del programa de software lliure Inkscape ja que és una eina de dibuix polivalent i té l’opció de generar el GCode (que s’explicarà més endavant) associat a tal figura en un arxiu de text, tot i que també es pot realitzar a partir de l’aplicació creada en aquest projecte. Amb la figura dibuixada s’ha de crear l’arxiu GCode per representar-la, que defineix la trajectòria que ha de seguir el robot. Un cop obtinguda la trajectoria es processa amb el programa creat amb Python, l’arxiu RobotMoveBT.py, que a partir d’aquest fitxer de text calcula la trajectòria que han de seguir les rodes i ho tradueix a passos dels motors. A partir d’aquí, el propi programa s’encarrega d’enviar les comandes corresponents a l’Arduino del robot que ho tradueix en els moviments dels motors, tant del servo com de les rodes. Aquesta comunicació es realitza per Bluetooth i es fa comanda per comanda, per la qual cosa els dos programes seran  executats durant tot el recorregut del robot.   
+L’objectiu final del projecte és el de dibuixar una figura amb el robot, i per aconseguir-ho s’ha de passar per diferents etapes. En primer lloc s’ha de crear la figura que es vol dibuixar, es recomana fer-ho a partir del programa de software lliure Inkscape ja que és una eina de dibuix polivalent i té l’opció de generar el GCode (que s’explicarà més endavant) associat a tal figura en un arxiu de text, tot i que també es pot realitzar a partir de l’aplicació creada en aquest projecte. Amb la figura dibuixada s’ha de crear l’arxiu GCode per representar-la, que defineix la trajectòria que ha de seguir el robot. Un cop obtinguda la trajectoria es processa amb el programa creat amb Python, l’arxiu RobotMoveBT.py, que a partir d’aquest fitxer de text calcula la trajectòria que han de seguir les rodes i ho tradueix a passos dels motors. A partir d’aquí, el propi programa s’encarrega d’enviar les comandes corresponents a l’Arduino del robot que ho tradueix en els moviments dels motors, tant del servo com de les rodes. Aquesta comunicació es realitza per Bluetooth i es fa comanda per comanda, per la qual cosa els dos programes seran  executats durant tot el recorregut del robot. Un cop proccessada una comanda el propi Arduino comunicaa l'ordinador que ja ha acabat la seva acció i aquest envia una nova comanda fins acabar.
 
-DIAGRAMA FLUX
+
+\begin{figure}[H]
+	\centering
+	\includegraphics{figuretry}
+	\caption{Diagrama de flux del procés.}
+	\label{fig:diagflux}
+\end{figure}
 
 
 
@@ -625,4 +631,264 @@ Per acabar, també disposa d’un díode LED que indica l’estat de la connexi�
 
 \section{Aplicació: Com el controlo?}
 
+Per tal de millorar l’experiència de l’usuari i no haver d’utilitzar el terminal de comandes de Python, fet que pot semblar complicat per persones no familiaritzades amb la programació, s’ha creat una aplicació bàsica i senzilla per tal de controlar el propi robot. Es basa en un petit programa que ofereix dos mètodes de funcionament, a partir d’un arxiu .txt creat prèviament en Inkscape seguint les instruccions de l’apartat XXX, o escrivint pas a pas les ordres que es volen donar al robot i visualitzant-les abans.
+Aquesta aplicació d’escriptori s’ha creat amb el mòdul que incorpora Python per creat interfícies GUI anomenat Tkinter que s’explicarà més detalladament a les següents línies. 
+
+\subsection{Tkinter}
+Tkinter és un mòdul de Python que permet als usuaris crear GUI’s. Una GUI és una Interfície Gràfica d’Usuari que proporciona a l’usuari un entorn visual senzill per interaccionar amb el programa a partir d’un seguit d’objectes i imatges que representen les diferents opcions disponibles al programa principal. L’objectiu d’aquesta és establir la comunicació entre l’usuari i el robot de manera fàcil i entenedora per l’usuari, per fer-lo accessible per a qualsevol interessat. 
+Les GUI creades amb Tkinter es basen en finestres o espais (frames) i objectes (widgets) que el programador pot col·locar al seu gust. Els frames són els espais que ocuparan després els objectes, les finestres visibles per l’usuari, i dins d’aquests es creen els objectes o widgets, que poden ser entrades de text, botons, imatges, gràfics, entre d’altres. Els frames són els encarregats a donar forma al programa i organitzar els propis widgets. Mentre que aquests estableixen la comunicació amb l’usuari, permetent la interacció per tal de controlar el programa i decidir les accions a emprendre. 
+
+\subsection{Aplicació}
+Per aquest projecte, com s’ha explicat abans, s’ha creat una GUI bàsica per interaccionar amb el robot des de l’ordinador. El programa s’ha organitzat en finestres per facilitar aquesta interacció, tenint 3 finestres diferents, la pàgina inicial on es triarà el mètode de funcionament, la part dedicada a dibuix de trajectòries creades prèviament amb Inkscape i una última finestra on l’usuari pot dibuixar pas a pas la trajectòria que desitgi introduint una a una totes les comandes.
+Les llibreries que utilitza són les següents:
+
+\begin{python}
+	import math
+	
+	import Tkinter as tk
+	import ttk
+	
+	import turtle
+	import Draw
+	import RobotMoveBT
+\end{python}
+
+La llibreria math per realitzar operacions matemàtiques, igual que als altres programes, la llibreria Tkinter que s’ha explicat a l’apartat anterior, que és el motor de creació de la GUI i la llibreria Turtle, que permet crear dibuixos i gràfiques i que s’utilitza per tal de representar les trajectòries introduïdes. Per altre banda també s’utilitza l’arxiu Draw.py que s’explicarà a l’apartat XXX i que permet dibuixar aquestes ordres utilitzant la llibreria Turtle a la pantalla de la GUI.  Per últim incorpora també l’arxiu RobotMoveBT.py presentat a l’apartat XXX que s’encarrega de moure el robot. 
+
+El programa està estructurat en quatre classes, tres que defineixen cadascuna d’aquestes finestres que es mostren a l’usuari, i una classe mare que inicia el programa i organitza les altres. Aquesta última és la classe TFM, la classe principal, i és l’única que es crida al executar el programa, i té la funció de crear els frames corresponents a les altres classes. No té cap pàgina ni objecte associat, només serveix com a inicialització i com a motor per organitzar les altres classes, ja que per canviar d’una finestra a un altre s’utilitza la comanda show\_frame() definida aquí. El codi de definició d’aquesta classe es presenta aquí:
+
+\begin{python}
+	class TFM(tk.Tk):
+	
+		def __init__(self, *args, **kwargs):
+		
+			tk.Tk.__init__(self, *args, **kwargs)
+			
+			tk.Tk.wm_title(self, "TFM Josep Marti")
+			
+			
+			container = tk.Frame(self)
+			container.pack(side="top", fill="both", expand = True)
+			container.grid_rowconfigure(0, weight=1)
+			container.grid_columnconfigure(0, weight=1)
+			
+			self.frames = {}
+			
+			for F in (StartPage, Inkscape, Manual):
+			
+			frame = F(container, self)
+			
+			self.frames[F] = frame
+			
+			frame.grid(row=0, column=0, sticky="nsew")
+			
+			self.show_frame(StartPage)
+		
+		def show_frame(self, cont):
+		
+			frame = self.frames[cont]
+			frame.tkraise()
+\end{python}
+
+Primer s’inicialitza la GUI amb la comanda Tk.\_\_init\_\_, després es defineix el títol del programa que apareix al marc superior esquerra de la finestra amb la comanda Tk.wm\_title() i es configuren els frames corresponents a les finestres ja esmentades. S’inicialitza l’aplicació mostrant primer la pàgina inicial al la funció show\_frame(StartPage), que es crea tot seguit. 
+
+Un cop ja definits tots els frames que s’utilitzen, es creen les finestres que es mostraran a l’usuari, començant per la pàgina principal sota el nom de StartPage. El primer pas és inicialitzar el frame amb la comanda tk.Frame.\_\_init\_\_(self, parent, controller), que el que fa és inicialitzar la finestra amb la configuració definida a la classe mare inicial. A partir d’aquí només es creen i s’empaqueten els diferents objectes o widgets a la finestra. En aquest cas només hi ha un títol que correspon a la pregunta “Com vols dibuixar?” i dos botons que canvien a les dues altres finestres. Per tal de mostrar aquests objectes a la pantalla hi ha 3 mètodes diferents, en aquest cas s’utilitza el mètode .pack(), que permet implementar els elements de manera simple i estètica automàticament. També existeix el mètode .grid() que s’utilitzarà a l’última pàgina, i permet l’organització dels elements en files i columnes, i per últim el mètode .place() que utilitza les coordenades globals de la pàgina i que no s’ha utilitzat en aquest projecte. 
+
+D’aquesta manera, la pàgina inicial és la següent:
+
+FOTO
+
+El seu codi associat és aquest:
+
+\begin{python}
+	class StartPage(tk.Frame):
+	
+		def __init__(self, parent, controller):
+			tk.Frame.__init__(self,parent)
+			label = tk.Label(self, text="Com vols dibuixar?", font=LARGE_FONT)
+			label.pack(pady=10,padx=10)
+			
+			button = ttk.Button(self, text="Importar archiu GCode creat per Inkscape",
+			command=lambda: controller.show_frame(Inkscape))
+			button.pack(pady=10,padx=10)
+			
+			button2 = ttk.Button(self, text="Realitzar un dibuix pas a pas",
+			command=lambda: controller.show_frame(Manual))
+			button2.pack(pady=5,padx=5)
+\end{python}
+
+La següent pàgina es crea a partir de la classe Inkscape i és la finestra que permet a l’usuari dibuixar a partir d’un fitxer .txt creat prèviament amb Inkscape i que conté el GCode associat a la trajectòria. Per tal de crear-lo, cal seguir les instruccions de l’apartat XXX. El seu funcionament és molt simple, s’ha incorporat una cel·la d’entrada de text en la qual s’haurà d’escriure el nom del fitxer sempre acompanyat de la seva extensió (.txt). Cal remarcar que, perquè el programa funcioni, cal desar l’arxiu a la mateixa carpeta des d’on s’executa el programa, ja que sinó no serà capaç de trobar-lo.
+ 
+A partir d’aquí es presenten 3 opcions: Dibuixar, Previsualitzar i Tornar a l’inici.  Aquestes opcions es representen per botons i cadascun té un funció associada. La primera, Dibuixar, envia l’ordre al robot de dibuixar la trajectòria que conté el document amb la funció GCode de l’arxiu RobotMoveBT.py. Un cop començada la representació no es pot realitzar cap altre operació fins que aquesta acabi. La funció Preview per representar la trajectòria del fitxer a la pantalla, crida l’arxiu Draw.py i a partir de la llibreria Turtle de Python crea una representació virtual del que el robot dibuixarà. Per acabar, l’opció Tornar a l’inici, esborra la representació i torna a la pàgina inicial. 
+
+Per tal de fer la representació del dibuix, s’ha utilitzat un “canvas”, que és un espai reservat per una figura. En aquest cas, s’ha utilitzat aquest espai per iniciar la llibreria Turtle sota el nom de turtle1. L’aspecte d’aquesta pàgina és el següent:
+
+FOTO 
+
+I el codi el següent:
+
+\begin{python}
+	class Inkscape(tk.Frame):
+	
+		def __init__(self, parent, controller):
+			nomfitxer=tk.StringVar(None)
+			
+			tk.Frame.__init__(self, parent)
+			
+			
+			label = tk.Label(self, text="Importar archiu des de Inkscape", font=LARGE_FONT).pack(pady=10,padx=10)
+			
+			label2=tk.Label(self, text='Nom del fitxer:').pack()
+			
+			fitxer=tk.Entry(self, textvariable=nomfitxer).pack(pady=10,padx=10)
+			
+			button1 = ttk.Button(self, text="Dibuixar",command=lambda:Dibuixa(self)).pack(pady=10,padx=10)
+			
+			button2 = ttk.Button(self, text="Previsualitzar",command=lambda:Preview(self)).pack(pady=10,padx=10)
+			
+			button3 = ttk.Button(self, text="Tornar a l\'inici",command=lambda: back(self)).pack(pady=10,padx=10)
+			
+			canvas = tk.Canvas(self, width=500, height=500)
+			canvas.pack(pady=10,padx=10)
+			
+			turtle1 = turtle.RawTurtle(canvas)
+			turtle1.shape("turtle")
+			turtle1.setheading(90)
+			turtle1.radians()
+		
+		def Dibuixa(self):
+			nom=nomfitxer.get()
+			RobotMoveBT.GCode(nom)
+		
+		def Preview(self):
+			nom=nomfitxer.get()
+			Draw.previsualitzaFitxer(turtle1,nom)
+			
+		def back(self):
+			turtle1.reset()
+			turtle1.setheading(math.pi/2.0)
+			controller.show_frame(StartPage)
+\end{python}
+
+Per acabar, en la tercera i última pàgina es presenta la oportunitat per l’usuari de crear pas a pas el seu GCode. La idea d’aquesta finestra és permetre dibuixar i dissenyar les trajectòries del robot directament des de l’aplicació sense utilitzar programes externs com l’Inkscape. Com la resta de pàgines es defineix com una classe dins la classe mare sota el nom de Manual. 
+
+La disposició dels objectes que apareixen és la següent:
+
+FOTO
+
+Com es pot observar, s’ha creat una sèrie de 5  “radio butons” que són botons de selecció els quals nomes permeten que un estigui activat. Cadascun correspon a un dels moviments programats, G00, G01, G02, G03 i rotació. Associat a aquests botons hi ha les entrades de text que cal omplir per definir el moviment a la mateixa línia, que són les mateixes que defineix el GCode creat amb Inkscape: les coordenades X i Y del punt de destí, les cordenades Xc i Yc del centre de gir en el cas de les comandes G02 i G03 i l’orientació del robot al acabar el moviment també per les comandes G02 i G03 i per la comanda de rotació. S’ha incorporat també una “checkbox” per definir, si cal, si l’orientació està calculada en graus o en radians (per defecte sempre funciona en radiants). Tot seguit s'exposa el codi de la línia d'objectes que representen totes les variables necessaries per realitzar una traçada circular amb la comanda G02:
+
+\begin{python}
+		#G02
+		radioG=tk.Radiobutton(self,text='Arc en sentit horari (G02): ', value='G02', variable=ordre).grid(row=7,column=0)
+		labelG02X=tk.Label(self, text='X =').grid(row=7,column=2)
+		entryG02X=tk.Entry(self, textvariable=G02X, width=8).grid(row=7,column=3)
+		labelG02Y=tk.Label(self, text='Y =').grid(row=7,column=5)
+		entryG02Y=tk.Entry(self, textvariable=G02Y, width=8).grid(row=7,column=6)
+		labelG02I=tk.Label(self, text='I =').grid(row=7,column=8)
+		entryG02I=tk.Entry(self, textvariable=G02I, width=8).grid(row=7,column=9)
+		labelG02J=tk.Label(self, text='J =').grid(row=7,column=11)
+		entryG02J=tk.Entry(self, textvariable=G02J, width=8).grid(row=7,column=12)
+		labelG02A=tk.Label(self, text='Orientacio =').grid(row=7,column=14)
+		entryG02A=tk.Entry(self, textvariable=G02A, width=8).grid(row=7,column=15)
+\end{python}
+
+A partir d’aquí s’han incorporat els botons d’acció i, com a la finestra Inkscape explicada anteriorment, un “canvas” amb la representació de la trajectòria introduïda. Hi apareixien quatre botons diferents: Visualitzar, Desfer, Dibuixar i Tornar a l’inici. Un cop introduïda una ordre, cal representar-la amb el botó Visualitzar per comprovar que és la desitjada. Un cop vista, es pot seguir dibuixant afegint comandes o manar al robot dibuixar la representació vista al canvas. L’opció Desfer permet esborrar l’últim moviment programat. Un cop el robot estigui en moviment caldrà esperar que acabi tot el moviment, ja que la interrupció del mateix no està programada. El codi corrsponent a la programació dels botons i la definició de les seves funcions associades és el següent:
+
+\begin{python}
+			#Botons
+			buttonDibuixar=tk.Button(self, text='Dibuixar', fg='blue', command=lambda:Dibuixar(self)).grid(row=20,column=7)
+			buttonVeure=tk.Button(self, text='Veure', fg='blue', command=lambda: Veure(self)).grid(row=20,column=3)
+			buttonUndo=tk.Button(self, text='Desfer', fg='blue', command=lambda: undo(self)).grid(row=20,column=5)
+			buttonTorna=tk.Button(self, text='Tornar a l\'inici', fg='blue', command=lambda:back(self)).grid(row=20,column=9)
+			
+			canvas = tk.Canvas(self, width=500, height=500)
+			canvas.grid(row=25,column=1,columnspan=12)
+			
+			turtle1 = turtle.RawTurtle(canvas)
+			turtle1.shape("turtle")
+			turtle1.setheading(90)
+			turtle1.radians()
+			
+			label1=tk.Label(self, text='          ').grid(row=11,column=5)
+			
+			
+			
+			
+			def Dibuixar(self):
+				Draw.dibuixaLlista()
+			
+			
+			def Veure(self):
+				print ordre.get()
+				tria=ordre.get()
+				if tria == 'G00':
+					x=G00X.get()
+					y=G00Y.get()
+					Draw.dibuixG00(turtle1,x,y)
+			
+				elif tria == 'G01':
+				x=G01X.get()
+				y=G01Y.get()
+				Draw.dibuixG01(turtle1,x,y)
+				
+				elif tria == 'G02':
+					x=G02X.get()
+					y=G02Y.get()
+					i=G02I.get()
+					j=G02J.get()
+					angle=G02A.get()
+					graus=checkBox1.get()
+					if graus == True:
+						angle= (angle*math.pi)/180
+					else:
+						pass
+					print (x, y, i , j, angle)
+					Draw.dibuixG02(turtle1,x,y,i,j,angle)
+				
+				elif tria == 'G03':
+					x=G03X.get()
+					y=G03Y.get()
+					i=G03I.get()
+					j=G03J.get()
+					angle=G03A.get()
+					graus=checkBox1.get()
+					if graus == True:
+						angle= (angle*math.pi)/180
+					else:
+						pass
+					Draw.dibuixG03(turtle1,x,y,i,j,angle)
+				
+				elif tria == 'apuntar':
+					angle=RA.get()
+					graus=checkBox1.get()
+					if graus == True:
+						angle= (angle*math.pi)/180
+					else:
+						pass
+					Draw.dibuixapuntar(turtle1,angle)
+				
+				else:
+					pass
+			
+			def undo(self):
+				Draw.desfer(turtle1)
+			
+			
+			def back(self):
+				turtle1.reset()
+				turtle1.setheading(math.pi/2.0)
+				controller.show_frame(StartPage)
+\end{python}
+
+Es pot observar que en aquest cas s’ha utilitzat el mètode .grid() per organitzar els objectes al frame, ja que d’aquesta manera és més fàcil ordenar-los en files i columnes per tal que tot quedi alineat i al seu lloc.
+
+\subsection{Draw.py}
+
+Aquest arxiu s’ha creat per tal de calcular la representació de les ordres a l’entorn de Python Turtle. Aquest és un mòdul que formava part del llenguatge de programació Logo creat per Wally Feurzig i Seymour Papert el 1966 i permet crear imatges a partir de dibuixar-los amb un punter, que originalment era una tortuga i d’aquí ha heretat el nom. Aquesta obeeix les comandes introduïdes al Python dibuixant rectes i arcs de circumferència igual que el robot, i és per això que s’ha utilitzat, ja que tenen un mètode de funcionament similar. La representació és una aproximació a la real i a escala, ja que el que a la vida real són mil·límetres, a la pantalla es representen com píxels. La intenció d’aquest mòdul és donar una aproximació visual del futur resultat del robot per tal de comprovar que s’està dibuixant abans de començar. 
+
+
+
+
+  
 
