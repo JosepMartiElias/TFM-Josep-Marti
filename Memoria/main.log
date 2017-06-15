@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  15 JUN 2017 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  15 JUN 2017 21:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -1462,32 +1462,32 @@ File: entrada-servo.png Graphic file (type png)
 <use entrada-servo.png>
 Package pdftex.def Info: entrada-servo.png used on input line 278.
 (pdftex.def)             Requested size: 280.42197pt x 311.2872pt.
- <llac-servo.jpg, id=558, 557.08125pt x 178.6675pt>
-File: llac-servo.jpg Graphic file (type jpg)
+ <flux_servo.pdf, id=558, 414.09908pt x 83.38553pt>
+File: flux_servo.pdf Graphic file (type pdf)
 
-<use llac-servo.jpg>
-Package pdftex.def Info: llac-servo.jpg used on input line 287.
-(pdftex.def)             Requested size: 334.25133pt x 107.20131pt.
+<use flux_servo.pdf>
+Package pdftex.def Info: flux_servo.pdf used on input line 288.
+(pdftex.def)             Requested size: 414.09805pt x 83.38531pt.
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 290.
+Package pdftex.def Info: logo.jpg used on input line 291.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [12 <./entrada-servo.png>]
 <bateria.png, id=564, 426.59375pt x 426.59375pt>
 File: bateria.png Graphic file (type png)
  <use bateria.png>
-Package pdftex.def Info: bateria.png used on input line 304.
+Package pdftex.def Info: bateria.png used on input line 305.
 (pdftex.def)             Requested size: 170.63446pt x 170.63446pt.
 File: logo.jpg Graphic file (type jpg)
 
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 307.
+Package pdftex.def Info: logo.jpg used on input line 309.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [13 <./llac-servo.jpg>]
-<retolador.png, id=571, 501.875pt x 501.875pt>
+ [13 <./flux_servo.pdf>]
+<retolador.png, id=587, 501.875pt x 501.875pt>
 File: retolador.png Graphic file (type png)
  <use retolador.png>
-Package pdftex.def Info: retolador.png used on input line 317.
+Package pdftex.def Info: retolador.png used on input line 318.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
 )
 (Chapters/Chapter3.tex
@@ -1500,14 +1500,14 @@ Cap\IeC {\'\i }tol 3.
 ------------------------------------------------------------------------------
  3 Disseny
 ------------------------------------------------------------------------------
-<RobotSW.png, id=576, 426.46828pt x 491.96297pt>
+<RobotSW.png, id=592, 426.46828pt x 491.96297pt>
 File: RobotSW.png Graphic file (type png)
  <use RobotSW.png>
 Package pdftex.def Info: RobotSW.png used on input line 15.
 (pdftex.def)             Requested size: 255.88293pt x 295.18005pt.
  [15
 
- <./RobotSW.png>] <xassis.pdf, id=582, 300.19553pt x 232.61806pt>
+ <./RobotSW.png>] <xassis.pdf, id=598, 300.19553pt x 232.61806pt>
 File: xassis.pdf Graphic file (type pdf)
  <use xassis.pdf>
 Package pdftex.def Info: xassis.pdf used on input line 26.
@@ -1523,13 +1523,13 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 48.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [17]
-<guia.pdf, id=607, 194.8068pt x 152.34515pt>
+<guia.pdf, id=623, 194.8068pt x 152.34515pt>
 File: guia.pdf Graphic file (type pdf)
  <use guia.pdf>
 Package pdftex.def Info: guia.pdf used on input line 53.
 (pdftex.def)             Requested size: 194.8063pt x 152.34477pt.
 
-<suport.pdf, id=608, 259.65907pt x 198.37915pt>
+<suport.pdf, id=624, 259.65907pt x 198.37915pt>
 File: suport.pdf Graphic file (type pdf)
  <use suport.pdf>
 Package pdftex.def Info: suport.pdf used on input line 67.
@@ -1540,7 +1540,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 70.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [18 <./guia.pdf>]
-<bolaboja.pdf, id=617, 190.49269pt x 128.51714pt>
+<bolaboja.pdf, id=633, 190.49269pt x 128.51714pt>
 File: bolaboja.pdf Graphic file (type pdf)
  <use bolaboja.pdf>
 Package pdftex.def Info: bolaboja.pdf used on input line 80.
@@ -1551,7 +1551,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 88.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [19 <./suport.pdf> <./bolaboja.pdf>]
-<roda.pdf, id=631, 154.58653pt x 175.71246pt>
+<roda.pdf, id=647, 154.58653pt x 175.71246pt>
 File: roda.pdf Graphic file (type pdf)
  <use roda.pdf>
 Package pdftex.def Info: roda.pdf used on input line 99.
@@ -1561,7 +1561,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 103.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
 
-[20] <tubs.pdf, id=636, 208.82928pt x 216.71263pt>
+[20] <tubs.pdf, id=652, 208.82928pt x 216.71263pt>
 File: tubs.pdf Graphic file (type pdf)
  <use tubs.pdf>
 Package pdftex.def Info: tubs.pdf used on input line 113.
@@ -1585,7 +1585,7 @@ Cap\IeC {\'\i }tol 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<figuretry.pdf, id=653, 427.18024pt x 165.21423pt>
+<figuretry.pdf, id=669, 427.18024pt x 165.21423pt>
 File: figuretry.pdf Graphic file (type pdf)
  <use figuretry.pdf>
 Package pdftex.def Info: figuretry.pdf used on input line 105.
@@ -1610,7 +1610,7 @@ Package epstopdf Info: Source file: <inkscape-logo.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<inkscape-logo-eps-converted-to.pdf, id=683, 101.37875pt x 101.37875pt>
+<inkscape-logo-eps-converted-to.pdf, id=699, 101.37875pt x 101.37875pt>
 File: inkscape-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use inkscape-logo-eps-converted-to.pdf>
@@ -1633,7 +1633,7 @@ d-to.pdf 1PropDocumento.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
-<1PropDocumento-eps-converted-to.pdf, id=692, 183.68625pt x 231.86626pt>
+<1PropDocumento-eps-converted-to.pdf, id=708, 183.68625pt x 231.86626pt>
 File: 1PropDocumento-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1PropDocumento-eps-converted-to.pdf>
@@ -1651,7 +1651,7 @@ pdf 2trayecto.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<2trayecto-eps-converted-to.pdf, id=693, 485.815pt x 352.31625pt>
+<2trayecto-eps-converted-to.pdf, id=709, 485.815pt x 352.31625pt>
 File: 2trayecto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2trayecto-eps-converted-to.pdf>
@@ -1674,7 +1674,7 @@ rted-to.pdf 3PuntosReferencia.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
-<3PuntosReferencia-eps-converted-to.pdf, id=701, 179.67125pt x 227.85126pt>
+<3PuntosReferencia-eps-converted-to.pdf, id=717, 179.67125pt x 227.85126pt>
 File: 3PuntosReferencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 3PuntosReferencia-eps-converted-to.pdf>
@@ -1698,7 +1698,7 @@ Package epstopdf Info: Source file: <4tool.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<4tool-eps-converted-to.pdf, id=712, 477.785pt x 258.9675pt>
+<4tool-eps-converted-to.pdf, id=728, 477.785pt x 258.9675pt>
 File: 4tool-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4tool-eps-converted-to.pdf>
@@ -1715,7 +1715,7 @@ to.pdf 5Trajectoria.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<5Trajectoria-eps-converted-to.pdf, id=713, 303.1325pt x 173.64874pt>
+<5Trajectoria-eps-converted-to.pdf, id=729, 303.1325pt x 173.64874pt>
 File: 5Trajectoria-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5Trajectoria-eps-converted-to.pdf>
@@ -1727,7 +1727,7 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg used on input line 209.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
  [28 <./4tool-eps-converted-to.pdf> <./5Trajectoria-eps-converted-to.pdf>]
-<python-logo.png, id=724, 582.175pt x 164.615pt>
+<python-logo.png, id=740, 582.175pt x 164.615pt>
 File: python-logo.png Graphic file (type png)
  <use python-logo.png>
 Package pdftex.def Info: python-logo.png used on input line 216.
@@ -1948,13 +1948,13 @@ File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 403.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [34] <arduino-logo.png, id=826, 1204.5pt x 820.06375pt>
+ [34] <arduino-logo.png, id=842, 1204.5pt x 820.06375pt>
 File: arduino-logo.png Graphic file (type png)
 
 <use arduino-logo.png>
 Package pdftex.def Info: arduino-logo.png used on input line 406.
 (pdftex.def)             Requested size: 120.45705pt x 82.01117pt.
- <arduino-uno.png, id=827, 501.875pt x 377.41pt>
+ <arduino-uno.png, id=843, 501.875pt x 377.41pt>
 File: arduino-uno.png Graphic file (type png)
 
 <use arduino-uno.png>
@@ -1964,7 +1964,7 @@ File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 427.
 (pdftex.def)             Requested size: 31.88208pt x 39.78673pt.
- [35 <./arduino-logo.png> <./arduino-uno.png>] <RobotFritz.png, id=833, 727.250
+ [35 <./arduino-logo.png> <./arduino-uno.png>] <RobotFritz.png, id=849, 727.250
 34pt x 697.27167pt>
 File: RobotFritz.png Graphic file (type png)
  <use RobotFritz.png>
@@ -2095,7 +2095,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
 Here is how much of TeX's memory you used:
  26359 strings out of 493333
  435239 string characters out of 3139188
- 816562 words of memory out of 3000000
+ 816548 words of memory out of 3000000
  28844 multiletter control sequences out of 15000+200000
  16965 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2117,9 +2117,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (65 pages, 10541218 bytes).
+Output written on main.pdf (65 pages, 10542511 bytes).
 PDF statistics:
- 1380 PDF objects out of 1440 (max. 8388607)
+ 1396 PDF objects out of 1440 (max. 8388607)
  537 named destinations out of 1000 (max. 500000)
  707 words of extra memory for PDF output out of 10000 (max. 10000000)
 
