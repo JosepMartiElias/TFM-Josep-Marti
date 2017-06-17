@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170615203242" modified="D:20170615203953"/>
+<info created="D:20170615203242" modified="D:20170617204655"/>
 <bitmap id="1" width="3402" height="3986" length="1384825" ColorSpace="DeviceRGB" Filter="FlateDecode" BitsPerComponent="8" encoding="base64">
 eNrswQEBAAAAgJD/q+sICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -25902,5 +25902,30 @@ h
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
 <image layer="alpha" matrix="0.0452699 0 0 0.0439177 182.788 378.197" rect="0 0 3402 3986" bitmap="1"/>
+<text transformations="translations" pos="303.713 521.843" stroke="black" type="label" width="4.981" height="6.42" depth="0" valign="baseline">1</text>
+<text transformations="translations" pos="180.204 435.466" stroke="black" type="label" width="4.981" height="6.42" depth="0" valign="baseline">2</text>
+<text transformations="translations" pos="190.722 490.926" stroke="black" type="label" width="4.981" height="6.42" depth="0" valign="baseline">3</text>
+<text transformations="translations" pos="229.767 534.433" stroke="black" type="label" width="4.981" height="6.42" depth="0" valign="baseline">4</text>
+<path stroke="black" arrow="normal/small">
+285.067 508.456 m
+287.139 526.464
+300.526 525.03 c
+</path>
+<path stroke="black" arrow="normal/small">
+256.541 504.791 m
+255.903 535.548
+238.373 537.62 c
+</path>
+<path stroke="black" arrow="normal/small">
+245.704 479.133 m
+225.145 492.997
+199.966 494.272 c
+</path>
+<path stroke="black" arrow="normal/small">
+239.329 453.475 m
+229.608 437.379
+219.568 431.801
+188.81 438.175 c
+</path>
 </page>
 </ipe>

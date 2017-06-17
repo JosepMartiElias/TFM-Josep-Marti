@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170616090952" modified="D:20170616090952"/>
+<info created="D:20170616090952" modified="D:20170617183633"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -267,7 +267,7 @@ h
 189.138 206.354 l
 180.485 189.573 l
 </path>
-<path stroke="black" pen="fat">
+<path matrix="1.04892 0 0 1.28139 -9.24591 -61.9365" stroke="black" pen="fat">
 189.003 220.107 m
 244.888 220.027 l
 </path>
@@ -296,7 +296,7 @@ h
 231.922 196.727 l
 224.711 196.642 l
 </path>
-<path stroke="black" fill="black" pen="fat">
+<path matrix="1.05302 0 0 0.546469 -18.2551 99.9157" stroke="black" fill="black" pen="fat">
 292.451 220.273 m
 344.331 220.306 l
 </path>
@@ -395,9 +395,6 @@ h
 h
 </path>
 <path stroke="black" pen="fat">
-23.8335 0 0 23.8335 269.006 220.257 e
-</path>
-<path stroke="black" pen="fat">
 1.35928 0 0 1.35928 189.036 235.052 e
 </path>
 <path matrix="1 0 0 1 0.0591819 -46.8054" stroke="black" pen="fat">
@@ -412,11 +409,30 @@ h
 <path stroke="black" pen="fat">
 2.71259 0 0 2.71259 268.371 289.163 e
 </path>
-<text transformations="translations" pos="254.603 220.662" stroke="black" type="label" valign="baseline">Motor</text>
-<text transformations="translations" pos="259.285 305.68" stroke="black" type="label" valign="baseline">+ Vcc</text>
-<text transformations="translations" pos="159.531 238.766" stroke="black" type="label" valign="baseline">A</text>
-<text transformations="translations" pos="160.892 192.088" stroke="black" type="label" valign="baseline">B</text>
-<text transformations="translations" pos="369.165 234.348" stroke="black" type="label" valign="baseline">C</text>
-<text transformations="translations" pos="369.868 189.719" stroke="black" type="label" valign="baseline">D</text>
+<text transformations="translations" pos="259.285 305.68" stroke="black" type="label" width="27.397" height="6.808" depth="0.83" valign="baseline">+ Vcc</text>
+<text transformations="translations" pos="159.531 238.766" stroke="black" type="label" width="7.472" height="6.808" depth="0" valign="baseline">A</text>
+<text transformations="translations" pos="160.892 192.088" stroke="black" type="label" width="7.057" height="6.808" depth="0" valign="baseline">B</text>
+<text transformations="translations" pos="369.165 234.348" stroke="black" type="label" width="7.195" height="6.808" depth="0" valign="baseline">C</text>
+<text transformations="translations" pos="369.868 189.719" stroke="black" type="label" width="7.61" height="6.808" depth="0" valign="baseline">D</text>
+<path matrix="1 0 0 0.964056 2.76261 7.47924" stroke="black" pen="fat">
+244.413 220.103 m
+4.29847 0 0 -4.29847 248.708 220.257 253.002 220.049 a
+</path>
+<path matrix="1 0 0 0.964056 11.3311 7.50789" stroke="black" pen="fat">
+244.413 220.103 m
+4.29847 0 0 -4.29847 248.708 220.257 253.002 220.049 a
+</path>
+<path matrix="1 0 0 0.964056 19.9568 7.5651" stroke="black" pen="fat">
+244.413 220.103 m
+4.29847 0 0 -4.29847 248.708 220.257 253.002 220.049 a
+</path>
+<path matrix="1 0 0 0.964056 28.5292 7.73184" stroke="black" pen="fat">
+244.413 220.103 m
+4.29847 0 0 -4.29847 248.708 220.257 253.002 220.049 a
+</path>
+<path matrix="1 0 0 0.964056 37.1004 7.80182" stroke="black" pen="fat">
+244.413 220.103 m
+4.29847 0 0 -4.29847 248.708 220.257 253.002 220.049 a
+</path>
 </page>
 </ipe>
