@@ -65,7 +65,7 @@ En funció de la connexió i la forma d'excitació de les  bobines, es pot difer
 Existeixen diferents seqüencies per aconseguir el moviment del motor, que dependrà de quines bobines estan excitades, en el cas dels motors unipolars, i en la direcció del corrent en els bipolars. 
 
 \begin{itemize}
-	\item \textbf{Seqüencia d'una fase:} Aquesta seqüencia consta de l'excitació d'una sola bobina fet que provoca un pas sencer del motor com es mostra a la imatge.  
+	\item \textbf{Seqüència d'una fase:} Aquesta seqüència consta de l'excitació d'una sola bobina fet que provoca un pas sencer del motor com es mostra a la imatge.  
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1.2]{Sequencia_1_fase.eps}
@@ -84,12 +84,12 @@ Existeixen diferents seqüencies per aconseguir el moviment del motor, que depen
 				3 & 0 & 0 & 1 & 0 \\ \hline
 				4 & 0 & 0 & 0 & 1 \\ \hline
 			\end{tabular}
-			\caption{Seqüencia d' fase.}
+			\caption{Seqüència d' fase.}
 			\label{tabla:1fase}
 		\end{center}
 	\end{table}
 	
-		\item \textbf{Seqüencia de dos fases:} Igual que a la seqüencia anterior, s'aconsegueix un pas per cada un dels estats de la sèrie, però la gran diferència és que per aconseguir-ho s'exciten dues bobines alhora, fet que provoca que la força d'atracció augmenti i aconsegueixi un millor parell de resistència. 
+		\item \textbf{Seqüència de dos fases:} Igual que a la seqüència anterior, s'aconsegueix un pas per cada un dels estats de la sèrie, però la gran diferència és que per aconseguir-ho s'exciten dues bobines alhora, fet que provoca que la força d'atracció augmenti i aconsegueixi un millor parell de resistència. 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale=1.2]{Sequencia_2_fases.eps}
@@ -108,12 +108,12 @@ Existeixen diferents seqüencies per aconseguir el moviment del motor, que depen
 					3 & 0 & 0 & 1 & 1 \\ \hline
 					4 & 1 & 0 & 0 & 1 \\ \hline
 				\end{tabular}
-				\caption{Seqüencia de dos fases.}
+				\caption{Seqüència de dos fases.}
 				\label{tabla:2fase}
 			\end{center}
 		\end{table}
 		
-		\item \textbf{Seqüencia half step:} Amb una combinació de les dues anteriors, aconseguim que per cada estat de la sèrie el motor realitzi un gir de mig pas, i per tant aconsegueixi un moviment més petit. El seu funcionament es basa en l'excitació d'una sola bobina i de dues alhora de forma seqüencial com es mostra  a la figura.
+		\item \textbf{Seqüència half step:} Amb una combinació de les dues anteriors, aconseguim que per cada estat de la sèrie el motor realitzi un gir de mig pas, i per tant aconsegueixi un moviment més petit. El seu funcionament es basa en l'excitació d'una sola bobina i de dues alhora de forma seqüencial com es mostra  a la figura.
 		
 		\begin{figure}[H]
 			\centering
@@ -137,7 +137,7 @@ Existeixen diferents seqüencies per aconseguir el moviment del motor, que depen
 					7 & 0 & 0 & 0 & 1 \\ \hline
 					8 & 1 & 0 & 0 & 1 \\ \hline	
 				\end{tabular}
-				\caption{Seqüencia mig pas (half step).}
+				\caption{Seqüència mig pas (half step).}
 				\label{tabla:hal step}
 			\end{center}
 		\end{table}
@@ -195,7 +195,7 @@ El NEMA14 és un motor pas a pas bipolar amb les següents característiques:
 
 \subsection{Controlador: Easy Driver A3967}
 
-Els motors pas a pas bipolars necessiten un canvi de sentit en el flux de corrent  de les bobines per aconseguir així la seqüencia de fases desitjada per realitzar el moviment. A part d'això, com que els motors estan controlats per un microcontrolador Arduino UNO, s'ha de controlar la intensitat del corrent ja que podria fer malbé la placa. És per aquesta raó que s'ha decidit utilitzar un controlador que es basa en dos ponts H, un per cada bobina del motor, un dispositiu que suporta el flux bidireccional de corrent inversa i permet  canviar-lo de sentit.
+Els motors pas a pas bipolars necessiten un canvi de sentit en el flux de corrent  de les bobines per aconseguir així la seqüència de fases desitjada per realitzar el moviment. A part d'això, com que els motors estan controlats per un microcontrolador Arduino UNO, s'ha de controlar la intensitat del corrent ja que podria fer malbé la placa. És per aquesta raó que s'ha decidit utilitzar un controlador que es basa en dos ponts H, un per cada bobina del motor, un dispositiu que suporta el flux bidireccional de corrent inversa i permet  canviar-lo de sentit.
 
 
 Un pont H està format per 4 interruptors connectats com a la figura (\ref{fig:ponth})que permet fer passar el corrent per la bobina en un sentit o en un altre en funció de quina combinació d'interruptors s'utilitza, evitant així treballar amb voltatges negatius.
