@@ -23,120 +23,136 @@ Els motors pas a pas o “steppers”, són els motors ideals per controlar el m
 El funcionament del motor pas a pas es bassa en la transformació d'impulsos elèctrics en “steps” o passos del motor, que són rotacions angulars exactes de l'eix. Típicament poden presentar 12, 24, 72, 144, 180 o 200 passos per volta i això significa que per cada impuls elèctric la seva rotació és de 30, 15, 5, 2.5, 2 o 1.8 graus respectivament. 
 
 
-Presenta dues parts principals, l'estator, que esta format per bobines amb les quals s'indueix un camp magnètic al fer-hi passar corrent elèctric, i el rotor, que consisteix essencialment en un imant permanent rotatori, atret pel camp magnètic creat per l'estator. 
+Presenta dues parts principals, l'estator, que esta format per bobines amb les quals s'indueix un camp magnètic al fer-hi passar corrent elèctric, i el rotor, que consisteix essencialment en un imant permanent rotatori o un nucli de ferro pur depenent del tipus de motor, atret pel camp magnètic creat per l'estator. 
 
 
 Al fer passar corrent per una de les bobines de l'estator es crea una polaritat i per tant s'orienta el rotor en funció d'aquesta polaritat, ja que sempre buscarà l'estabilitat magnètica entre els seus pols. Quan canvia l'excitació de l'estator, canvien els pols magnètics i per tant el rotor es reorienta. D'aquesta manera, al anar variant el pas del corrent per les bobines, es provoca un moviment circular del rotor molt precís, del qual es pot controlar la velocitat i el sentit de gir. 
 
 
 \subsection{Tipus de motors pas a pas}
+Existeixen tres tipus fonamentals de motors pas a pas en funció dels seus components i la seva manera de funcionar:
+
+\begin{itemize}
+	\item \textbf{Motor de reluctància variable:} Estan formats per un rotor de ferro pur que es mou degut a l'atracció dels pols màgnetics de l'estator. El seu funcionament es basa en el principi segons el qual la mínima reluctància té lloc quan la distància entre punts és mínima, i per aixó el rotor és atret per l'estator. Permeten velocitats més elevades, però pasos més grans.
+	
+	\item \textbf{Motor amb rotor d'imant permanent:} L'imant permanent del rotor es mou degut a les forces d'atracció i repulsió entre l'imant i els electroimants de l'estator. Aquests motors permeten pasos més petits però velocitats més baixes. Són els mès senzills de controlar.
+	
+	\item \textbf{Motors híbrids:} Aquests són una barreja dels dos anteriors. Tant l'estator com el rotor presenten varies dents i el rotor té un imant concèntric magnetitzat axialment al voltant del seu eix. Aquesta combinació dona lloc a motors d'alt rendiment amb velocitats considerables. Són els motors que admeten pasos més petits i, per tant, moviments de més precisió. 
+\end{itemize}
 En funció de la connexió i la forma d'excitació de les  bobines, es pot diferencia entre dos tipus de motors pas a pas diferents, els unipolars i els bipolars.
 
-
-\subsubsection{Unipolars}
-El corrent que passa per les bobines de l'estator d'un motor pas a pas unipolar sempre va en el mateix sentit. Normalment tenen 5 o 6 cables de sortida, 6 si el cable d'alimentació comú de cada par de bobines va per separat i 5 si va junt. És més senzill de controlar ja que sempre es té el cable d'alimentació i cada pas es realitza al connectar a terra els altres cables amb un ordre determinat.
-
-\subsubsection{Bipolars}
-A diferencia dels unipolars aquests motors només presenten 4 cables de sortida, no tenen un comú d'alimentació. El seu funcionament es bassa en el canvi del sentit de circulació del corrent per les bobines en funció de la tensió, fet que provoca una diferència de polaritat que fa girar el rotor. Per tal de controlar-lo, és necessari utilitzar dos ponts H per poder invertir el sentit del corrent que passa per les dues bobines. 
-
+\begin{itemize}
+	\item \textbf{Unipolars:} El corrent que passa per les bobines de l'estator d'un motor pas a pas unipolar sempre va en el mateix sentit. Normalment tenen 5 o 6 cables de sortida, 6 si el cable d'alimentació comú de cada par de bobines va per separat i 5 si va junt. És més senzill de controlar ja que sempre es té el cable d'alimentació i cada pas es realitza al connectar a terra els altres cables amb un ordre determinat.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics{Unipolar}
+		\caption{Diagrama d'un motor unipolar de 5 cables (a) i de 6 (b).}
+		\label{fig:unipolar}
+	\end{figure}
+	
+	\item \textbf{Bipolars:} A diferencia dels unipolars aquests motors només presenten 4 cables de sortida, no tenen un comú d'alimentació. El seu funcionament es bassa en el canvi del sentit de circulació del corrent per les bobines en funció de la tensió, fet que provoca una diferència de polaritat que fa girar el rotor. Per tal de controlar-lo, és necessari utilitzar dos ponts H per poder invertir el sentit del corrent que passa per les dues bobines. 
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics{Bipolar}
+		\caption{Diagrama d'un motor bipolar.}
+		\label{fig:biipolar}
+	\end{figure}
+\end{itemize}
 
 \subsection{Modes de funcionamet}
 Existeixen diferents seqüencies per aconseguir el moviment del motor, que dependrà de quines bobines estan excitades, en el cas dels motors unipolars, i en la direcció del corrent en els bipolars. 
 
-
-\subsubsection{Seqüencia d'una fase}
-Aquesta seqüencia consta de l'excitació d'una sola bobina fet que provoca un pas sencer del motor com es mostra a la imatge.  
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=1.2]{Sequencia_1_fase.eps}
-	\caption{Sequencia d'una fase.}
-	\label{fig:1fase}
-\end{figure}
-La seva expressió en forma de taula és la següent:
-\begin{table}[H]
-	\begin{center}
-		\begin{tabular}{|c||c|c|c|c|}
-			\hline
-			Pas & A & B & -A & -B \\
-			\hline \hline
-			1 & 1 & 0 & 0 & 0 \\ \hline
-			2 & 0 & 1 & 0 & 0 \\ \hline
-			3 & 0 & 0 & 1 & 0 \\ \hline
-			4 & 0 & 0 & 0 & 1 \\ \hline
-		\end{tabular}
-		\caption{Seqüencia d' fase.}
-		\label{tabla:1fase}
-	\end{center}
-\end{table}
-
-\subsubsection{Seqüencia de dos fases}
-Igual que a la seqüencia anterior, s'aconsegueix un pas per cada un dels estats de la sèrie, però la gran diferència és que per aconseguir-ho s'exciten dues bobines alhora, fet que provoca que la força d'atracció augmenti i aconsegueixi un millor parell de resistència. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=1.2]{Sequencia_2_fases.eps}
-	\caption{Sequencia de dos fases.}
-	\label{fig:Sequencia de dos fase}
-\end{figure}
-La seva expressió en forma de taula és la següent:
-\begin{table}[H]
-	\begin{center}
-		\begin{tabular}{|c||c|c|c|c|}
-			\hline
-			Pas & A & B & -A & -B \\
-			\hline \hline
-			1 & 1 & 1 & 0 & 0 \\ \hline
-			2 & 0 & 1 & 1 & 0 \\ \hline
-			3 & 0 & 0 & 1 & 1 \\ \hline
-			4 & 1 & 0 & 0 & 1 \\ \hline
-		\end{tabular}
-		\caption{Seqüencia de dos fases.}
-		\label{tabla:2fase}
-	\end{center}
-\end{table}
-
-
-\subsubsection{Seqüencia half step }
-Amb una combinació de les dues anteriors, aconseguim que per cada estat de la sèrie el motor realitzi un gir de mig pas, i per tant aconsegueixi un moviment més petit. El seu funcionament es basa en l'excitació d'una sola bobina i de dues alhora de forma seqüencial com es mostra  a la figura.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=1.2]{Sequencia_halfstep.eps}
-	\caption{Sequencia half step.}
-	\label{fig:Sequencia half step}
-\end{figure}
-La seva taula de funcionament és la següent: 
-\begin{table}[htbp]
-	\begin{center}
-		\begin{tabular}{|c||c|c|c|c|}
-			\hline
-			Pas & A & B & -A & -B \\
-			\hline \hline
-			1 & 1 & 0 & 0 & 0 \\ \hline
-			2 & 1 & 1 & 0 & 0 \\ \hline
-			3 & 0 & 1 & 0 & 0 \\ \hline
-			4 & 0 & 1 & 1 & 0 \\ \hline
-			5 & 0 & 0 & 1 & 0 \\ \hline
-			6 & 0 & 0 & 1 & 1 \\ \hline
-			7 & 0 & 0 & 0 & 1 \\ \hline
-			8 & 1 & 0 & 0 & 1 \\ \hline	
-		\end{tabular}
-		\caption{Seqüencia mig pas (half step).}
-		\label{tabla:hal step}
-	\end{center}
-\end{table}
-
-\subsubsection{Microstepping}
-
-L'objectiu del microstepping és aconseguir un moviment de rotació més suau, reduint els moviments bruscos entre passos del motor, augmentant el nombre de passos. Per aconseguir-ho s'utilitza un controlador, en aquest cas el driver explicat a l'apartat (\ref{sec:driver}), que idealment envia corrent en ones sinusoïdals enlloc d'impulsos. Es creen dos ones sinusoïdals desfasades 90º entre elles, una per cada bobina del motor, aconseguit així que quan a una bobina el corrent augmenta a l’altre decreix de la mateixa manera, creant un moviment perfecte del motor. 
-
-A la realitat aquestes ones no són sinusoïdals perfectes, sinó que són ones esglaonades. Això provoca un augment de passos per volta del motor, en aquest cas es pot aconseguir multiplicar els passos per 2, 4 o 8 assolint un màxim de 1600 passos per volta. A la figura (\ref{fig:Microstepping}) es pot observar un exemple d’ona encarregada del microstepping. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics{Multistepper-grafic}
-	\caption{Ona sinusoïdal del microstepping.}
-	\label{fig:Microstepping}
-\end{figure}
+\begin{itemize}
+	\item \textbf{Seqüència d'una fase:} Aquesta seqüència consta de l'excitació d'una sola bobina fet que provoca un pas sencer del motor com es mostra a la imatge.  
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1.2]{Sequencia_1_fase.eps}
+		\caption{Sequencia d'una fase.}
+		\label{fig:1fase}
+	\end{figure}
+	La seva expressió en forma de taula és la següent:
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c||c|c|c|c|}
+				\hline
+				Pas & A & B & -A & -B \\
+				\hline \hline
+				1 & 1 & 0 & 0 & 0 \\ \hline
+				2 & 0 & 1 & 0 & 0 \\ \hline
+				3 & 0 & 0 & 1 & 0 \\ \hline
+				4 & 0 & 0 & 0 & 1 \\ \hline
+			\end{tabular}
+			\caption{Seqüència d' fase.}
+			\label{tabla:1fase}
+		\end{center}
+	\end{table}
+	
+		\item \textbf{Seqüència de dos fases:} Igual que a la seqüència anterior, s'aconsegueix un pas per cada un dels estats de la sèrie, però la gran diferència és que per aconseguir-ho s'exciten dues bobines alhora, fet que provoca que la força d'atracció augmenti i aconsegueixi un millor parell de resistència. 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1.2]{Sequencia_2_fases.eps}
+			\caption{Sequencia de dos fases.}
+			\label{fig:Sequencia de dos fase}
+		\end{figure}
+		La seva expressió en forma de taula és la següent:
+		\begin{table}[H]
+			\begin{center}
+				\begin{tabular}{|c||c|c|c|c|}
+					\hline
+					Pas & A & B & -A & -B \\
+					\hline \hline
+					1 & 1 & 1 & 0 & 0 \\ \hline
+					2 & 0 & 1 & 1 & 0 \\ \hline
+					3 & 0 & 0 & 1 & 1 \\ \hline
+					4 & 1 & 0 & 0 & 1 \\ \hline
+				\end{tabular}
+				\caption{Seqüència de dos fases.}
+				\label{tabla:2fase}
+			\end{center}
+		\end{table}
+		
+		\item \textbf{Seqüència half step:} Amb una combinació de les dues anteriors, aconseguim que per cada estat de la sèrie el motor realitzi un gir de mig pas, i per tant aconsegueixi un moviment més petit. El seu funcionament es basa en l'excitació d'una sola bobina i de dues alhora de forma seqüencial com es mostra  a la figura.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1.2]{Sequencia_halfstep.eps}
+			\caption{Sequencia half step.}
+			\label{fig:Sequencia half step}
+		\end{figure}
+		La seva taula de funcionament és la següent: 
+		\begin{table}[htbp]
+			\begin{center}
+				\begin{tabular}{|c||c|c|c|c|}
+					\hline
+					Pas & A & B & -A & -B \\
+					\hline \hline
+					1 & 1 & 0 & 0 & 0 \\ \hline
+					2 & 1 & 1 & 0 & 0 \\ \hline
+					3 & 0 & 1 & 0 & 0 \\ \hline
+					4 & 0 & 1 & 1 & 0 \\ \hline
+					5 & 0 & 0 & 1 & 0 \\ \hline
+					6 & 0 & 0 & 1 & 1 \\ \hline
+					7 & 0 & 0 & 0 & 1 \\ \hline
+					8 & 1 & 0 & 0 & 1 \\ \hline	
+				\end{tabular}
+				\caption{Seqüència mig pas (half step).}
+				\label{tabla:hal step}
+			\end{center}
+		\end{table}
+		
+		\item \textbf{Microstepping:} L'objectiu del microstepping és aconseguir un moviment de rotació més suau, reduint els moviments bruscos entre passos del motor, augmentant el nombre de passos. Per aconseguir-ho s'utilitza un controlador, en aquest cas el driver explicat a l'apartat (\ref{sec:driver}), que idealment envia corrent en ones sinusoïdals enlloc d'impulsos. Es creen dos ones sinusoïdals desfasades 90º entre elles, una per cada bobina del motor, aconseguit així que quan a una bobina el corrent augmenta a l’altre decreix de la mateixa manera, creant un moviment perfecte del motor. 
+		
+		A la realitat aquestes ones no són sinusoïdals perfectes, sinó que són ones esglaonades. Això provoca un augment de passos per volta del motor, en aquest cas es pot aconseguir multiplicar els passos per 2, 4 o 8 assolint un màxim de 1600 passos per volta. A la figura (\ref{fig:Microstepping}) es pot observar un exemple d’ona encarregada del microstepping. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics{Multistepper-grafic}
+			\caption{Ona sinusoïdal del microstepping.}
+			\label{fig:Microstepping}
+		\end{figure}
+\end{itemize}
 
 \subsection{Alternatives}
 Alhora de triar quins serien els motors adequats pel moviment del robot s'ha estudiat 3 opcions valides per fer-ho, el motor pas a pas, el motor de corrent continu i el servo-motor de rotació continua. S'ha escollit el motor pas a pas ja que el control de posició és bàsic pel funcionament del robot, i és l'únic que el pot assegurar sense la utilització d'un encoder i és el més fàcil de controlar. En els casos del motor de corrent continu i el servomotor de rotació continua, el seu funcionament es bassa en el control de la velocitat de rotació de l'eix segons la tensió o els impulsos del senyal de control respectivament, i per tant controlar la posició és molt més complicat. 
@@ -179,7 +195,7 @@ El NEMA14 és un motor pas a pas bipolar amb les següents característiques:
 
 \subsection{Controlador: Easy Driver A3967}
 
-Els motors pas a pas bipolars necessiten un canvi de sentit en el flux de corrent  de les bobines per aconseguir així la seqüencia de fases desitjada per realitzar el moviment. A part d'això, com que els motors estan controlats per un microcontrolador Arduino UNO, s'ha de controlar la intensitat del corrent ja que podria fer malbé la placa. És per aquesta raó que s'ha decidit utilitzar un controlador que es basa en dos ponts H, un per cada bobina del motor, un dispositiu que suporta el flux bidireccional de corrent inversa i permet  canviar-lo de sentit.
+Els motors pas a pas bipolars necessiten un canvi de sentit en el flux de corrent  de les bobines per aconseguir així la seqüència de fases desitjada per realitzar el moviment. A part d'això, com que els motors estan controlats per un microcontrolador Arduino UNO, s'ha de controlar la intensitat del corrent ja que podria fer malbé la placa. És per aquesta raó que s'ha decidit utilitzar un controlador que es basa en dos ponts H, un per cada bobina del motor, un dispositiu que suporta el flux bidireccional de corrent inversa i permet  canviar-lo de sentit.
 
 
 Un pont H està format per 4 interruptors connectats com a la figura (\ref{fig:ponth})que permet fer passar el corrent per la bobina en un sentit o en un altre en funció de quina combinació d'interruptors s'utilitza, evitant així treballar amb voltatges negatius.
@@ -301,8 +317,25 @@ Amb la rotació del propi motor es posiciona el potenciòmetre permeten d’aque
 
 Existeixen 2 tipus diferents de servomotors, els analògics i els digitals. Els digitals tenen millors característiques, millor resolució, resposta més ràpida, una acceleració més suau durant el moviment i un parell més elevat en estat estacionari. Però, per altra banda, tenen un consum més elevat ja que treballen a una freqüència deu vegades majors a la dels analògics i el seu preu és molt més elevat. 
 
-\subsection{Servo S.....}
+\subsection{Servo escollit: SM-S2309S}
 
+El servomotor SM-S2309S és un microservo analògic de 180º. S'ha escollit aquest model per dues raons: Les seves petites dimensions són ideals per l'aplicació ja que permeten optimitxar el tamany del proi robot, i, per altre banda, perquè ja es disposava d'aquests motor. Les seves caracterîstiques principals són:  
+
+\begin{table}[htbp]
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			
+			Tensió nominal & 5.0 V  \\ \hline
+			Parell & 1 Kg/cm  \\ \hline
+			Pes & 9 g  \\ \hline
+			Dimensions & (22,2 x 11,6 x 21,5)mm  \\ \hline
+			Àngle de rotació & 180º  \\ \hline
+		\end{tabular}
+		\caption{Característiques del servomotor SM-S2309S.}
+		\label{tabla:servo}
+	\end{center}
+\end{table}
 \section{Bateria}
 
 L’objectiu del projecte era dissenyar un robot autònom, i per aquesta raó s’ha decidit incorporar una bateria que subministra l’energia necessària als dos motors així com al microcontrolador Arduino Uno. Després de les proves inicials es va decidir separar les fonts dels dos motors per evitar d’aquesta manera un mal repartiment de la potencia i complir en tot moment amb les exigències energètiques d’ambdós motors. 

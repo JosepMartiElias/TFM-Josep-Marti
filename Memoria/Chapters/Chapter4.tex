@@ -150,7 +150,9 @@ Es recomana utilitzar la versió del programa 0.91, ja que l'actualització 0.92
 	\label{fig:inkscapelogo}
 \end{figure}
 
-\subsection{Com crear l'arxiu GCode a partir d'Inkscape} Aquí es mostraran els passos a seguir per tal de passar un dibuix d'Inkscape a G-code amb l'extensió pròpia del programa Gcodetools.
+\subsection{Com crear l'arxiu GCode a partir d'Inkscape} \label{sec:ManualInk}
+
+ Aquí es mostraran els passos a seguir per tal de passar un dibuix d'Inkscape a G-code amb l'extensió pròpia del programa Gcodetools.
 
 \begin{itemize}
 	
@@ -257,6 +259,14 @@ S’han definit les funcions bàsiques per tal d’actuar amb les diferents coma
 
 Aquesta funció realitza un moviment rectilini fins al punt definit per les coordenades d’entrada $x_{1}$ i $y_{1}$ amb el retolador aixecat, de tal manera que aquest moviment no quedarà representat en el dibuix final, és un moviment de posicionament.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{G00}
+	\caption{Representació d'un moviment amb l'ordre G00.}
+	\label{fig:G00}
+\end{figure}
+
+
 En el cas de l’ordre G00, el primer que cal fer és rotar el robot per tal de posicionar-lo en direcció al punt de destí ($x_{1}$, $y_{1}$). És en la única operació que cal fer-ho, ja que, al utilitzar l’eina “Cuchillo tangencial” d’Inkscape , sempre que hi ha un moviment amb el retolador en posició activa primer es realitza una ordre G01 A\emph{X} que rota el robot fins a la direcció (\emph{X}) adequada per començar el moviment, però al tenir el retolador aixecat el propi Inkscape entén que es pot moure fins a les coordenades destí de qualsevol manera, però com que el moviment del robot és empre en una única direcció, cal rotar-lo per tal d'apuntar cap al punt final i realitzar un moviment rectilini. Aquest càlcul es fa utilitzant l’arctangent del valor de $\frac{\Delta y }{\Delta x}$ amb el següent codi:
 \begin{python}
 	if (dx != 0):
@@ -312,6 +322,15 @@ Per acabar s’estableix la connexió amb l’Arduino. En primer lloc s’envia 
 
 \subsubsection{Funció G01($x_{1}$, $y_{1}$)}
 El funcionament d’aquesta funció és exactament igual a la funció G00, ja que també és un moviment rectilini, però aquest cop el retolador sí que ha de traçar una línia. La única diferencia entre aquestes és que en el cas de l’ordre G01 no cal redireccionar el robot per apuntar al punt de destí, perquè el propi Inkscape crearà prèviament una ordre especifica per fer-ho, que s’explicarà a l’apartat \ref{apuntar}. Per altre banda, en aquest cas, el primer valor que s’envia a l’Arduino serà un \emph{1} ja que la posició del servo ha de ser posició activa amb la qual el retolador està dibuixant. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{G01}
+	\caption{Representació d'un moviment amb l'ordre G01.}
+	\label{fig:G01}
+\end{figure}
+
+A diferència del G00, es pot veure a la imatge \ref{G01} que aamb la comanda G01 sí que es dibuixa sobre el paper.
 
 \subsubsection{Funció G02($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}\label{funG02}
 
@@ -621,6 +640,13 @@ void loop() {
 
 És de vital importància establir una comunicació bidireccional entre l’ordinador i l’Arduino per tal de poder controlar el robot i programar les noves traçades. Hi ha moltes maneres d’establir aquesta comunicació: per cable, a través d’una xarxa wifi, amb una targeta de memòria... Cadascuna té els seus avantatges i desavantatges, i després d’analitzar-les s’ha decidit utilitzar un dispositiu Bluetooth. En aquest apartat es presentarà el mòdul HC-05 encarregat d’establir aquesta comunicació.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.03]{BluetoothLogo}
+	\caption{Logo de la tecnologia Bluetooth.}
+	\label{fig:BTlogo}
+\end{figure}
+
 \subsection{Mòdul HC-05}
 
 Els dispositius Bluetooth tenen la capacitat de connectar-se entre si a partir d’ones de radiofreqüència, eliminant així cables o connectors físics. Aquesta comunicació es realitza a una freqüència entre 2,4 i 2,48 GHz i permet crear una xarxa sense fils entre diferents dispositius els quals es poden enviar dades i compartir informació. Aquestes xarxes es regeixen per un element dominant master i un sèrie d’elements esclaus slaves, en aquest cas com a  element master actua l’ordinador, i l’Arduino actua d’esclau mitjançant el mòdul HC-05. Aquestes xarxes poden tenir un abast de 10 metres aproximadament, tot i que n’hi ha que poden arribar fins a 100 m. 
@@ -641,7 +667,7 @@ Per acabar, també disposa d’un díode LED que indica l’estat de la connexi�
 
 \section{Aplicació: Com el controlo?}
 
-Per tal de millorar l’experiència de l’usuari i no haver d’utilitzar el terminal de comandes de Python, fet que pot semblar complicat per persones no familiaritzades amb la programació, s’ha creat una aplicació bàsica i senzilla per tal de controlar el propi robot. Es basa en un petit programa que ofereix dos mètodes de funcionament, a partir d’un arxiu .txt creat prèviament en Inkscape seguint les instruccions de l’apartat XXX, o escrivint pas a pas les ordres que es volen donar al robot i visualitzant-les abans.
+Per tal de millorar l’experiència de l’usuari i no haver d’utilitzar el terminal de comandes de Python, fet que pot semblar complicat per persones no familiaritzades amb la programació, s’ha creat una aplicació bàsica i senzilla per tal de controlar el propi robot. Es basa en un petit programa que ofereix dos mètodes de funcionament, a partir d’un arxiu .txt creat prèviament en Inkscape seguint les instruccions de l’apartat \ref{sec:ManualInk}, o escrivint pas a pas les ordres que es volen donar al robot i visualitzant-les abans.
 Aquesta aplicació d’escriptori s’ha creat amb el mòdul que incorpora Python per creat interfícies GUI anomenat Tkinter que s’explicarà més detalladament a les següents línies. 
 
 \subsection{Tkinter}
@@ -663,7 +689,7 @@ Les llibreries que utilitza són les següents:
 	import RobotMoveBT
 \end{python}
 
-La llibreria math per realitzar operacions matemàtiques, igual que als altres programes, la llibreria Tkinter que s’ha explicat a l’apartat anterior, que és el motor de creació de la GUI i la llibreria Turtle, que permet crear dibuixos i gràfiques i que s’utilitza per tal de representar les trajectòries introduïdes. Per altre banda també s’utilitza l’arxiu Draw.py que s’explicarà a l’apartat XXX i que permet dibuixar aquestes ordres utilitzant la llibreria Turtle a la pantalla de la GUI.  Per últim incorpora també l’arxiu RobotMoveBT.py presentat a l’apartat XXX que s’encarrega de moure el robot. 
+La llibreria math per realitzar operacions matemàtiques, igual que als altres programes, la llibreria Tkinter que s’ha explicat a l’apartat anterior, que és el motor de creació de la GUI i la llibreria Turtle, que permet crear dibuixos i gràfiques i que s’utilitza per tal de representar les trajectòries introduïdes. Per altre banda també s’utilitza l’arxiu Draw.py que s’explicarà a l’apartat \ref{sec:Draw} i que permet dibuixar aquestes ordres utilitzant la llibreria Turtle a la pantalla de la GUI.  Per últim incorpora també l’arxiu RobotMoveBT.py presentat a l’apartat XXX que s’encarrega de moure el robot. 
 
 El programa està estructurat en quatre classes, tres que defineixen cadascuna d’aquestes finestres que es mostren a l’usuari, i una classe mare que inicia el programa i organitza les altres. Aquesta última és la classe TFM, la classe principal, i és l’única que es crida al executar el programa, i té la funció de crear els frames corresponents a les altres classes. No té cap pàgina ni objecte associat, només serveix com a inicialització i com a motor per organitzar les altres classes, ja que per canviar d’una finestra a un altre s’utilitza la comanda show\_frame() definida aquí. El codi de definició d’aquesta classe es presenta aquí:
 
@@ -706,7 +732,12 @@ Un cop ja definits tots els frames que s’utilitzen, es creen les finestres que
 
 D’aquesta manera, la pàgina inicial és la següent:
 
-FOTO
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{StartPage}
+	\caption{Pàgina inicial.}
+	\label{fig:StartPage}
+\end{figure}
 
 El seu codi associat és aquest:
 
@@ -727,13 +758,18 @@ El seu codi associat és aquest:
 			button2.pack(pady=5,padx=5)
 \end{python}
 
-La següent pàgina es crea a partir de la classe Inkscape i és la finestra que permet a l’usuari dibuixar a partir d’un fitxer .txt creat prèviament amb Inkscape i que conté el GCode associat a la trajectòria. Per tal de crear-lo, cal seguir les instruccions de l’apartat XXX. El seu funcionament és molt simple, s’ha incorporat una cel·la d’entrada de text en la qual s’haurà d’escriure el nom del fitxer sempre acompanyat de la seva extensió (.txt). Cal remarcar que, perquè el programa funcioni, cal desar l’arxiu a la mateixa carpeta des d’on s’executa el programa, ja que sinó no serà capaç de trobar-lo.
+La següent pàgina es crea a partir de la classe Inkscape i és la finestra que permet a l’usuari dibuixar a partir d’un fitxer .txt creat prèviament amb Inkscape i que conté el GCode associat a la trajectòria. Per tal de crear-lo, cal seguir les instruccions de l’apartat \ref{sec:ManualInk}. El seu funcionament és molt simple, s’ha incorporat una cel·la d’entrada de text en la qual s’haurà d’escriure el nom del fitxer sempre acompanyat de la seva extensió (\emph{.txt}). Cal remarcar que, perquè el programa funcioni, cal desar l’arxiu a la mateixa carpeta des d’on s’executa el programa, ja que sinó no serà capaç de trobar-lo.
  
 A partir d’aquí es presenten 3 opcions: Dibuixar, Previsualitzar i Tornar a l’inici.  Aquestes opcions es representen per botons i cadascun té un funció associada. La primera, Dibuixar, envia l’ordre al robot de dibuixar la trajectòria que conté el document amb la funció GCode de l’arxiu RobotMoveBT.py. Un cop començada la representació no es pot realitzar cap altre operació fins que aquesta acabi. La funció Preview per representar la trajectòria del fitxer a la pantalla, crida l’arxiu Draw.py i a partir de la llibreria Turtle de Python crea una representació virtual del que el robot dibuixarà. Per acabar, l’opció Tornar a l’inici, esborra la representació i torna a la pàgina inicial. 
 
 Per tal de fer la representació del dibuix, s’ha utilitzat un “canvas”, que és un espai reservat per una figura. En aquest cas, s’ha utilitzat aquest espai per iniciar la llibreria Turtle sota el nom de turtle1. L’aspecte d’aquesta pàgina és el següent:
 
-FOTO 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{InkPage}
+	\caption{Pàgina de dibuix a partir d'Inkscape.}
+	\label{fig:InkPage}
+\end{figure}
 
 I el codi el següent:
 
@@ -784,7 +820,12 @@ Per acabar, en la tercera i última pàgina es presenta la oportunitat per l’u
 
 La disposició dels objectes que apareixen és la següent:
 
-FOTO
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{ManualPage}
+	\caption{Pàgina de dibuix manual.}
+	\label{fig:ManualPage}
+\end{figure}
 
 Com es pot observar, s’ha creat una sèrie de 5  “radio butons” que són botons de selecció els quals nomes permeten que un estigui activat. Cadascun correspon a un dels moviments programats, G00, G01, G02, G03 i rotació. Associat a aquests botons hi ha les entrades de text que cal omplir per definir el moviment a la mateixa línia, que són les mateixes que defineix el GCode creat amb Inkscape: les coordenades X i Y del punt de destí, les cordenades Xc i Yc del centre de gir en el cas de les comandes G02 i G03 i l’orientació del robot al acabar el moviment també per les comandes G02 i G03 i per la comanda de rotació. S’ha incorporat també una “checkbox” per definir, si cal, si l’orientació està calculada en graus o en radians (per defecte sempre funciona en radiants). Tot seguit s'exposa el codi de la línia d'objectes que representen totes les variables necessaries per realitzar una traçada circular amb la comanda G02:
 
@@ -893,7 +934,7 @@ A partir d’aquí s’han incorporat els botons d’acció i, com a la finestra
 
 Es pot observar que en aquest cas s’ha utilitzat el mètode .grid() per organitzar els objectes al frame, ja que d’aquesta manera és més fàcil ordenar-los en files i columnes per tal que tot quedi alineat i al seu lloc.
 
-\subsection{Draw.py}
+\subsection{Draw.py} \label{sec:Draw}
 
 Aquest arxiu s’ha creat per tal de calcular la representació de les ordres a l’entorn de Python Turtle. Aquest és un mòdul que formava part del llenguatge de programació Logo creat per Wally Feurzig i Seymour Papert el 1966 i permet crear imatges a partir de dibuixar-los amb un punter, que originalment era una tortuga i d’aquí ha heretat el nom. Aquesta obeeix les comandes introduïdes al Python dibuixant rectes i arcs de circumferència igual que el robot, i és per això que s’ha utilitzat, ja que tenen un mètode de funcionament similar. La representació és una aproximació a la real i a escala, ja que el que a la vida real són mil·límetres, a la pantalla es representen com píxels. La intenció d’aquest mòdul és donar una aproximació visual del futur resultat del robot per tal de comprovar que s’està dibuixant abans de començar. 
 
