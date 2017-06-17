@@ -315,10 +315,16 @@ El funcionament d’aquesta funció és exactament igual a la funció G00, ja qu
 
 \subsubsection{Funció G02($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}\label{funG02}
 
-Aquesta funció te l’objectiu de dibuixar un arc de circumferència en sentit horari. Les entrades de la mateixa són les coordenades absolutes del punt de destí ($x_{0}$, $y_{0}$), les coordenades relatives del centre de gir ($x_{C}$, $y_{C}$) respecte el punt inicial i la direcció amb la qual acabarà el moviment. 
+Aquesta funció te l’objectiu de dibuixar un arc de circumferència en sentit horari. Les entrades de la mateixa són les coordenades absolutes del punt de destí ($x_{1}$, $y_{1}$), les coordenades relatives del centre de gir ($x_{C}$, $y_{C}$) respecte el punt inicial i la direcció amb la qual acabarà el moviment. A la figura \ref{fig:G02} es representa el moviment:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{G02}
+	\caption{Representació d'un moviment amb l'ordre G02.}
+	\label{fig:G02}
+\end{figure}
 
 Per tal de calcular els passos necessaris de cada motor per realitzar el moviment primer es calcularà el radi de gir aprofitant que es coneix la posició relativa del centre de la següent manera:
-
 \begin{equation}
 Radi \ de \ gir = \sqrt{x_{C}^2+y_{C}^2}
 \end{equation}
@@ -327,14 +333,12 @@ Radi \ de \ gir = \sqrt{x_{C}^2+y_{C}^2}
 Després es realitza un canvi de coordenades per tal de definir les coordenades del centre en el punt \emph{(0,0)} de la següent manera:
 
 Primer es calculen les coordenades absolutes del centre:
-
 \begin{eqnarray}
 \nonumber & x_{C}=x_{C}+x_{0} \\
 & y_{C}=y_{C}+y_{0}
 \end{eqnarray}
 
 I després es fa el canvi de coordenades:
-
 \begin{eqnarray}
 \nonumber & x_{0}=x_{0}-x_{C} \\
 \nonumber & y_{0}=y_{0}-y_{C} \\
@@ -372,7 +376,6 @@ El funcionament és exactament igual al G02, però en aquest cas el gir serà en
 	distanciaD = angle * (RadiGirC+distDreat) 
 	distanciaE = angle * (RadiGirC-distEsquerra)
 \end{python}
-	
 \subsubsection{Funció apuntar($direccio_{1}$)}\label{apuntar}
 
 Aquesta és la funció encarregada de la rotació del robot. S’utilitza quan l’ordre del GCode és G01 A\emph{X} on \emph{X} és la direcció a la qual ha d’apuntar el robot i dins de la funció G00 per tal de redireccinar-lo. 
@@ -621,6 +624,13 @@ void loop() {
 \subsection{Mòdul HC-05}
 
 Els dispositius Bluetooth tenen la capacitat de connectar-se entre si a partir d’ones de radiofreqüència, eliminant així cables o connectors físics. Aquesta comunicació es realitza a una freqüència entre 2,4 i 2,48 GHz i permet crear una xarxa sense fils entre diferents dispositius els quals es poden enviar dades i compartir informació. Aquestes xarxes es regeixen per un element dominant master i un sèrie d’elements esclaus slaves, en aquest cas com a  element master actua l’ordinador, i l’Arduino actua d’esclau mitjançant el mòdul HC-05. Aquestes xarxes poden tenir un abast de 10 metres aproximadament, tot i que n’hi ha que poden arribar fins a 100 m. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{HC05}
+	\caption{Mòdul HC-05.}
+	\label{fig:HC05}
+\end{figure}
 
 El mòdul HC-05 pot actuar com a master o com a slave, però en aquest cas s’utilitza en la seva configuració per defecte en mode slave, ja que l’ordinador pot actuar com a master. Aquest mòdul és molt utilitzat en projectes Arduino gracies a la seva fàcil connexió i configuració. Presenta 6 pins diferents tot i que només se n’utilitzen 4 per connectar-lo. Els pins Vcc i GND són els encarregats del subministrament de corrent i cal connectar-los als pins de 3,3 V i GND respectivament. Cal afegir que el fabricant recomana no connectar el mòdul a més de 3,6V i volts per no fer-lo malbé i per això s’utilitza el pin de 3,3V. Per altre banda, els pins RX i TX són els encarregats de la recepció i transmissió de dades. Són els encarregats de establir la comunicació desitjada, i, com s’ha explicat a l’apartat \ref{sec:connexio}, es connecten als pins 10 i 11 de la placa. 
 

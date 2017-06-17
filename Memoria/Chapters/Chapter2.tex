@@ -133,7 +133,7 @@ A la realitat aquestes ones no són sinusoïdals perfectes, sinó que són ones 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{OnaMicrostepping.eps}
+	\includegraphics{Multistepper-grafic}
 	\caption{Ona sinusoïdal del microstepping.}
 	\label{fig:Microstepping}
 \end{figure}
@@ -186,7 +186,7 @@ Un pont H està format per 4 interruptors connectats com a la figura (\ref{fig:p
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.40\linewidth]{PontH.eps}
+	\includegraphics{PontH}
 	\caption{Connexió en pont H.}
 	\label{fig:ponth}
 \end{figure}
@@ -205,7 +205,7 @@ A la següent imatge es mostra la distribució de les diferents entrades amb les
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.00\textwidth]{PinsA3967.eps}
+	\includegraphics{driverpins}
 	\caption{Pins del driver A3967.}
 	\label{fig:PinsA3967}
 \end{figure}
@@ -253,6 +253,15 @@ La resta de pins permeten modificar el comportament del motor, però són opcion
 
 El servomotor és l’encarregat d’accionar el mecanisme per aixecar i baixar l’element de dibuix, en aquest cas el retolador, i, que per tant, permetrà a l’usuari decidir quins trams de la trajectòria formen part del dibuix i quins són moviments d’orientació i posicionament, els quals, gracies a aquest, no quedaran representats ja que no formen part del disseny. El funcionament del mecanisme d’elevació esta format pel servomotor que al rotar acciona una palanca unida al eix com a element terminal que, alhora, provoca un moviment vertical d’una placa plana unida al bolígraf que es desplaça per una guia.  
 
+A la següent imatge es pot observar el funcionament del sistema:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics{elevacio}
+	\caption{Funcionament del sistema d'elevació del retolador accionat pel servomotor.}
+	\label{fig:elevacio}
+\end{figure}
+
 \subsection{Funcionament}
 
 Els servos són un tipus de motors molt utilitzats en la robòtica gràcies a la seva gran precisió  angular en el posicionament, ja que permeten controlar la posició de l’eix en tot moment. Està dissenyat per posicionar-se en un rang determinat de posicions angulars (normalment de 0º a 180º), amb el qual es pot controlar el gir i la velocitat de rotació. Un cop realitzada la rotació de l’eix, el propi servo produeix un parell de resistència contra la rotació per mantenir estable la posició. També existeixen servos de rotació continua, però aquests no tenen control sobre la posició del mateix ja que, per tal de permetre la rotació continua s'elimina el potenciòmetre encarregat de tancar el llaç de control de la posició.
@@ -275,7 +284,7 @@ La connexió del servo és realitza a partir dels 3 cables que presenta, dos cab
 Mitjançant un microcontrolador, en el aquest cas un Arduino UNO, s’envia un senyal de polsos quadrats (PWM) al motor i, depenent de l’amplada del propi pols, el circuit de control posiciona l’eix a l’angle desitjat. Per la majoria de servos el senyal de control és el mateix, amb polsos quadrats d’entre 15 i 25 mil·lisegons de cicle de treball i l’angle depèn de l’amplitud del pols seguint l’exemple de la imatge. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{entrada-servo.png}
+	\includegraphics{senyal_servo}
 	\caption{Exemples de senyal d'entrada del servomotor.}
 	\label{fig:entradaservo}
 \end{figure}
@@ -291,6 +300,8 @@ Amb la rotació del propi motor es posiciona el potenciòmetre permeten d’aque
 \end{figure}
 
 Existeixen 2 tipus diferents de servomotors, els analògics i els digitals. Els digitals tenen millors característiques, millor resolució, resposta més ràpida, una acceleració més suau durant el moviment i un parell més elevat en estat estacionari. Però, per altra banda, tenen un consum més elevat ja que treballen a una freqüència deu vegades majors a la dels analògics i el seu preu és molt més elevat. 
+
+\subsection{Servo S.....}
 
 \section{Bateria}
 
