@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170616180242" modified="D:20170617101937"/>
+<info created="D:20170616180242" modified="D:20170618001019"/>
 <bitmap id="1" width="6600" height="5100" length="2655358" ColorSpace="DeviceRGB" Filter="FlateDecode" BitsPerComponent="8" encoding="base64">
 eNrswQEBAAAAgJD/q+sICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -49530,9 +49530,9 @@ h
 443.851 317.208 m
 430.464 241.61 l
 </path>
-<text matrix="1 0 0 1 10.9035 -4.24025" transformations="translations" pos="87.0291 360.248" stroke="black" type="label" width="11.559" height="4.294" depth="1.49" valign="baseline">$v_{E}$</text>
-<text matrix="1 0 0 1 -2.72588 -2.12013" transformations="translations" pos="157.599 324.509" stroke="black" type="label" width="11.53" height="4.294" depth="1.49" valign="baseline">$v_{C}$</text>
-<text matrix="1 0 0 1 -3.93738 -3.33163" transformations="translations" pos="215.145 290.89" stroke="black" type="label" width="12.056" height="4.294" depth="1.49" valign="baseline">$v_{D}$</text>
+<text matrix="1 0 0 1 10.9035 -4.24025" transformations="translations" pos="87.0291 360.248" stroke="black" type="label" width="11.559" height="4.294" depth="1.49" valign="baseline" style="math">v_{E}</text>
+<text matrix="1 0 0 1 -2.72588 -2.12013" transformations="translations" pos="157.599 324.509" stroke="black" type="label" width="11.53" height="4.294" depth="1.49" valign="baseline" style="math">v_{C}</text>
+<text matrix="1 0 0 1 -3.93738 -3.33163" transformations="translations" pos="215.145 290.89" stroke="black" type="label" width="12.056" height="4.294" depth="1.49" valign="baseline" style="math">v_{D}</text>
 <path stroke="black" arrow="normal/tiny">
 481.675 303.914 m
 533.164 289.981
@@ -49542,5 +49542,16 @@ h
 181.723 296.216 m
 160.353 0 0 -160.353 319.915 214.876 422.973 337.726 a
 </path>
+<path stroke="black">
+301.217 214.838 m
+18.7606 0 0 -18.7606 319.978 214.767 334.103 227.113 a
+</path>
+<path stroke="black" arrow="normal/tiny">
+329.097 231.3 m
+323.71 222.806
+331.376 215.762
+364.524 209.961 c
+</path>
+<text matrix="1 0 0 1 -0.377198 -1.32019" transformations="translations" pos="369.911 208.097" stroke="black" type="label" width="53.439" height="6.926" depth="1.93" valign="baseline">Angle de gir</text>
 </page>
 </ipe>

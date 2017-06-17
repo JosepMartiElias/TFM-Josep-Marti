@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170617120132" modified="D:20170617122715"/>
+<info created="D:20170617120132" modified="D:20170617181210"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -340,9 +340,9 @@ h
 2.0042 0 0 -2.0042 304.13 654 304 652 a
 </path>
 <text matrix="1 0 0 1 -4 0" transformations="translations" pos="232 652" stroke="black" type="label" width="7.472" height="6.808" depth="0" valign="baseline">A</text>
-<text matrix="1 0 0 1 -4 0" transformations="translations" pos="232 620" stroke="black" type="label" width="7.057" height="6.808" depth="0" valign="baseline">B</text>
-<text matrix="1 0 0 1 0 -4" transformations="translations" pos="300 552" stroke="black" type="label" width="7.195" height="6.808" depth="0" valign="baseline">C</text>
-<text matrix="1 0 0 1 0 -4" transformations="translations" pos="332 552" stroke="black" type="label" width="7.61" height="6.808" depth="0" valign="baseline">D</text>
+<text matrix="1 0 0 1 -5.79258 0" transformations="translations" pos="232 620" stroke="black" type="label" width="10.793" height="6.808" depth="0" valign="baseline">-A</text>
+<text matrix="1 0 0 1 0 -4" transformations="translations" pos="300 552" stroke="black" type="label" width="7.057" height="6.808" depth="0" valign="baseline">B</text>
+<text matrix="1 0 0 1 -1.75303 -4.15937" transformations="translations" pos="332 552" stroke="black" type="label" width="10.378" height="6.808" depth="0" valign="baseline">-B</text>
 <text matrix="1 0 0 1 132.032 343.421" transformations="translations" pos="176 336" stroke="black" type="label" width="25.073" height="6.808" depth="0" valign="baseline">Rotor</text>
 </page>
 </ipe>

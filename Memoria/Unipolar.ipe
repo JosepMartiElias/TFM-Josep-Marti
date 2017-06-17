@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170617120132" modified="D:20170617122637"/>
+<info created="D:20170617120132" modified="D:20170617175617"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -455,5 +455,9 @@ h
 </path>
 <text matrix="1 0 0 1 2.1962 4.45514" transformations="translations" pos="176 336" stroke="black" type="label" width="25.073" height="6.808" depth="0" valign="baseline">Rotor</text>
 <text matrix="1 0 0 1 210.699 4.84848" transformations="translations" pos="176 336" stroke="black" type="label" width="25.073" height="6.808" depth="0" valign="baseline">Rotor</text>
+<path matrix="1.21685 0 0 1.17733 97.9189 -135.716" stroke="black">
+202.109 443.264 m
+203.097 443.979 l
+</path>
 </page>
 </ipe>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170616101924" modified="D:20170616164114"/>
+<info created="D:20170616101924" modified="D:20170617182124"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -431,10 +431,6 @@ h
 101.469 314.176 m
 101.469 316.93 l
 </path>
-<path matrix="1 0 0 1 193.196 0.309195" stroke="black">
-101.469 314.176 m
-101.469 316.93 l
-</path>
 <path matrix="1 0 0 1 198.536 0.333309" stroke="black">
 101.469 314.176 m
 101.469 316.93 l
@@ -859,8 +855,8 @@ h
 380.632 216.547 l
 h
 </path>
-<text transformations="translations" pos="134.524 235.965" stroke="black" type="label" width="26.197" height="6.812" depth="1.49" valign="baseline">$A_{OUT}$</text>
-<text matrix="1 0 0 1 4.55788 -0.414352" transformations="translations" pos="183.004 235.965" stroke="black" type="label" width="26.282" height="6.812" depth="1.49" valign="baseline">$B_{OUT}$</text>
+<text transformations="translations" pos="134.524 235.965" stroke="black" type="label" width="26.197" height="6.812" depth="1.49" valign="baseline" style="math">A_{OUT}</text>
+<text matrix="1 0 0 1 4.55788 -0.414352" transformations="translations" pos="183.004 235.965" stroke="black" type="label" width="26.282" height="6.812" depth="1.49" valign="baseline" style="math">B_{OUT}</text>
 <text matrix="1 0 0 1 -5.80093 -12.3891" transformations="translations" pos="268.36 209.447" stroke="black" type="label" width="64.923" height="6.918" depth="0" valign="baseline">Entrada STEP</text>
 <text matrix="0.00580831 0.999983 -0.999983 0.00580831 390.309 224.873" pos="47.9247 309.72" stroke="black" type="label" width="80.116" height="6.918" depth="0" valign="baseline">Corrent de sortida</text>
 <path fill="white">
