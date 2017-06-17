@@ -8,28 +8,31 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Motor NEMA14.\relax }}{8}{figure.caption.34}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Connexi\IeC {\'o} en pont H.\relax }}{9}{figure.caption.38}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Pins del driver A3967.\relax }}{10}{figure.caption.40}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemples de senyal d'entrada del servomotor.\relax }}{12}{figure.caption.44}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Lla\IeC {\c c} de control del servomotor.\relax }}{13}{figure.caption.45}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Imatge de la bateria utilitzada.\relax }}{14}{figure.caption.47}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Funcionament del sistema d'elevaci\IeC {\'o} del retolador accionat pel servomotor.\relax }}{11}{figure.caption.43}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Exemples de senyal d'entrada del servomotor.\relax }}{13}{figure.caption.45}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Lla\IeC {\c c} de control del servomotor.\relax }}{13}{figure.caption.46}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Imatge de la bateria utilitzada.\relax }}{14}{figure.caption.49}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Imatge de la bateria utilitzada.\relax }}{15}{figure.caption.51}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Assamblatge del robot en SolidWorks (exceptuant la bateria, el cablejat i el m\IeC {\'o}dul Bluetooth).\relax }}{15}{figure.caption.51}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Parts del xass\IeC {\'\i }s.\relax }}{16}{figure.caption.53}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Imatge del disseny de la guia.\relax }}{18}{figure.caption.55}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Imatge del disseny del suport pel mecanisme d'elevaci\IeC {\'o}.\relax }}{19}{figure.caption.57}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Suport de la roda boja davantera.\relax }}{19}{figure.caption.59}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Disseny de la roda.\relax }}{21}{figure.caption.61}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Tubs auxiliars.\relax }}{22}{figure.caption.63}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Assamblatge del robot en SolidWorks (exceptuant la bateria, el cablejat i el m\IeC {\'o}dul Bluetooth).\relax }}{17}{figure.caption.53}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Parts del xass\IeC {\'\i }s.\relax }}{18}{figure.caption.55}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imatge del disseny de la guia.\relax }}{20}{figure.caption.57}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Imatge del disseny del suport pel mecanisme d'elevaci\IeC {\'o}.\relax }}{21}{figure.caption.59}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Suport de la roda boja davantera.\relax }}{21}{figure.caption.61}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Disseny de la roda.\relax }}{23}{figure.caption.63}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Tubs auxiliars.\relax }}{24}{figure.caption.65}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de flux del proc\IeC {\'e}s.\relax }}{24}{figure.caption.66}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo del programa Inkscape.\relax }}{25}{figure.caption.72}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pestanya de "Propiedades del documento".\relax }}{26}{figure.caption.74}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Opcions a escollir per convertirl'objecte en trajecte.\relax }}{27}{figure.caption.75}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Punt de refer\IeC {\`e}ncia creat correctament.\relax }}{27}{figure.caption.76}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Quadre de text per la configuraci\IeC {\'o} de l'eina "Tangent knife".\relax }}{28}{figure.caption.77}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Menus necessaris per crear la traject\IeC {\`o}ria.\relax }}{28}{figure.caption.78}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo del programa Python.\relax }}{29}{figure.caption.81}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo d'Arduino.\relax }}{35}{figure.caption.159}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Placa Arduino UNO.\relax }}{35}{figure.caption.161}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Connexi\IeC {\'o} dels components.\relax }}{37}{figure.caption.163}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de flux del proc\IeC {\'e}s.\relax }}{26}{figure.caption.68}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo del programa Inkscape.\relax }}{27}{figure.caption.74}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pestanya de "Propiedades del documento".\relax }}{28}{figure.caption.76}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Opcions a escollir per convertirl'objecte en trajecte.\relax }}{29}{figure.caption.77}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Punt de refer\IeC {\`e}ncia creat correctament.\relax }}{29}{figure.caption.78}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Quadre de text per la configuraci\IeC {\'o} de l'eina "Tangent knife".\relax }}{30}{figure.caption.79}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Menus necessaris per crear la traject\IeC {\`o}ria.\relax }}{30}{figure.caption.80}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo del programa Python.\relax }}{31}{figure.caption.83}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G02.\relax }}{34}{figure.caption.135}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo d'Arduino.\relax }}{37}{figure.caption.162}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Placa Arduino UNO.\relax }}{38}{figure.caption.164}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Connexi\IeC {\'o} dels components.\relax }}{39}{figure.caption.166}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces M\IeC {\`o}dul HC-05.\relax }}{45}{figure.caption.275}
 \addvspace {10\p@ }
