@@ -1,6 +1,6 @@
 % Chapter 1
 \fancyfoot[LE,RO]{
-	\includegraphics[scale=0.35]{logo}
+	\includegraphics[scale=0.3]{logo1}
      }
 \setlength\topmargin{8mm}
 \onehalfspacing
@@ -12,7 +12,47 @@
 \lhead[\thepage]{\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}}
 
 %----------------------------------------------------------------------------------------
+Actualment la impressió a gran escala és difícil de realitzar degut a les diferents limitacions que presenta. Són necessàries grans màquines per realitzar-ho i aquestes no són accessibles per tothom. Per altra banda, aquestes màquines són difícils de transportar i adaptar a diferents espais i, per tant, a vegades és impossible utilitzar-les per algunes aplicacions.
+
+Amb aquest projecte s'intentarà trobar una possible solució a aquestes situacions. Això es farà dissenyant un robot que sigui capaç de dibuixar figures de qualsevol dimensió i sobre qualsevol superfície plana. A més, les dimensions del robot seran el més petites possible, de manera que serà fàcil de transportar i adaptar a qualsevol espai. 
+
+\section{Objectius}
+Aquest projecte pretén dissenyar, programar i construir un robot capaç de dibuixar sobre qualsevol paper, de qualsevol dimensió, la figura o traçada que l'usuari desitgi. 
+
+El primer objectiu és dissenyar el robot, tenint en compte tots els aspectes del seu funcionament, quins elements el formaran i com realitzarà la seva funció. D'aquesta manera, s'han d'escollir els elements que el formaran, des dels motors encarregats de moure'l fins al microcontrolador que habilita el seu control. Per altra banda, s'ha de realitzar el disseny de totes les peces necessàries per garantir el seu funcionament com ara el xassís o les rodes. 
+
+Seguidament cal programar el robot, definir el seu funcionament des del càlcul de la trajectòria de les rodes fins a la comunicació entre l'ordinador i el robot. Per fer aquesta programació es treballa amb les plataformes de software lliure d'Arduino i Python, amb les quals s'ha après a programar al llarg del grau i el màster a l'ETSEIB.
+
+Per assolir aquests objectius principals, és necessari el compliment de diferents objectius secundaris: 
+
+\begin{itemize}
+	\item Aprofundir en la programació tant d'Arduino com de Python, per poder realitzar el projecte, i en el disseny CAD amb Solidworks per tal de dissenyar les peces que s'imprimiran en 3D. Per altra banda, cal aprendre a utilitzar altres programes o llenguatges, com l'Inkscape, per a la realització de dibuixos, i el Latex per a la realització de la memòria.
+	
+	\item Extreure el GCode associat a la trajectòria de la figura que l'usuari vol dibuixar.
+	
+	\item Crear l'algoritme encarregat de traduir un arxiu de text que conté el GCode associat a una trajectòria a les ordres necessàries per moure el robot. 
+	
+	\item Programar una aplicació que permeti a l'usuari treballar amb el robot de manera més senzilla i entenedora.
+	
+	\item Establir un protocol de comunicació entre el robot i l'ordinador.
+\end{itemize} 
+
+\section{Abast i resultat esperat}
+
+L'abast d'aquest projecte és dissenyar, programar i construir un prototip del robot, capaç de seguir les trajectòries desitjades per l'usuari, i programar l'aplicació per utilitzar-lo. A partir d'aquí, cal aclarir alguns punts que queden fora d'aquest abast per motius diferents:
+
+\begin{itemize}
+	\item La creació d'un mètode d'extracció del GCode associat a una imatge s'ha descartat en aquest porjecte, ja que ja existeixen eines que ho realitzen, com el programa Inkscape. Gràcies a l'existència d'aquests s'ha decidit no crear un software per aconseguir-ho i així destinar aquest temps a altres tasques més importants.
+	\item No s'ha aconseguit tancar el llaç de control de posició del robot que corregiria l'error comès i augmentaria la precisió de la representació. Aixó és degut a la manca de temps i recursos.    
+\end{itemize}
+
+El que s'espera d'aquest projecte és, doncs, que el robot sigui capaç de seguir les ordres enviades des de l'ordinador, que defineixen la trajectòria desitjada per l'usuari, de la manera més precisa possible. Per això s'han d'escollir els elements adequats que ho facin possible sabent que no es tanca el llaç de control.  
 
 
 
-%----------------------------------------------------------------------------------------
+
+
+
+
+
+

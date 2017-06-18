@@ -18,27 +18,20 @@
 
 Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, fet que permet conèixer en tot moment i amb exactitud quants graus ha girat el motor i per tant el moviment que han realitzat les rodes i, en definitiva, el robot. Es pot controlar la seva velocitat i, quan el motor està aturat, pot oferir un parell de resistència contra la rotació de l'eix si rep corrent a les bobines. 
 
-\subsection{Funcionament}
-El funcionament del motor pas a pas es basa en la transformació d'impulsos elèctrics en “steps” o passos del motor, que són rotacions angulars exactes de l'eix. Típicament poden presentar 12, 24, 72, 144, 180 o 200 passos per volta i això significa que per cada impuls elèctric la seva rotació és de 30, 15, 5, 2.5, 2 o 1.8 graus respectivament. 
-
-Presenta dues parts principals, l'estator, que està format per bobines amb les quals s'indueix un camp magnètic al fer-hi passar corrent elèctric, i el rotor, que consisteix essencialment en un imant permanent rotatori o un nucli de ferro pur, depenent del tipus de motor, atret pel camp magnètic creat per l'estator. 
-
-Al fer passar corrent per una de les bobines de l'estator es crea una polaritat i per tant s'orienta el rotor en funció d'aquesta polaritat, ja que sempre buscarà l'estabilitat magnètica entre els seus pols. Quan canvia l'excitació de l'estator, canvien els pols magnètics i per tant el rotor es reorienta. D'aquesta manera, a l'anar variant el pas del corrent per les bobines, es provoca un moviment circular del rotor molt precís, del qual es pot controlar la velocitat i el sentit de gir. 
-
 
 \subsection{Funcionament i tipus de motors pas a pas}
 El funcionament del motor pas a pas es basa en la transformació d'impulsos elèctrics en “steps” o passos del motor, que són rotacions angulars exactes de l'eix. Típicament poden presentar 12, 24, 72, 144, 180 o 200 passos per volta i això significa que per cada impuls elèctric la seva rotació és de 30, 15, 5, 2.5, 2 o 1.8 graus respectivament. 
 
-Aquests motors estàn conformats per una part mòbil, el rotor, i una part fixa, l'estator. Aquest últim compte amb diferents pols que atreuen el rotor a partir fer passar corrent per les diferents bobines, creant així el moviment de rotació de l'eix.
+Aquests motors estàn conformats per una part mòbil, el rotor, i una part fixa, l'estator. Aquest últim compta amb diferents pols que atrauen el rotor a partir de fer passar corrent per les diferents bobines, creant així el moviment de rotació de l'eix.
 
 Existeixen tres tipus fonamentals de motors pas a pas en funció dels seus components i la seva manera de funcionar:
 
 \begin{itemize}
-	\item \textbf{Motor de reluctància variable:} Estan formats per un rotor dentat de ferro pur que es mou degut a l'atracció dels pols màgnetics de l'estator devenat. El seu funcionament es basa en la rotació del rotor que busca minimitzar la reluctància entre el rotor i l'estator, que s'aconsegueix quan la distancia entre ells és mínima. Aquests motors permeten velocitats elevades però, alhora, un parell petit. 
+	\item \textbf{Motor de reluctància variable:} Està format per un rotor dentat de ferro pur que es mou degut a l'atracció dels pols magnètics de l'estator debanat. El seu funcionament es basa en la rotació del rotor que busca minimitzar la reluctància entre el rotor i l'estator, que s'aconsegueix quan la distància entre ells és mínima. Aquests motors permeten velocitats elevades però, alhora, un parell petit. 
 	
-	\item \textbf{Motor amb rotor d'imant permanent:} En aquests cas el rotor està format per un imant permanent i l'estator el conformen diferents electroimants que actuen com a pols. Al energitzar els pols es crea un camp màgnetic que atrau l'imant del rotor produint el moviment circular. A diferència dels motors de reluctància variable, aquests poden oferir un parell de resistència quan no estan en funcionament. Presenten velocitats més petites a canvi d'un parell més elevat. 
+	\item \textbf{Motor amb rotor d'imant permanent:} En aquest cas el rotor està format per un imant permanent i l'estator el conformen diferents electroimants que actuen com pols. A l'energitzar els pols es crea un camp magnètic que atrau l'imant del rotor produint el moviment circular. A diferència dels motors de reluctància variable, aquests poden oferir un parell de resistència quan no estan en funcionament. Presenten velocitats més petites a canvi d'un parell més elevat. 
 	
-	\item \textbf{Motors híbrids:} Aquests són una barreja dels dos anteriors. Tant l'estator com el rotor presenten varies dents i el rotor té un imant concèntric magnetitzat axialment al voltant del seu eix. Aquesta combinació dona lloc a motors d'alt rendiment amb velocitats considerables. Són els motors que admeten pasos més petits i, per tant, moviments de més precisió. 
+	\item \textbf{Motors híbrids:} Aquests són una barreja dels dos anteriors. Tant l'estator com el rotor presenten vàries dents i el rotor té un imant concèntric magnetitzat axialment al voltant del seu eix. Aquesta combinació dóna lloc a motors d'alt rendiment amb velocitats considerables. Són els motors que admeten passos més petits i, per tant, moviments de més precisió. 
 \end{itemize}
 En funció de la connexió i la forma d'excitació de les  bobines, es pot diferenciar també entre dos tipus de motors pas a pas diferents, els unipolars i els bipolars.
 
