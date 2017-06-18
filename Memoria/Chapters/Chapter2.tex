@@ -26,17 +26,21 @@ Presenta dues parts principals, l'estator, que està format per bobines amb les 
 Al fer passar corrent per una de les bobines de l'estator es crea una polaritat i per tant s'orienta el rotor en funció d'aquesta polaritat, ja que sempre buscarà l'estabilitat magnètica entre els seus pols. Quan canvia l'excitació de l'estator, canvien els pols magnètics i per tant el rotor es reorienta. D'aquesta manera, a l'anar variant el pas del corrent per les bobines, es provoca un moviment circular del rotor molt precís, del qual es pot controlar la velocitat i el sentit de gir. 
 
 
-\subsection{Tipus de motors pas a pas}
+\subsection{Funcionament i tipus de motors pas a pas}
+El funcionament del motor pas a pas es basa en la transformació d'impulsos elèctrics en “steps” o passos del motor, que són rotacions angulars exactes de l'eix. Típicament poden presentar 12, 24, 72, 144, 180 o 200 passos per volta i això significa que per cada impuls elèctric la seva rotació és de 30, 15, 5, 2.5, 2 o 1.8 graus respectivament. 
+
+Aquests motors estàn conformats per una part mòbil, el rotor, i una part fixa, l'estator. Aquest últim compte amb diferents pols que atreuen el rotor a partir fer passar corrent per les diferents bobines, creant així el moviment de rotació de l'eix.
+
 Existeixen tres tipus fonamentals de motors pas a pas en funció dels seus components i la seva manera de funcionar:
 
 \begin{itemize}
-	\item \textbf{Motor de reluctància variable:} Estan formats per un rotor de ferro pur que es mou degut a l'atracció dels pols màgnetics de l'estator. El seu funcionament es basa en el principi segons el qual la mínima reluctància té lloc quan la distància entre punts és mínima, i per aixó el rotor és atret per l'estator. Permeten velocitats més elevades, però pasos més grans.
+	\item \textbf{Motor de reluctància variable:} Estan formats per un rotor dentat de ferro pur que es mou degut a l'atracció dels pols màgnetics de l'estator devenat. El seu funcionament es basa en la rotació del rotor que busca minimitzar la reluctància entre el rotor i l'estator, que s'aconsegueix quan la distancia entre ells és mínima. Aquests motors permeten velocitats elevades però, alhora, un parell petit. 
 	
-	\item \textbf{Motor amb rotor d'imant permanent:} L'imant permanent del rotor es mou degut a les forces d'atracció i repulsió entre l'imant i els electroimants de l'estator. Aquests motors permeten pasos més petits però velocitats més baixes. Són els mès senzills de controlar.
+	\item \textbf{Motor amb rotor d'imant permanent:} En aquests cas el rotor està format per un imant permanent i l'estator el conformen diferents electroimants que actuen com a pols. Al energitzar els pols es crea un camp màgnetic que atrau l'imant del rotor produint el moviment circular. A diferència dels motors de reluctància variable, aquests poden oferir un parell de resistència quan no estan en funcionament. Presenten velocitats més petites a canvi d'un parell més elevat. 
 	
 	\item \textbf{Motors híbrids:} Aquests són una barreja dels dos anteriors. Tant l'estator com el rotor presenten varies dents i el rotor té un imant concèntric magnetitzat axialment al voltant del seu eix. Aquesta combinació dona lloc a motors d'alt rendiment amb velocitats considerables. Són els motors que admeten pasos més petits i, per tant, moviments de més precisió. 
 \end{itemize}
-En funció de la connexió i la forma d'excitació de les  bobines, es pot diferenciar entre dos tipus de motors pas a pas diferents, els unipolars i els bipolars.
+En funció de la connexió i la forma d'excitació de les  bobines, es pot diferenciar també entre dos tipus de motors pas a pas diferents, els unipolars i els bipolars.
 
 \begin{itemize}
 	\item \textbf{Unipolars:} El corrent que passa per les bobines de l'estator d'un motor pas a pas unipolar sempre va en el mateix sentit. Normalment tenen 5 o 6 cables de sortida, 6 si el cable d'alimentació comú de cada parell de bobines va per separat i 5 si va junt. És més senzill de controlar, ja que el cable d'alimentació comú sempre està connectat i el que crea el moviment del motor és la connexió a terra dels altres pols amb un ordre determinat.
@@ -207,6 +211,13 @@ Un pont H està format per 4 interruptors connectats com a la figura \ref{fig:po
 
 El seu funcionament és simple, i es basa en la connexió dels interruptors per parelles. Aquests poden ser transistors bipolars, jfets, mosftes o alguna combinació entre ells. Si es tanquen els interruptors A i D el corrent circula en un sentit de la bobina i si, al contrari, els que es tanquen són B i C el corrent circula en l'altre sentit. Les combinacions A i B o C i D són perilloses ja que crearien un curtcircuit. També incorpora quatre díodes de protecció, ja que l'efecte inductiu de les bobines podria cremar el circuit un cop desconnectat.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics{PontHfuncionament}
+	\caption{Sentit del corrent en un pont H.}
+	\label{fig:ponthfuncionament}
+\end{figure}
+
 
 \subsection{Easy Driver A3967}
 Per facilitar el control dels motors pas a pas utilitzats, s'ha decidit utilitzar dos controladors Easy Driver A3967 que facilitaran el control i la programació dels motors i actuaran com a etapa de potència per no sobrecarregar l'Arduino amb la potència requerida pel motor.
@@ -344,7 +355,7 @@ S’ha optat per escollir una bateria externa recarregable de la marca Proda de 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.4]{bateria.png}
+	\includegraphics[scale=0.5]{bateria.png}
 	\caption{Imatge de la bateria utilitzada.}
 	\label{fig:bateria}
 \end{figure}
