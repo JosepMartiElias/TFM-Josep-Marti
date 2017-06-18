@@ -8,61 +8,62 @@
 \contentsline {chapter}{\IeC {\'I}ndex de taules}{ix}{dummy.7}
 \contentsline {chapter}{S\IeC {\'\i }mbols}{xi}{dummy.9}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}}{1}{chapter.12}
-\contentsline {chapter}{\numberline {2}Funcionament}{3}{chapter.13}
-\contentsline {section}{\numberline {2.1}Motor pas a pas}{3}{section.14}
-\contentsline {subsection}{\numberline {2.1.1}Per qu\IeC {\`e} un motor pas a pas?}{3}{subsection.15}
-\contentsline {subsection}{\numberline {2.1.2}Funcionament}{3}{subsection.16}
-\contentsline {subsection}{\numberline {2.1.3}Funcionament i tipus de motors pas a pas}{4}{subsection.17}
-\contentsline {subsection}{\numberline {2.1.4}Modes de funcionament}{5}{subsection.20}
-\contentsline {subsection}{\numberline {2.1.5}Alternatives}{8}{subsection.28}
-\contentsline {subsection}{\numberline {2.1.6}Motor escollit: Nema 14}{8}{subsection.29}
-\contentsline {section}{\numberline {2.2}Driver controlador del motor}{9}{section.32}
-\contentsline {subsection}{\numberline {2.2.1}Funcionament}{9}{subsection.33}
-\contentsline {subsection}{\numberline {2.2.2}Easy Driver A3967}{10}{subsection.36}
-\contentsline {section}{\numberline {2.3}Servomotor}{12}{section.38}
-\contentsline {subsection}{\numberline {2.3.1}Quina \IeC {\'e}s la seva funci\IeC {\'o}?}{12}{subsection.39}
-\contentsline {subsection}{\numberline {2.3.2}Funcionament}{13}{subsection.41}
-\contentsline {subsection}{\numberline {2.3.3}Servo escollit: SM-S2309S}{14}{subsection.44}
-\contentsline {section}{\numberline {2.4}Bateria}{15}{section.46}
-\contentsline {section}{\numberline {2.5}Retolador}{16}{section.48}
-\contentsline {chapter}{\numberline {3}Disseny}{17}{chapter.50}
-\contentsline {section}{\numberline {3.1}Xass\IeC {\'\i }s}{18}{section.52}
-\contentsline {section}{\numberline {3.2}Guia del retolador}{20}{section.54}
-\contentsline {section}{\numberline {3.3}Mecanisme d'elevaci\IeC {\'o} del retolador}{21}{section.57}
-\contentsline {section}{\numberline {3.4}Roda boja davantera}{21}{section.59}
-\contentsline {section}{\numberline {3.5}Rodes motrius}{22}{section.62}
-\contentsline {section}{\numberline {3.6}Cargols, femelles i tubs auxiliars}{24}{section.64}
-\contentsline {chapter}{\numberline {4}Programaci\IeC {\'o}}{25}{chapter.66}
-\contentsline {section}{\numberline {4.1}Principis de funcionament}{25}{section.67}
-\contentsline {section}{\numberline {4.2}GCode: Com es calcula la traject\IeC {\`o}ria?}{26}{section.69}
-\contentsline {subsection}{\numberline {4.2.1}Qu\IeC {\`e} \IeC {\'e}s el GCode?}{26}{subsection.70}
-\contentsline {subsection}{\numberline {4.2.2}Comandes principals}{26}{subsection.71}
-\contentsline {section}{\numberline {4.3}Inkscape: Com es crea el GCode?}{27}{section.72}
-\contentsline {subsection}{\numberline {4.3.1}Inkscape}{27}{subsection.73}
-\contentsline {subsection}{\numberline {4.3.2}Com crear l'arxiu GCode a partir d'Inkscape}{28}{subsection.75}
-\contentsline {section}{\numberline {4.4}Python: Com es processa el GCode?}{31}{section.81}
-\contentsline {subsection}{\numberline {4.4.1}Introducci\IeC {\'o} al Python}{32}{subsection.82}
-\contentsline {subsection}{\numberline {4.4.2}El programa}{32}{subsection.84}
-\contentsline {subsection}{\numberline {4.4.3}Funcions de moviment del robot}{33}{subsection.101}
-\contentsline {subsubsection}{\numberline {4.4.3.1}Funci\IeC {\'o} G00($x_{1}$, $y_{1}$)}{33}{subsubsection.102}
-\contentsline {subsubsection}{\numberline {4.4.3.2}Funci\IeC {\'o} G01($x_{1}$, $y_{1}$)}{35}{subsubsection.134}
-\contentsline {subsubsection}{\numberline {4.4.3.3}Funci\IeC {\'o} G02($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}{36}{subsubsection.136}
-\contentsline {subsubsection}{\numberline {4.4.3.4}Funci\IeC {\'o} G03($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}{37}{subsubsection.148}
-\contentsline {subsubsection}{\numberline {4.4.3.5}Funci\IeC {\'o} apuntar($direccio_{1}$)}{38}{subsubsection.154}
-\contentsline {section}{\numberline {4.5}Arduino: Qui mou el robot?}{38}{section.163}
-\contentsline {subsection}{\numberline {4.5.1}Arduino UNO}{39}{subsection.165}
-\contentsline {subsection}{\numberline {4.5.2}Connexi\IeC {\'o}}{40}{subsection.167}
-\contentsline {subsection}{\numberline {4.5.3}Programa Robot.ino}{41}{subsection.169}
-\contentsline {subsubsection}{\numberline {4.5.3.1}Llibreries utilitzades}{42}{subsubsection.170}
-\contentsline {subsubsection}{\numberline {4.5.3.2}Configuraci\IeC {\'o}}{42}{subsubsection.176}
-\contentsline {subsubsection}{\numberline {4.5.3.3}Bucle principal}{44}{subsubsection.218}
-\contentsline {section}{\numberline {4.6}Bluetooth: Com es comuniquen l'ordinador i el robot?}{46}{section.275}
-\contentsline {subsection}{\numberline {4.6.1}M\IeC {\`o}dul HC-05}{47}{subsection.277}
-\contentsline {section}{\numberline {4.7}Aplicaci\IeC {\'o}: Com es controla?}{48}{section.279}
-\contentsline {subsection}{\numberline {4.7.1}Tkinter}{48}{subsection.280}
-\contentsline {subsection}{\numberline {4.7.2}Aplicaci\IeC {\'o}}{49}{subsection.281}
-\contentsline {subsection}{\numberline {4.7.3}Draw.py}{57}{subsection.478}
-\contentsline {chapter}{\numberline {5}Conclusions i treballs futurs}{59}{chapter.479}
+\contentsline {section}{\numberline {1.1}Objectius}{1}{section.13}
+\contentsline {section}{\numberline {1.2}Abast i resultat esperat}{2}{section.14}
+\contentsline {chapter}{\numberline {2}Funcionament}{3}{chapter.15}
+\contentsline {section}{\numberline {2.1}Motor pas a pas}{3}{section.16}
+\contentsline {subsection}{\numberline {2.1.1}Per qu\IeC {\`e} un motor pas a pas?}{3}{subsection.17}
+\contentsline {subsection}{\numberline {2.1.2}Funcionament i tipus de motors pas a pas}{3}{subsection.18}
+\contentsline {subsection}{\numberline {2.1.3}Modes de funcionament}{5}{subsection.21}
+\contentsline {subsection}{\numberline {2.1.4}Alternatives}{7}{subsection.29}
+\contentsline {subsection}{\numberline {2.1.5}Motor escollit: Nema 14}{8}{subsection.30}
+\contentsline {section}{\numberline {2.2}Driver controlador del motor}{9}{section.33}
+\contentsline {subsection}{\numberline {2.2.1}Funcionament}{9}{subsection.34}
+\contentsline {subsection}{\numberline {2.2.2}Easy Driver A3967}{10}{subsection.37}
+\contentsline {section}{\numberline {2.3}Servomotor}{11}{section.39}
+\contentsline {subsection}{\numberline {2.3.1}Quina \IeC {\'e}s la seva funci\IeC {\'o}?}{11}{subsection.40}
+\contentsline {subsection}{\numberline {2.3.2}Funcionament}{12}{subsection.42}
+\contentsline {subsection}{\numberline {2.3.3}Servo escollit: SM-S2309S}{14}{subsection.45}
+\contentsline {section}{\numberline {2.4}Bateria}{14}{section.47}
+\contentsline {section}{\numberline {2.5}Retolador}{15}{section.49}
+\contentsline {chapter}{\numberline {3}Disseny}{17}{chapter.51}
+\contentsline {section}{\numberline {3.1}Xass\IeC {\'\i }s}{18}{section.53}
+\contentsline {section}{\numberline {3.2}Guia del retolador}{20}{section.55}
+\contentsline {section}{\numberline {3.3}Mecanisme d'elevaci\IeC {\'o} del retolador}{21}{section.58}
+\contentsline {section}{\numberline {3.4}Roda boja davantera}{21}{section.60}
+\contentsline {section}{\numberline {3.5}Rodes motrius}{22}{section.63}
+\contentsline {section}{\numberline {3.6}Cargols, femelles i tubs auxiliars}{24}{section.65}
+\contentsline {chapter}{\numberline {4}Programaci\IeC {\'o}}{25}{chapter.67}
+\contentsline {section}{\numberline {4.1}Principis de funcionament}{25}{section.68}
+\contentsline {section}{\numberline {4.2}GCode: Com es calcula la traject\IeC {\`o}ria?}{26}{section.70}
+\contentsline {subsection}{\numberline {4.2.1}Qu\IeC {\`e} \IeC {\'e}s el GCode?}{26}{subsection.71}
+\contentsline {subsection}{\numberline {4.2.2}Comandes principals}{26}{subsection.72}
+\contentsline {section}{\numberline {4.3}Inkscape: Com es crea el GCode?}{27}{section.73}
+\contentsline {subsection}{\numberline {4.3.1}Inkscape}{27}{subsection.74}
+\contentsline {subsection}{\numberline {4.3.2}Com crear l'arxiu GCode a partir d'Inkscape}{28}{subsection.76}
+\contentsline {section}{\numberline {4.4}Python: Com es processa el GCode?}{31}{section.82}
+\contentsline {subsection}{\numberline {4.4.1}Introducci\IeC {\'o} al Python}{32}{subsection.83}
+\contentsline {subsection}{\numberline {4.4.2}El programa}{32}{subsection.85}
+\contentsline {subsection}{\numberline {4.4.3}Funcions de moviment del robot}{33}{subsection.102}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Funci\IeC {\'o} G00($x_{1}$, $y_{1}$)}{33}{subsubsection.103}
+\contentsline {subsubsection}{\numberline {4.4.3.2}Funci\IeC {\'o} G01($x_{1}$, $y_{1}$)}{35}{subsubsection.135}
+\contentsline {subsubsection}{\numberline {4.4.3.3}Funci\IeC {\'o} G02($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}{36}{subsubsection.137}
+\contentsline {subsubsection}{\numberline {4.4.3.4}Funci\IeC {\'o} G03($x_{1}$, $y_{1}$, $x_{C}$, $y_{C}$, $direccio_{1}$)}{37}{subsubsection.149}
+\contentsline {subsubsection}{\numberline {4.4.3.5}Funci\IeC {\'o} apuntar($direccio_{1}$)}{38}{subsubsection.155}
+\contentsline {section}{\numberline {4.5}Arduino: Qui mou el robot?}{38}{section.164}
+\contentsline {subsection}{\numberline {4.5.1}Arduino UNO}{39}{subsection.166}
+\contentsline {subsection}{\numberline {4.5.2}Connexi\IeC {\'o}}{40}{subsection.168}
+\contentsline {subsection}{\numberline {4.5.3}Programa Robot.ino}{41}{subsection.170}
+\contentsline {subsubsection}{\numberline {4.5.3.1}Llibreries utilitzades}{42}{subsubsection.171}
+\contentsline {subsubsection}{\numberline {4.5.3.2}Configuraci\IeC {\'o}}{42}{subsubsection.177}
+\contentsline {subsubsection}{\numberline {4.5.3.3}Bucle principal}{44}{subsubsection.219}
+\contentsline {section}{\numberline {4.6}Bluetooth: Com es comuniquen l'ordinador i el robot?}{46}{section.276}
+\contentsline {subsection}{\numberline {4.6.1}M\IeC {\`o}dul HC-05}{47}{subsection.278}
+\contentsline {section}{\numberline {4.7}Aplicaci\IeC {\'o}: Com es controla?}{48}{section.280}
+\contentsline {subsection}{\numberline {4.7.1}Tkinter}{48}{subsection.281}
+\contentsline {subsection}{\numberline {4.7.2}Aplicaci\IeC {\'o}}{49}{subsection.282}
+\contentsline {subsection}{\numberline {4.7.3}Draw.py}{57}{subsection.479}
+\contentsline {chapter}{\numberline {5}Conclusions i treballs futurs}{59}{chapter.480}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{61}{dummy.480}
+\contentsline {chapter}{Bibliografia}{61}{dummy.481}

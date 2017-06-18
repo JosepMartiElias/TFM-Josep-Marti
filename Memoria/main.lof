@@ -1,49 +1,49 @@
 \select@language {catalan}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama d'un motor unipolar de 5 cables (a) i de 6 (b).\relax }}{5}{figure.caption.18}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama d'un motor bipolar.\relax }}{5}{figure.caption.19}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\`e}ncia d'una fase.\relax }}{6}{figure.caption.21}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\`e}ncia de dues fases.\relax }}{6}{figure.caption.23}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\'e}ncia half step.\relax }}{7}{figure.caption.25}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Ona sinuso\IeC {\@umlaut \i }dal del microstepping.\relax }}{8}{figure.caption.27}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Motor NEMA14.\relax }}{9}{figure.caption.30}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Connexi\IeC {\'o} en pont H.\relax }}{10}{figure.caption.34}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Sentit del corrent en un pont H.\relax }}{10}{figure.caption.35}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Pins del driver A3967.\relax }}{11}{figure.caption.37}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionament del sistema d'elevaci\IeC {\'o} del retolador accionat pel servomotor.\relax }}{12}{figure.caption.40}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Exemples de senyal d'entrada del servomotor per 0\IeC {\textordmasculine }, 90\IeC {\textordmasculine } i 180\IeC {\textordmasculine }.\relax }}{14}{figure.caption.42}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Lla\IeC {\c c} de control del servomotor.\relax }}{14}{figure.caption.43}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Imatge de la bateria utilitzada.\relax }}{15}{figure.caption.47}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Imatge del model de retolador utilitzat.\relax }}{16}{figure.caption.49}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama d'un motor unipolar de 5 cables (a) i de 6 (b).\relax }}{4}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama d'un motor bipolar.\relax }}{5}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\`e}ncia d'una fase.\relax }}{5}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\`e}ncia de dues fases.\relax }}{6}{figure.caption.24}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Seq\IeC {\@umlaut u}\IeC {\'e}ncia half step.\relax }}{6}{figure.caption.26}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ona sinuso\IeC {\@umlaut \i }dal del microstepping.\relax }}{7}{figure.caption.28}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Motor NEMA14.\relax }}{8}{figure.caption.31}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Connexi\IeC {\'o} en pont H.\relax }}{9}{figure.caption.35}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sentit del corrent en un pont H.\relax }}{9}{figure.caption.36}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pins del driver A3967.\relax }}{10}{figure.caption.38}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionament del sistema d'elevaci\IeC {\'o} del retolador accionat pel servomotor.\relax }}{12}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Exemples de senyal d'entrada del servomotor per 0\IeC {\textordmasculine }, 90\IeC {\textordmasculine } i 180\IeC {\textordmasculine }.\relax }}{13}{figure.caption.43}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Lla\IeC {\c c} de control del servomotor.\relax }}{13}{figure.caption.44}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Imatge de la bateria utilitzada.\relax }}{15}{figure.caption.48}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Imatge del model de retolador utilitzat.\relax }}{15}{figure.caption.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Assemblatge del robot en SolidWorks (exceptuant la bateria, el cablejat i el m\IeC {\'o}dul Bluetooth).\relax }}{17}{figure.caption.51}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Parts del xass\IeC {\'\i }s.\relax }}{18}{figure.caption.53}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Imatge del disseny de la guia.\relax }}{20}{figure.caption.55}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Servomotor muntat sobre la guia.\relax }}{20}{figure.caption.56}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Imatge del disseny del suport pel mecanisme d'elevaci\IeC {\'o}.\relax }}{21}{figure.caption.58}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Suport de la roda boja davantera.\relax }}{22}{figure.caption.60}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Base del robot paral\IeC {\textperiodcentered }lela al terra.\relax }}{22}{figure.caption.61}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Disseny de la roda.\relax }}{23}{figure.caption.63}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Tubs auxiliars i exemples de cargols M3 i femelles utilitzats.\relax }}{24}{figure.caption.65}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Assemblatge del robot en SolidWorks (exceptuant la bateria, el cablejat i el m\IeC {\'o}dul Bluetooth).\relax }}{17}{figure.caption.52}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Parts del xass\IeC {\'\i }s.\relax }}{18}{figure.caption.54}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imatge del disseny de la guia.\relax }}{20}{figure.caption.56}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Servomotor muntat sobre la guia.\relax }}{20}{figure.caption.57}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Imatge del disseny del suport pel mecanisme d'elevaci\IeC {\'o}.\relax }}{21}{figure.caption.59}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Suport de la roda boja davantera.\relax }}{22}{figure.caption.61}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Base del robot paral\IeC {\textperiodcentered }lela al terra.\relax }}{22}{figure.caption.62}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Disseny de la roda.\relax }}{23}{figure.caption.64}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Tubs auxiliars i exemples de cargols M3 i femelles utilitzats.\relax }}{24}{figure.caption.66}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de flux del proc\IeC {\'e}s.\relax }}{26}{figure.caption.68}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo del programa Inkscape.\relax }}{28}{figure.caption.74}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pestanya de "Propiedades del documento".\relax }}{29}{figure.caption.76}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Opcions a escollir per convertir l'objecte en trajecte.\relax }}{29}{figure.caption.77}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Punt de refer\IeC {\`e}ncia creat correctament.\relax }}{30}{figure.caption.78}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Quadre de text per a la configuraci\IeC {\'o} de l'eina "Tangent knife".\relax }}{31}{figure.caption.79}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Men\IeC {\'u}s necessaris per crear la traject\IeC {\`o}ria.\relax }}{31}{figure.caption.80}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo del programa Python.\relax }}{32}{figure.caption.83}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G00.\relax }}{33}{figure.caption.103}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G01.\relax }}{35}{figure.caption.135}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G02.\relax }}{36}{figure.caption.137}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo d'Arduino.\relax }}{39}{figure.caption.164}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Placa Arduino UNO.\relax }}{40}{figure.caption.166}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing.\relax }}{41}{figure.caption.168}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Logo de la tecnologia Bluetooth.\relax }}{47}{figure.caption.276}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces M\IeC {\`o}dul HC-05.\relax }}{47}{figure.caption.278}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces P\IeC {\`a}gina inicial.\relax }}{51}{figure.caption.322}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces P\IeC {\`a}gina de dibuix a partir d'Inkscape.\relax }}{52}{figure.caption.338}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces P\IeC {\`a}gina de dibuix manual.\relax }}{54}{figure.caption.380}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de flux del proc\IeC {\'e}s.\relax }}{26}{figure.caption.69}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo del programa Inkscape.\relax }}{28}{figure.caption.75}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pestanya de "Propiedades del documento".\relax }}{29}{figure.caption.77}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Opcions a escollir per convertir l'objecte en trajecte.\relax }}{29}{figure.caption.78}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Punt de refer\IeC {\`e}ncia creat correctament.\relax }}{30}{figure.caption.79}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Quadre de text per a la configuraci\IeC {\'o} de l'eina "Tangent knife".\relax }}{31}{figure.caption.80}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Men\IeC {\'u}s necessaris per crear la traject\IeC {\`o}ria.\relax }}{31}{figure.caption.81}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo del programa Python.\relax }}{32}{figure.caption.84}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G00.\relax }}{33}{figure.caption.104}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G01.\relax }}{35}{figure.caption.136}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G02.\relax }}{36}{figure.caption.138}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo d'Arduino.\relax }}{39}{figure.caption.165}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Placa Arduino UNO.\relax }}{40}{figure.caption.167}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing.\relax }}{41}{figure.caption.169}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Logo de la tecnologia Bluetooth.\relax }}{47}{figure.caption.277}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces M\IeC {\`o}dul HC-05.\relax }}{47}{figure.caption.279}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces P\IeC {\`a}gina inicial.\relax }}{51}{figure.caption.323}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces P\IeC {\`a}gina de dibuix a partir d'Inkscape.\relax }}{52}{figure.caption.339}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces P\IeC {\`a}gina de dibuix manual.\relax }}{54}{figure.caption.381}
 \addvspace {10\p@ }
