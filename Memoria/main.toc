@@ -63,8 +63,12 @@
 \contentsline {subsection}{\numberline {4.7.1}Tkinter}{50}{subsection.281}
 \contentsline {subsection}{\numberline {4.7.2}Aplicaci\IeC {\'o}}{51}{subsection.282}
 \contentsline {subsection}{\numberline {4.7.3}Draw.py}{59}{subsection.479}
-\contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o} temporal i costos}{61}{chapter.480}
-\contentsline {section}{\numberline {5.1}Planificaci\IeC {\'o} temporal}{61}{section.481}
+\contentsline {chapter}{\numberline {5}Resultats}{61}{chapter.480}
+\contentsline {chapter}{\numberline {6}Planificaci\IeC {\'o} temporal i costos}{67}{chapter.487}
+\contentsline {section}{\numberline {6.1}Planificaci\IeC {\'o} temporal}{67}{section.488}
+\contentsline {chapter}{\numberline {7}Conclusions i treballs futurs}{71}{chapter.492}
+\contentsline {section}{\numberline {7.1}Conclusions}{71}{section.493}
+\contentsline {section}{\numberline {7.2}Future work}{71}{section.494}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{63}{dummy.483}
+\contentsline {chapter}{Bibliografia}{73}{dummy.495}

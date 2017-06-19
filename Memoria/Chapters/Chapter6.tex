@@ -1,30 +1,120 @@
 \setlength\topmargin{8mm}
 \onehalfspacing
-\chapter{Conclusions and future work} % Main chapter title
+\chapter{Planificació temporal i costos} % Main chapter title
 
 \label{Chapter6} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
-\rhead[\emph{Study of the tritium production in a 1-D blanket model with Monte Carlo methods}]{\thepage}
-\lhead[\thepage]{\emph{Study of the tritium production in a 1-D blanket model with Monte Carlo methods}}
+\rhead[\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}]{\thepage}
+\lhead[\thepage]{\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}}
 
-\section{Conclusions}
+\section{Planificació temporal}
 
-The method to simulate a parallelepiped of rectangular section applying boundary conditions to its walls that act as this prism is stacked with other identical prisms has been tested and it seems to provide correct results for the specular boundary condition with the MCNP5 code. This method can be useful to collapse 3D geometries into monodimensional models.
+En aquest capítol es presenta la programació temporal que ha seguit el projecte. S'ha dividit en diferents etapes que s'han anat realitzant per assolir els objectius proposats i s'han representat en un diagrama de Gantt. Aquestes etapes són:
 
-The data of the mono dimensional collapse of the WCSB blanket from the IFERC have been used for the simulations and the neutron and photon flux profiles and energy deposition through the blanket have been obtained.
+\begin{itemize}
+	\item A: Documentació prèvia: Aquesta va ser una etapa de recerca en la que es van estudiar mecanismes amb un funcionament similar, es va fer la tria dels components que millors prestacions tenien i oferien millor precisió, i es va començar a definir el mètode amb el que funcionaria el robot, basant-se en GCode com una màquina CNC.
+	
+	\item B: Compra de components: S'han realitzat compres de components durant tot el procés de construcció i muntatge, però s'en remarquen dues etapes especialment que consisteixen, en primer lloc, en la compra dels motors i el drivers, que va permetre començar a dissenyar i programar el robot, i, més endavant, la compra del mòdul Bluetooth que va permetre començar a treballar en el protocol de comunicació entre l'ordinador i l'Arduino. 
+	
+	\item C: Aprenentatge i proves de programació de l'Arduino: Durant aquestes setmanes, es va aprofundir en la programació de l'Arduino i les primeres proves. Es va aprendre el funcionament dels motors i com controlar-los.
+	
+	\item D: Estudi de la dinàmica del robot: En aquesta etapa es va estudiar la dinàmica del robot i es va definir quin seria el seu funcionament, com es controlarien els motors i com es realitzaria el moviment. 
+	
+	\item E: Proves de disseny: Abans de realitzar el disseny definitiu, es van fer diferents proves i maquetes per tal d'assegurar el correcte funcionament del robot i definir els punts crítics del disseny. 
+	
+	\item F: Disseny de les diferents peces: Un cop realitzades les proves prèvies i definits els requeriments de l'estructura, es va realitzar el disseny dels elements bàsics de l'estructura. Aquest està dividit en 2 períodes: el primer pel disseny del xassís i les rodes i el segon  pel disseny dels altres components com la guia i el suport del retolador.
+	
+	\item G: Impressió 3D i muntatge: Es van imprimir aquests dissenys en 3D i es va realitzar el mutatge de les diferents peces que conformen el robot. 
+	
+	\item H: Programació definitva: Gràcies als coneixements adquirits a l'etapa C i als coneixements previs de programació amb Python, es va dissenyar tot el software controlador del robot. Cal remarcar que es van anar aprenent nous conceptes de programació al llarg de tot el projecte, no només a l'etapa C.
+	
+	\item I: Creació de l'aplicació: Amb la programació del robot feta, es va decidir implementar una aplicació per millorar l'experiència de l'usuari. Durant aquestes 3 setmanes es va aprendre a utilitzar les eines adients i es va crear la GUI. 
+	
+	\item J: Redacció de la memòria: Ja a les primeres setmanes del projecte es va começar a redactar, però no va ser fins a les etapes finals que no es va començar a escriure el cos del treball fet, ja que primer calia crear els programes adients. 
+\end{itemize}
 
-The TBR associated to this profile flux for this type of breeder have been calculated resulting in a generation of 1.4 tritium atoms for every neutron coming from the plasma. This value is reasonable but higher than the expected.
+\begin{figure}[H] 
+	\centering
+	\begin{ganttchart}[vgrid,hgrid, bar/.append style={fill=gray!30}, x unit=0.7cm, y unit chart=0.8cm]{1}{20},
+		
+		\gantttitle{2017}{20} \\
+		\gantttitle{Febrer}{4}
+		\gantttitle{Març}{4}
+		\gantttitle{Abril}{4}
+		\gantttitle{Maig}{4}
+		\gantttitle{Juny}{4} \\
+		\ganttbar{A}{1}{4} \\
+		\ganttbar{B}{5}{6}
+		\ganttbar[bar/.append style={fill=gray!15, dashed,} ]{}{7}{12}
+		\ganttbar{}{13}{14}  \\
+		\ganttbar{C}{5}{11} \\
+		\ganttbar{D}{6}{8} \\ 
+		\ganttbar{E}{6}{9} \\ 
+		\ganttbar{F}{8}{10} \\
+		\ganttbar{G}{11}{11}
+		\ganttbar[bar/.append style={fill=gray!15, dashed}    ]{}{12}{12}
+		\ganttbar{}{13}{14}\\
+		\ganttbar{H}{11}{17} \\
+		\ganttbar{I}{15}{17} \\ 
+		\ganttbar{J}{13}{19}
+		\ganttbar[bar/.append style={fill=gray!15, dashed}    ]{}{3}{12}
+	\end{ganttchart}
+	\caption{Diagrama de Gantt de la programació temporal del projecte.}
+	\label{fig:gantt}
+\end{figure}
 
-A comparision beetwen the default library of the MCNP5 and the JEFF library have been made, it can be observed higher values of neutron flux using the default library. 
+\begin{longtable}{@{\extracolsep{\fill}} lr}
+	\toprule
+	\textbf{Software}      & \textbf{Cost} \\
+	\midrule
+	Arduino IDE (Open Source) &  0 \euro \\
+	Python 2.7 (Open Source)& 0 \euro \\
+	Inkscape 0.91 (Open Source)& 0 \euro \\
+	Solid Works 2016, llicencia d'estudiant & 0 \euro \\
+	Fritzing (Open Source) & 0 \euro \\
+	\LaTeX & 0 \euro \\	
+	\midrule
+	\textsc{\textbf{Total software}}                      & 0 \euro\\
+	\toprule
+	\textbf{Hardware} & \textbf{Cost} \\
+	\midrule
+	Motors pas a pas NEMA 14 & 9,47 \euro \\
+	EasyDrivers A3967 &  3,72\euro \\
+	Arduino UNO &  20,57\euro \\
+	Mòdul Bluetooth HC-05 &  14,97\euro \\
+	Cables  & 2,02 \euro \\
+	Bateria 10000 mha & 12,00 \euro \\
+	Impressió del disseny 3D &  39,43\euro \\
+	Cargols M3 (10 i 30 mm) &  0,05\euro \\
+	Femelles  &  0,05\euro \\	
+	Bola de vidre per la roda boja & 0,50 \euro \\
+	Retolador Edding 1200 &  1,00\euro \\
+	\midrule
+	\textsc{\textbf{Total equipment}}                      & 4804.37 \euro\\
+	\toprule
+	\textbf{Altres rescursos} & \textbf{Cost} \\
+	\midrule
+	Sou enginyer &  \euro \\
+	Amortització de l'ordinador &  \euro \\
+	\toprule
+	\toprule
+	\textbf{\textsc{Total Projected Cost}} & \\
+	\toprule
+	\toprule
+	Software & 0 \euro \\
+	Hardware & 4804.37 \euro \\
+	Altres recursos & 560 \euro \\
+	\textbf{TOTAL} & 5364.37 \euro \\
+	\bottomrule                
+\end{longtable}
 
-This results are able to be integrated at the AINA code developed at the FEEL.
-
-\section{Future work}
-
-The results of this work should be verificated with other sources. A non estocastic but deterministic code like SCALE is a good candidate for this verification.
-
-If it is possible, compare the results with other similar studies made by the investigators of the Japan Atomic Energy Agency.
-
-A deeper study which explains the differences of the results beetwen the different libraries could be interesting. Also prepare the libraries that didn't work can be useful for future projects.
+\begin{longtable}{@ lr}
+	\toprule
+	\textbf{Software}   & Unitats   & \textbf{Cost} \\
+	\midrule
+	Arduino IDE (Open Source) & 0 &  0 \euro \\
+	Python 2.7 (Open Source)&  & 0 \euro \\
+	\bottomrule   
+\end{longtable}
 
  
