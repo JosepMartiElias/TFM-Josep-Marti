@@ -1,8 +1,64 @@
 \setlength\topmargin{8mm}
 \onehalfspacing
-\chapter{Conclusions i treballs futurs} % Main chapter title
+\chapter{Planificació temporal i costos} % Main chapter title
 
 \label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \rhead[\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}]{\thepage}
 \lhead[\thepage]{\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}}
+
+\section{Planificació temporal}
+
+En aquest capítol es presenta la programació temporal que ha seguit el projecte. S'ha dividit en diferents etapes que s'han anat realitzant per assolir els objectius proposats i s'han representat en un diagrama de Gantt. Aquestes etapes són:
+
+\begin{itemize}
+	\item A: Documentació prèvia: Aquesta va ser una etapa de recerca en la que es van estudiar mecanismes amb un funcionament similar, es va fer la tria dels components que millors prestacions tenien i oferien millor precisió, i es va començar a definir el mètode amb el que funcionaria el robot, basant-se en GCode com una màquina CNC.
+	
+	\item B: Compra de components: S'han realitzat compres de components durant tot el procés de construcció i muntatge, però s'en remarquen dues etapes especialment que consisteixen, en primer lloc, en la compra dels motors i el drivers, que va permetre començar a dissenyar i programar el robot, i, més endavant, la compra del mòdul Bluetooth que va permetre començar a treballar en el protocol de comunicació entre l'ordinador i l'Arduino. 
+	 
+	\item C: Aprenentatge i proves de programació de l'Arduino: Durant aquestes setmanes, es va aprofundir en la programació de l'Arduino i les primeres proves. Es va aprendre el funcionament dels motors i com controlar-los.
+	
+	\item D: Estudi de la dinàmica del robot: En aquesta etapa es va estudiar la dinàmica del robot i es va definir quin seria el seu funcionament, com es controlarien els motors i com es realitzaria el moviment. 
+	 
+	\item E: Proves de disseny: Abans de realitzar el disseny definitiu, es van fer diferents proves i maquetes per tal d'assegurar el correcte funcionament del robot i definir els punts crítics del disseny. 
+	
+	\item F: Disseny de les diferents peces: Un cop realitzades les proves prèvies i definits els requeriments de l'estructura, es va realitzar el disseny dels elements bàsics de l'estructura. Aquest està dividit en 2 períodes: el primer pel disseny del xassís i les rodes i el segon  pel disseny dels altres components com la guia i el suport del retolador.
+	
+	\item G: Impressió 3D i muntatge: Es van imprimir aquests dissenys en 3D i es va realitzar el mutatge de les diferents peces que conformen el robot. 
+	
+	\item H: Programació definitva: Gràcies als coneixements adquirits a l'etapa C i als coneixements previs de programació amb Python, es va dissenyar tot el software controlador del robot. Cal remarcar que es van anar aprenent nous conceptes de programació al llarg de tot el projecte, no només a l'etapa C.
+	
+	\item I: Creació de l'aplicació: Amb la programació del robot feta, es va decidir implementar una aplicació per millorar l'experiència de l'usuari. Durant aquestes 3 setmanes es va aprendre a utilitzar les eines adients i es va crear la GUI. 
+	
+	\item J: Redacció de la memòria: Ja a les primeres setmanes del projecte es va começar a redactar, però no va ser fins a les etapes finals que no es va començar a escriure el cos del treball fet, ja que primer calia crear els programes adients. 
+\end{itemize}
+
+\begin{figure}[H] 
+	\centering
+	\begin{ganttchart}[vgrid,hgrid, bar/.append style={fill=gray!30}, x unit=0.7cm, y unit chart=0.8cm]{1}{20},
+		
+		\gantttitle{2017}{20} \\
+		\gantttitle{Febrer}{4}
+		\gantttitle{Març}{4}
+		\gantttitle{Abril}{4}
+		\gantttitle{Maig}{4}
+		\gantttitle{Juny}{4} \\
+		\ganttbar{A}{1}{4} \\
+		\ganttbar{B}{5}{6}
+		\ganttbar[bar/.append style={fill=gray!15, dashed,} ]{}{7}{12}
+		\ganttbar{}{13}{14}  \\
+		\ganttbar{C}{5}{11} \\
+		\ganttbar{D}{6}{8} \\ 
+		\ganttbar{E}{6}{9} \\ 
+		\ganttbar{F}{8}{10} \\
+		\ganttbar{G}{11}{11}
+		\ganttbar[bar/.append style={fill=gray!15, dashed}    ]{}{12}{12}
+		\ganttbar{}{13}{14}\\
+		\ganttbar{H}{11}{17} \\
+		\ganttbar{I}{15}{17} \\ 
+		\ganttbar{J}{13}{19}
+		\ganttbar[bar/.append style={fill=gray!15, dashed}    ]{}{3}{12}
+	\end{ganttchart}
+	\caption{Diagrama de Gantt de la programació temporal del projecte.}
+	\label{fig:gantt}
+\end{figure}
