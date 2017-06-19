@@ -57,7 +57,7 @@
 	deletekeywords={...},           
 	escapeinside={\%*}{*)},          
 	extendedchars=true,              
-	frame=shadowbox,                    
+	%frame=shadowbox,                    
 	keepspaces=true,                 
 	keywordstyle=\color{myorange},       
 	language=Octave,                
@@ -258,7 +258,7 @@ Un cop definides les variables inicials s’han creat diferents funcions que es 
 \subsection{Funcions de moviment del robot}
 S’han definit les funcions bàsiques per tal d’actuar amb les diferents comandes de GCode que poden aparèixer, G00, G01, G02, G03 i G01 de rotació. L’objectiu d’aquestes és calcular els passos que ha de realitzar cada motor per tal de seguir el moviment definit. 
 
-\subsubsection{Funció G00($x_{1}$, $y_{1}$)}
+\subsubsection{Funció G00($x_{1}$, $y_{1}$)}\label{sec:G00}
 
 Aquesta funció realitza un moviment rectilini fins al punt definit per les coordenades d’entrada ($x_{1}$,$y_{1}$) amb el retolador aixecat, de tal manera que aquest moviment no quedarà representat en el dibuix final, és un moviment de posicionament.
 
