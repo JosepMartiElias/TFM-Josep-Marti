@@ -13,7 +13,7 @@ En aquest apartat es descriu el disseny del robot, la creació de l’estructura
 \section{Motor pas a pas}
 \subsection{Per què un motor pas a pas?}
 
-Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, fet que permet conèixer en tot moment i amb exactitud quants graus ha girat el motor i per tant el moviment que han realitzat les rodes i, en definitiva, el robot. Es pot controlar la seva velocitat i, quan el motor està aturat, pot oferir un parell de resistència contra la rotació de l'eix si rep corrent a les bobines. 
+Els motors pas a pas o “steppers”, són els motors ideals per controlar el moviment de les rodes del robot \cite{billschweber2015}. En primer lloc ofereixen la possibilitat de rotar en les dues direccions, fet imprescindible per poder realitzar qualsevol trajectòria. La seva precisió angular és molt elevada, fet que permet conèixer en tot moment i amb exactitud quants graus ha girat el motor i per tant el moviment que han realitzat les rodes i, en definitiva, el robot. Es pot controlar la seva velocitat i, quan el motor està aturat, pot oferir un parell de resistència contra la rotació de l'eix si rep corrent a les bobines. 
 
 
 \subsection{Funcionament i tipus de motors pas a pas}
@@ -151,7 +151,7 @@ Alhora de triar quins serien els motors adequats pel moviment del robot s'han es
 
 
 \subsection{Motor escollit: Nema 14}
-Per escollir un motor pas a pas s'han estudiat els diferents models de la família NEMA i s'ha escollit entre el NEMA14 i el NEMA17 ja que són els que presenten les prestacions idònies pel moviment que es vol realitzar. Finalment la decisió s'ha decantat cap al NEMA14, ja que és més petit i té menys pes, la qual cosa permet adaptar-lo millor al prototip i realitzar un model amb unes dimensions més petites i òptimes. 
+Per escollir un motor pas a pas s'han estudiat els diferents models de la família NEMA i s'ha escollit entre el NEMA14 i el NEMA17 ja que són els que presenten les prestacions idònies pel moviment que es vol realitzar. Finalment la decisió s'ha decantat cap al NEMA14, ja que és més petit i té menys pes, la qual cosa permet adaptar-lo millor al prototip i realitzar un model amb unes dimensions més petites i òptimes.
 
 \begin{figure}[H]
 	\centering
@@ -160,7 +160,7 @@ Per escollir un motor pas a pas s'han estudiat els diferents models de la famíl
 	\label{fig:NEMA14}
 \end{figure}
 
-El NEMA14 és un motor pas a pas híbrid bipolar amb les següents característiques: 
+El NEMA14 és un motor pas a pas híbrid bipolar amb les següents característiques \cite{thingibox2017}: 
 
 \begin{table}[htbp]
 	\begin{center}
@@ -210,7 +210,7 @@ El seu funcionament és simple, i es basa en la connexió dels interruptors per 
 
 
 \subsection{Easy Driver A3967}
-Per facilitar el control dels motors pas a pas utilitzats, s'ha decidit utilitzar dos controladors Easy Driver A3967 que facilitaran el control i la programació dels motors i actuaran com a etapa de potència per no sobrecarregar l'Arduino amb la potència requerida pel motor.
+Per facilitar el control dels motors pas a pas utilitzats, s'ha decidit utilitzar dos controladors Easy Driver A3967 \cite{driverbib} que facilitaran el control i la programació dels motors i actuaran com a etapa de potència per no sobrecarregar l'Arduino amb la potència requerida pel motor.
 
 
 Com ja s'ha explicat, els motors pas a pas funcionen amb el canvi d'excitació de les bobines que el conformen, i cada parell de bobines té el seu dos cables per fer-ho. La idea principal d'aquest driver o controlador és facilitar la feina i encarregar-se de l'alimentació dels motors, permetent així a l'usuari controlar el motor a través de només dos pins digitals de l'Arduino, l'STEP, que defineix un pas per cada pujada del pin i el DIR, que defineix el sentit de rotació del motor. 
@@ -318,7 +318,7 @@ Existeixen 2 tipus diferents de servomotors, els analògics i els digitals. Els 
 
 \subsection{Servo escollit: SM-S2309S}
 
-El servomotor SM-S2309S és un microservo analògic de 180º. S'ha escollit aquest model per dues raons: per una banda les seves petites dimensions són ideals per l'aplicació ja que permeten optimitzar el tamany del propi robot, i, per altre banda, perquè ja es disposava d'aquest motor. Les seves característiques principals són:  
+El servomotor SM-S2309S és un microservo analògic de 180º \cite{servobib}. S'ha escollit aquest model per dues raons: per una banda les seves petites dimensions són ideals per l'aplicació ja que permeten optimitzar el tamany del propi robot, i, per altre banda, perquè ja es disposava d'aquest motor. Les seves característiques principals són:  
 
 \begin{table}[htbp]
 	\begin{center}

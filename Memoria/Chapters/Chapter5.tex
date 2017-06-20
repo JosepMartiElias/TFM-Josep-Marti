@@ -112,7 +112,7 @@ L’objectiu final del projecte és el de dibuixar una figura amb el robot, i pe
 \section{GCode: Com es calcula la trajectòria?}
 
 \subsection{Què és el GCode?}
-El GCode és el llenguatge de programació més utilitzat a l'actualitat pel control de màquines CNC de control numèric com ara torns, fresadores i impressores 3D. Tot i que existeixen diferents dialectes del mateix codi, tots segueixen unes normes bàsiques que el fan entenedor. La seva funció és descriure el comportament de la màquina, “què” farà i “com” ho farà, controlant la trajectòria, les velocitats de tall i avanç i el posicionament de l'eina, entre d'altres.
+El GCode és el llenguatge de programació més utilitzat a l'actualitat pel control de màquines CNC de control numèric com ara torns, fresadores i impressores 3D \cite{petersmid2008} . Tot i que existeixen diferents dialectes del mateix codi, tots segueixen unes normes bàsiques que el fan entenedor. La seva funció és descriure el comportament de la màquina, “què” farà i “com” ho farà, controlant la trajectòria, les velocitats de tall i avanç i el posicionament de l'eina, entre d'altres.
 
 L'estructura del llenguatge és molt simple: cada línia de codi representa una nova instrucció o bloc i, per tant, es llegeix per línies. Hi ha diferents tipus d'ordres i per diferenciar-les es segueix una combinació de lletres i números. Sempre segueix la mateixa estructura, cada ordre es representa com una lletra seguida d'un número i dins una mateixa línia es poden combinar més d'una ordre. La lletra diferencia entre els diferents tipus comandes, per exemple, la lletra “G” s'utilitza per comandes de moviments, la “M” per comandes miscel·lànies auxiliars o de configuració i “X”, “Y” i “Z” com a posició absoluta o incremental del punts d'aplicació.  
 
@@ -140,9 +140,9 @@ Existeixen moltes més ordres, però aquestes són les principals i les que util
 
 \subsection{Inkscape}
 
-Inkscape és un editor de gràfics vectorial de codi lliure i gratuït que permet crear il·lustracions, formes, gràfics, dibuixos i molt més en format vectorial .SVG (Scalable Vector Graphics). L'avantatge que té és que crea un arxiu que conté aquesta figura de manera vectorial, i això ens ajuda a crear a partir del dibuix un codi basat en GCode que s'utilitzarà per guiar el robot i definir la seva trajectòria. Aquest codi es pot guardar com un arxiu de text \emph{.txt} i serà aquest el que utilitzarà el robot per executar el programa.
+Inkscape és un editor de gràfics vectorial de codi lliure i gratuït que permet crear il·lustracions, formes, gràfics, dibuixos i molt més en format vectorial .SVG (Scalable Vector Graphics) \cite{InkTutorial}. L'avantatge que té és que crea un arxiu que conté aquesta figura de manera vectorial, i això ens ajuda a crear a partir del dibuix un codi basat en GCode que s'utilitzarà per guiar el robot i definir la seva trajectòria. Aquest codi es pot guardar com un arxiu de text \emph{.txt} i serà aquest el que utilitzarà el robot per executar el programa.
 
-Es recomana utilitzar la versió del programa 0.91, ja que l'actualització 0.92 té un error amb la creació dels punts d'orientació i no es respecta l'escala desitjada. 
+Es recomana utilitzar la versió del programa 0.91 \cite{InkBib}, ja que l'actualització 0.92 té un error amb la creació dels punts d'orientació i no es respecta l'escala desitjada. 
 
 \begin{figure}[H]
 	\centering
@@ -210,9 +210,9 @@ Aquí es mostraran els passos a seguir per tal de passar un dibuix d'Inkscape a 
 Amb el llenguatge de programació Python s’ha creat un programa capaç de llegir un arxiu .txt creat amb Inkscape i traduir-ho a moviments del robot. En aquest apartat s’explicarà què és el codi Python, el funcionament del programa principal i totes les seves funcions. 
 
 \subsection{Introducció al Python}
-El Python és un llenguatge de programació lliure (Open Source) que té com a objectiu mantenir la simplicitat i ser un codi fàcil de llegir, entendre i aprendre. Al ser un codi lliure està en constant creixement ja que tothom pot aportar-hi els seus coneixements i la comunitat de programadors Python és enorme, per la qual cosa és fàcil d’apendre a partir de llibres, manuals o tutorials online. 
+El Python és un llenguatge de programació lliure (Open Source) que té com a objectiu mantenir la simplicitat i ser un codi fàcil de llegir, entendre i aprendre \cite{mariadolorsayalavallesp2016} \cite{jeffreyelknerallenb.downeyichrismeyers2012}. Al ser un codi lliure està en constant creixement ja que tothom pot aportar-hi els seus coneixements i la comunitat de programadors Python és enorme, per la qual cosa és fàcil d’apendre a partir de llibres, manuals o tutorials online. 
 
-Aquest llenguatge és el llenguatge après a la universitat durant el grau i és per això que s’ha decidit utilitzar-lo. S’ha instal·lat la versió de Python 2.7 directament des de la seva pàgina web. Als següents apartats s’explicarà el funcionament del programa i el seu codi. 
+Aquest llenguatge és el llenguatge après a la universitat durant el grau i és per això que s’ha decidit utilitzar-lo. S’ha instal·lat la versió de Python 2.7 directament des de la seva pàgina web \cite{PythonWeb}. Als següents apartats s’explicarà el funcionament del programa i el seu codi. 
 
 \begin{figure}[H]
 	\centering
@@ -223,7 +223,7 @@ Aquest llenguatge és el llenguatge après a la universitat durant el grau i és
 
 \subsection{El programa}\label{sec:robotmoveBT}
 
-El programa encarregat de moure el robot es troba dins l’arxiu “RobotMoveBT.py” que es pot trobar a l’annex XXX i el seu funcionament es basa en diferents funcions. L’objectiu del programa és llegir l’arxiu GCode creat i traduir cadascuna de les ordres en passos del motor i la posició del servo per tal d’enviar-ho després a l’Arduino. 
+El programa encarregat de moure el robot es troba dins l’arxiu “RobotMoveBT.py” que es pot trobar a l’annex \ref{PyRobot} i el seu funcionament es basa en diferents funcions. L’objectiu del programa és llegir l’arxiu GCode creat i traduir cadascuna de les ordres en passos del motor i la posició del servo per tal d’enviar-ho després a l’Arduino. 
 
 En primer lloc, a l'executar l’arxiu s’importen diferents llibreries: la llibreria “math” que ens permet fer operacions matemàtiques complexes, “serial” per tal de comunicar l’ordinador i l’Arduino i “time” per tal de programar temps d’espera per una bona comunicació. Tot seguit s’inicia la comunicació amb el Robot mitjançant la següent comanda:
 
@@ -422,7 +422,7 @@ En segon lloc cal calcular els passos dels motors. Aquest càlcul es basa en l�
 
 \section{Arduino: Qui mou el robot?}
 
-Arduino es presenta com una plataforma de codi lliure (Open Source) basat en un hardware i un software de fàcil utilització i accessible per tothom.  Permet crear prototips a partir de la lectura d’entrades (inputs) com podrien ser, per exemple, un sensor de temperatura, l’acció d’un polsador o una comunicació des de l’ordinador, i convertir-ho en una acció de sortida (output) com podria ser el moviment d’un motor, enviar un missatge a un ordinador o qualsevol dispositiu que l’usuari pugui programar. La programació de la placa es realitza mitjançant el software (IDE) lliure de la marca basat en Processing i en el seu propi llenguatge de programació Arduino basat en Wiring. 
+Arduino es presenta com una plataforma de codi lliure (Open Source) basat en un hardware i un software de fàcil utilització i accessible per tothom.  Permet crear prototips a partir de la lectura d’entrades (inputs) com podrien ser, per exemple, un sensor de temperatura, l’acció d’un polsador o una comunicació des de l’ordinador, i convertir-ho en una acció de sortida (output) com podria ser el moviment d’un motor, enviar un missatge a un ordinador o qualsevol dispositiu que l’usuari pugui programar. La programació de la placa es realitza mitjançant el software (IDE) lliure de la marca basat en Processing i en el seu propi llenguatge de programació Arduino basat en Wiring \cite{arduinoBib} \cite{massimobanzi2011}. 
 
 Arduino neix a la ciutat piemontesa d’Ivrea al nord d’Itàlia al lvrea Interaction Design Institute com un projecte pels estudiants de l’institut de mans del professor Massimo Banzi. Va començar com una eina de prototipatge ràpid utilitzada per a la introducció a l’electrònica i la programació dels estudiants sense experiència. Tot i aixó, el projecte va ser molt ben acollit per la comunitat internacional convertint-se així en una eina molt utilitzada arreu del món per principiants i experts. Al llarg dels anys ha evolucionat molt per tal de brindar noves opcions als usuaris, per exemple, va realitzar una col·laboració amb Google per aconseguir comunicar directament la placa amb el sistema operatiu Android o l’adaptació de noves plaques per treballar amb aplicacions d’IoT (Internet of things) o Wearables. Totes les plaques de la companyia són Open Source igual que el software que es manté en constant creixement gràcies a l’aportació dels usuaris. 
 
@@ -462,7 +462,7 @@ Per tal de reprogramar el microcontrolador des de l’ordinador, es pot utilitza
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{RobotFritz}
-	\caption{Diagrama de connexió dels components realitzada amb el programa Fritzing.}
+	\caption{Diagrama de connexió dels components realitzada amb el programa Fritzing \cite{FritzingBib}.}
 	\label{fig:connexio}
 \end{figure}
 \subsection{Programa Robot.ino}
@@ -471,7 +471,7 @@ S’ha creat un programa genèric amb la funció de llegir les ordres enviades d
 
 La dinàmica de comunicació consisteix en rebre un missatge des de l’ordinador que conté 3 valors separats pel caràcter ‘,’ definit com el caràcter de separació. Aquests valors són: en primer lloc la posició del servo, que serà 1 si aquest ha d’estar dibuixant i 0 si s’ha d’aixecar. Els dos següents valors són la posició absoluta dels motors mesurada en passos, en primer lloc de la roda dreta i per acabar de l’esquerra. 
 
-Tot seguit es fa una descripció del programa per entendre el seu funcionament. El programa complet està present a l’annex XXX:
+Tot seguit es fa una descripció del programa per entendre el seu funcionament. El programa complet està present a l’annex \ref{ArduinoProg}:
 
 \subsubsection{Llibreries utilitzades}
 
@@ -484,7 +484,7 @@ El primer que cal fer és importar les llibreries que s’utilitzaran a l'execut
 #include <SoftwareSerial.h>
 \end{lstlisting}
 
-La primera llibreria AccelStepper permet enviar els senyals de control al driver per tal de moure cadascun dels motors, definint la velocitat i els passos que ha de realitzar. És una llibreria molt funcional pel control de motors pas a pas amb Arduino, tot i que no és possible moure els dos motors simultàniament amb aquesta llibreria. És per això que també s’utilitza la llibreria MultiStepper, que permet agrupar elements per tal de moure’ls alhora. Per fer-ho, com es veurà més endavant, es defineixen les posicions dels dos motors i aquests realitzaran un moviment constant controlant la velocitat de manera que finalitzaran el seu recorregut amb el mateix increment de temps, permetent així les trajectòries circulars. Aquestes dues llibreries no venen incorporades a l'entorn Arduino, però són igualment de codi lliure i es poden descarregar de la xarxa.
+La primera llibreria AccelStepper \cite{guiadelallibreriaaccelstepper} permet enviar els senyals de control al driver per tal de moure cadascun dels motors, definint la velocitat i els passos que ha de realitzar. És una llibreria molt funcional pel control de motors pas a pas amb Arduino, tot i que no és possible moure els dos motors simultàniament amb aquesta llibreria. És per això que també s’utilitza la llibreria MultiStepper \cite{guiadelallibreriamultistepper}, que permet agrupar elements per tal de moure’ls alhora. Per fer-ho, com es veurà més endavant, es defineixen les posicions dels dos motors i aquests realitzaran un moviment constant controlant la velocitat de manera que finalitzaran el seu recorregut amb el mateix increment de temps, permetent així les trajectòries circulars. Aquestes dues llibreries no venen incorporades a l'entorn Arduino, però són igualment de codi lliure i es poden descarregar de la xarxa.
 
 Les llibreries Servo i SoftwareSerial sí que s’inclouen en la descàrrega inicial del software Arduino i per tant no cal descarregar-les d’internet. La primera s’utilitza per controlar la posició del servomotor, mentre que la segona és l’encarregada d’establir la comunicació serial amb l’ordinador a partir del mòdul de Bluetooth. 
 
@@ -561,9 +561,9 @@ Un cop incorporades les llibreries cal inicialitzar tots els paràmetres necessa
 Aquest programa es basa en dues funcions que es criden seqüencialment, de manera que a l'acabar l’execució de la primera s’executi instantàniament la segona. Aquestes són la funció getSerialData() que, com el nom indica, s’encarrega de rebre i emmagatzemar les dades rebudes per Bluetooth, i la funció processData() que processa les dades preses i provoca l’acció dels motors seguint l’ordre rebuda. A l'acabar s’envia un missatge conforme la placa està llesta per rebre una nova ordre. 
 \begin{lstlisting}[style=Arduino]
 void loop() {
-getSerialData();
-delay(1);
-processData();
+	getSerialData();
+	delay(1);
+	processData();
 }
 \end{lstlisting}
 \begin{itemize}
@@ -573,35 +573,35 @@ processData();
 	
 	\begin{lstlisting}[style=Arduino]
 	void getSerialData(){
-	if(bluetooth.available() > 0) {
-	String x = bluetooth.readString();
-	String buff="";
+		if(bluetooth.available() > 0) {
+			String x = bluetooth.readString();
+			String buff="";
 	\end{lstlisting}
 	
 	Tot seguit es recorre l’string rebut i guardat a la variable \emph{x} caràcter a caràcter per tal de separar-la per les comes, ja que aquest és el caràcter definit com a separador pel programa. Aquesta funció \emph{for} que recorre la cadena emmagatzema els caràcters llegits a la variable \emph{buff} fins a trobar el caràcter de separació ‘,’ i els guarda a la matriu text en la posició \emph{cnt} on \emph{cnt} és un comptador que augmenta en una unitat cada cop que es guarda un valor a la matriu text. D’aquesta manera s’inicia en \emph{cnt=0}, es guarda el primer valor quan està complet, s’incrementa \emph{cnt=1} i es guarda el segon valor complet, es torna a incrementar \emph{cnt=2} per emmagatzemar el tercer i últim valor i es reinicia el valor del comptador \emph{cnt} abans d’acabar el for. 
 	
 	\begin{lstlisting}[style=Arduino]
-	for (int i=0; i<x.length();i++){
-	String caracter="";
-	caracter=caracter+x[i];
-	if (caracter!=","){
-	buff=buff+x[i];
-	}
-	else {
-	int y=buff.toInt();
-	text[cnt]=y;
-	buff="";
-	if (cnt<3){
-	cnt+=1;
-	}
-	if (cnt==3){
-	cnt=0;
-	}
-	}
-	}
-	Rebut=true;
-	delay(1);    
-	}
+			for (int i=0; i<x.length();i++){
+				String caracter="";
+				caracter=caracter+x[i];
+				if (caracter!=","){
+					buff=buff+x[i];
+				}
+				else {
+					int y=buff.toInt();
+					text[cnt]=y;
+					buff="";
+					if (cnt<3){
+						cnt+=1;
+					}
+					if (cnt==3){
+						cnt=0;
+					}
+				}
+			}
+			Rebut=true;
+			delay(1);    
+		}
 	}
 	\end{lstlisting}
 	
@@ -613,22 +613,22 @@ processData();
 	
 	\begin{lstlisting}[style=Arduino]
 	void processData(){
-	if (Rebut==true){
-	if (text[0]==0 and Boli.read()!=up){
-	Boli.write(up);
-	delay(300);
-	}
-	else if (text[0]==1 and Boli.read()!=down){
-	Boli.write(down);
-	delay(300);
-	}
-	posicio[0]=-text[1];
-	posicio[1]=text[2];
-	Robot.moveTo(posicio);
-	Robot.runSpeedToPosition();
-	bluetooth.println("Ready");
-	Rebut=false; 
-	}
+		if (Rebut==true){
+			if (text[0]==0 and Boli.read()!=up){
+				Boli.write(up);
+				delay(300);
+			}
+		else if (text[0]==1 and Boli.read()!=down){
+			Boli.write(down);
+			delay(300);
+		}
+		posicio[0]=-text[1];
+		posicio[1]=text[2];
+		Robot.moveTo(posicio);
+		Robot.runSpeedToPosition();
+		bluetooth.println("Ready");
+		Rebut=false; 
+		}
 	}
 	\end{lstlisting}
 	
@@ -652,7 +652,7 @@ processData();
 
 \subsection{Mòdul HC-05}
 
-Els dispositius Bluetooth tenen la capacitat de connectar-se entre si a partir d’ones de radiofreqüència, eliminant així cables o connectors físics. Aquesta comunicació es realitza a una freqüència entre 2,4 i 2,48 GHz i permet crear una xarxa sense fils entre diferents dispositius els quals es poden enviar dades i compartir informació. Aquestes xarxes es regeixen per un element dominant o master i una sèrie d’elements esclaus o slaves. En aquest cas com a  element master actua l’ordinador, i l’Arduino actua d’esclau mitjançant el mòdul HC-05. Aquestes xarxes poden tenir un abast de 10 metres aproximadament, tot i que n’hi ha que poden arribar fins a 100 m. 
+Els dispositius Bluetooth tenen la capacitat de connectar-se entre si a partir d’ones de radiofreqüència, eliminant així cables o connectors físics. Aquesta comunicació es realitza a una freqüència entre 2,4 i 2,48 GHz i permet crear una xarxa sense fils entre diferents dispositius els quals es poden enviar dades i compartir informació. Aquestes xarxes es regeixen per un element dominant o master i una sèrie d’elements esclaus o slaves. En aquest cas com a  element master actua l’ordinador, i l’Arduino actua d’esclau mitjançant el mòdul HC-05 \cite{HC05Bib}. Aquestes xarxes poden tenir un abast de 10 metres aproximadament, tot i que n’hi ha que poden arribar fins a 100 m. 
 
 \begin{figure}[H]
 	\centering
@@ -694,7 +694,7 @@ Les llibreries que utilitza són les següents:
 	import RobotMoveBT
 \end{python}
 
-La llibreria math s'utilitza per realitzar operacions matemàtiques, igual que als altres programes. La llibreria Tkinter, com s’ha explicat a l’apartat anterior, és el motor de creació de la GUI i la llibreria Turtle, que permet crear dibuixos i gràfiques i que s’utilitza per tal de representar les trajectòries introduïdes. Per altra banda també s’utilitza l’arxiu Draw.py que s’explicarà a l’apartat \ref{sec:Draw} i que permet dibuixar aquestes ordres utilitzant la llibreria Turtle a la pantalla de la GUI.  Per últim incorpora també l’arxiu RobotMoveBT.py presentat a l’apartat \ref{sec:robotmoveBT} que s’encarrega de moure el robot. 
+La llibreria math s'utilitza per realitzar operacions matemàtiques, igual que als altres programes. La llibreria Tkinter \cite{TkinterBib}, com s’ha explicat a l’apartat anterior, és el motor de creació de la GUI i la llibreria Turtle \cite{turtleBib}, que permet crear dibuixos i gràfiques i que s’utilitza per tal de representar les trajectòries introduïdes. Per altra banda també s’utilitza l’arxiu Draw.py que s’explicarà a l’apartat \ref{sec:Draw} i que permet dibuixar aquestes ordres utilitzant la llibreria Turtle a la pantalla de la GUI.  Per últim incorpora també l’arxiu RobotMoveBT.py presentat a l’apartat \ref{sec:robotmoveBT} que s’encarrega de moure el robot. 
 
 El programa està estructurat en quatre classes, tres que defineixen cadascuna d’aquestes finestres que es mostren a l’usuari, i una classe mare que inicia el programa i organitza les altres. Aquesta última és la classe TFM, la classe principal, i és l’única que es crida a l'executar el programa, i té la funció de crear els frames corresponents a les altres classes. No té cap pàgina ni objecte associat, només serveix com a inicialització i com a motor per organitzar les altres classes, ja que per canviar d’una finestra a un altre s’utilitza la comanda show\_frame() definida aquí. El codi de definició d’aquesta classe és el següent:
 
@@ -941,7 +941,7 @@ Es pot observar que en aquest cas s’ha utilitzat el mètode .grid() per organi
 
 \subsection{Draw.py} \label{sec:Draw}
 
-Aquest arxiu s’ha creat per tal de calcular i realitzar la representació de les ordres a l’entorn de Python Turtle. Aquest és un mòdul que formava part del llenguatge de programació Logo creat per Wally Feurzig i Seymour Papert el 1966 i permet crear imatges amb un punter amb forma de tortuga i d’aquí ha heretat el nom de \emph{turtle}. Aquest obeeix les comandes introduïdes al Python dibuixant rectes i arcs de circumferència igual que el robot i s’ha utilitzat perquè tenen un mètode de funcionament similar. La representació és una aproximació a la representació real i a escala, ja que a la vida real les ordres es representen en mil·límetres mentre que, a la pantalla, es representen en píxels. La intenció d’aquest mòdul és donar una aproximació visual del futur resultat del robot per tal de comprovar què s’està dibuixant abans de començar. El codi del programa està present a l'annex XXX. 
+Aquest arxiu s’ha creat per tal de calcular i realitzar la representació de les ordres a l’entorn de Python Turtle. Aquest és un mòdul que formava part del llenguatge de programació Logo creat per Wally Feurzig i Seymour Papert el 1966 i permet crear imatges amb un punter amb forma de tortuga i d’aquí ha heretat el nom de \emph{turtle}. Aquest obeeix les comandes introduïdes al Python dibuixant rectes i arcs de circumferència igual que el robot i s’ha utilitzat perquè tenen un mètode de funcionament similar. La representació és una aproximació a la representació real i a escala, ja que a la vida real les ordres es representen en mil·límetres mentre que, a la pantalla, es representen en píxels. La intenció d’aquest mòdul és donar una aproximació visual del futur resultat del robot per tal de comprovar què s’està dibuixant abans de començar. El codi del programa està present a l'annex \ref{PyDraw}. 
 
 S'han definit les funcions correspoents a cada moviment possible del robot, les funcions: G00, G01, G02, G03 i G01 de rotació. Les comandes de la llibreria \emph{turtle} que ho fan possible són les següents:
 \begin{itemize}

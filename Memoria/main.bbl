@@ -1,3 +1,90 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{FritzingBib}
+Pàgina web de fritzing.
+\newblock Disponible a: \url{http://fritzing.org/home/}.
+
+\bibitem{billschweber2015}
+Bill Schweber.
+\newblock Stepper motors make the right moves with precision, ease and smarter
+  drivers.
+\newblock {\em Mouser Electronics}, 2015.
+
+\bibitem{thingibox2017}
+Thingibox.
+\newblock Motor pas a pas nema14, 2017.
+\newblock Disponible a:
+  \url{http://store.thingibox.com/es/motores/5-stepper_nema14.html}.
+
+\bibitem{driverbib}
+Allegro, editor.
+\newblock {\em Microstepping Driver with Translator}, 2013.
+
+\bibitem{servobib}
+{\em SM-S2309S MOTOR}, 2015.
+
+\bibitem{SWbib}
+Solidworks.
+\newblock Disponible a: \url{http://www.solidworks.es/}.
+
+\bibitem{petersmid2008}
+Peter Smid.
+\newblock {\em CNC Programming Handbook}.
+\newblock Indutrial press inc., 2008.
+
+\bibitem{InkTutorial}
+Tutorials inkscape.
+\newblock Disponible a:
+  \url{https://inkscape.org/es/doc/tutorials/basic/tutorial-basic.es.html}.
+
+\bibitem{InkBib}
+Pàgina web inkscape.
+\newblock Disponible a: \url{https://inkscape.org/es/}.
+
+\bibitem{mariadolorsayalavallesp2016}
+Maria Dolors~Ayala Vallespí.
+\newblock {\em Apunts de Fonaments d’Informàtica}.
+\newblock Universitat Politècnica de Catalunya, 2016.
+
+\bibitem{jeffreyelknerallenb.downeyichrismeyers2012}
+Allen B. Downey i Chris~Meyers Jeffrey~Elkner.
+\newblock How to think like a computer scientist: Learning with python, 2012.
+\newblock Disponible a:
+  \url{http://www.openbookproject.net/thinkcs/python/english2e/}.
+
+\bibitem{PythonWeb}
+Pàgina web de python.
+\newblock Disponible a: \url{https://www.python.org/}.
+
+\bibitem{arduinoBib}
+Pàgina web d'arduino.
+\newblock Disponible a: \url{https://www.arduino.cc/}.
+
+\bibitem{massimobanzi2011}
+Massimo Banzi.
+\newblock {\em Getting Started with Arduino}.
+\newblock O'Reily, 2009.
+
+\bibitem{guiadelallibreriaaccelstepper}
+Guia de la llibreria accelstepper.
+\newblock Disponible a:
+  \url{http://www.airspayce.com/mikem/arduino/AccelStepper/}.
+
+\bibitem{guiadelallibreriamultistepper}
+Guia de la llibreria multistepper.
+\newblock Disponible a:
+  \url{http://www.airspayce.com/mikem/arduino/AccelStepper/classMultiStepper.html}.
+
+\bibitem{HC05Bib}
+Informació sobre el mòdul hc-05.
+\newblock Disponible a: \url{http://www.prometec.net/bt-hc05/}.
+
+\bibitem{TkinterBib}
+Guia de la llibreria tkinter.
+\newblock Disponible a: \url{https://docs.python.org/2/library/tkinter.html}.
+
+\bibitem{turtleBib}
+Guia de la llibreria turtle.
+\newblock Disponible a: \url{https://docs.python.org/2/library/turtle.html}.
 
 \end{thebibliography}

@@ -1,5 +1,40 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-The style file: plain.bst
-I found no \citation commands---while reading file main.aux
+The style file: unsrt.bst
 Database file #1: Bibliography.bib
-(There was 1 error message)
+Warning--entry type for "thingibox2017" isn't style-file defined
+--line 1 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 19 of file Bibliography.bib
+ :  
+ :  note    = "Disponible a: \url{https://cdn.sparkfun.com/datasheets/Robotics/A3967-Datasheet.pdf}"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 25 of file Bibliography.bib
+ :  
+ :  note    = "Disponible a: \url{http://descargas.cetronic.es/microservo.pdf}"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "SWbib" isn't style-file defined
+--line 28 of file Bibliography.bib
+Warning--entry type for "PythonWeb" isn't style-file defined
+--line 33 of file Bibliography.bib
+Warning--entry type for "jeffreyelknerallenb.downeyichrismeyers2012" isn't style-file defined
+--line 45 of file Bibliography.bib
+Warning--entry type for "InkBib" isn't style-file defined
+--line 59 of file Bibliography.bib
+Warning--entry type for "InkTutorial" isn't style-file defined
+--line 64 of file Bibliography.bib
+Warning--entry type for "guiadelallibreriaaccelstepper" isn't style-file defined
+--line 69 of file Bibliography.bib
+Warning--entry type for "guiadelallibreriamultistepper" isn't style-file defined
+--line 74 of file Bibliography.bib
+Warning--entry type for "HC05Bib" isn't style-file defined
+--line 79 of file Bibliography.bib
+Warning--entry type for "TkinterBib" isn't style-file defined
+--line 84 of file Bibliography.bib
+Warning--entry type for "turtleBib" isn't style-file defined
+--line 89 of file Bibliography.bib
+Warning--entry type for "FritzingBib" isn't style-file defined
+--line 101 of file Bibliography.bib
+Warning--entry type for "arduinoBib" isn't style-file defined
+--line 106 of file Bibliography.bib
+(There were 2 error messages)

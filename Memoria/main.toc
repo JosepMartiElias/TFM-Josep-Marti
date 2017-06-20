@@ -80,5 +80,12 @@
 \contentsline {subsection}{\numberline {A.1.3}AppTFM.py}{91}{subsection.1028}
 \contentsline {section}{\numberline {A.2}Arduino}{97}{section.1322}
 \contentsline {subsection}{\numberline {A.2.1}Robot.ino}{97}{subsection.1323}
+\contentsline {chapter}{\numberline {B}Pl\IeC {\`a}nols de les peces}{101}{appendix.1427}
+\contentsline {section}{\numberline {B.1}Xass\IeC {\'\i }s}{102}{section.1428}
+\contentsline {section}{\numberline {B.2}Guia del retolador}{103}{section.1429}
+\contentsline {section}{\numberline {B.3}Mecanisme d'elevaci\IeC {\'o} del retolador}{104}{section.1430}
+\contentsline {section}{\numberline {B.4}Roda boja davantera}{105}{section.1431}
+\contentsline {section}{\numberline {B.5}Roda motriu}{106}{section.1432}
+\contentsline {section}{\numberline {B.6}Tubs auxiliars}{107}{section.1433}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{101}{dummy.1427}
+\contentsline {chapter}{Bibliografia}{109}{dummy.1434}

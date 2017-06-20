@@ -43,6 +43,8 @@
 \usepackage{pgfgantt}
 \usepackage{eurosym}
 \usepackage{longtable}
+\usepackage{pdfpages}
+\usepackage{tikz}
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \makeatletter
 \renewcommand{\@chapapp}{Capítol}
@@ -210,7 +212,17 @@ Més endavant i si el temps ho permet, es podrà dissenyar alguna manera per tan
 
 \listofnomenclature{ll} % Include a list of Symbols (a three column table)
 {
-mm & mil·limetres \\
+DM & Aglomerat de fusta \\
+IMU & Unitat de mesura inercial \\
+LED & Light-emitting diode\\
+GUI & Graphic User Interface\\
+SVG & Scalar Vector Graphic\\
+CAD & Computer-aided design\\
+LiPo & Polímers de liti\\
+GND & Terra (Ground)\\
+PWM & Pulse Width Modulation\\
+bps & Bits per segon\\
+
 
 
 % Symbol & Name & Unit \\
@@ -259,7 +271,7 @@ mm & mil·limetres \\
 % Uncomment the lines as you write the Appendices
 
 \input{Appendices/AppendixA}
-%\input{Appendices/AppendixB}
+\input{Appendices/AppendixB}
 %\input{Appendices/AppendixC}
 
 \addtocontents{toc}{\vspace{2em}} % Add a g in the Contents, for aesthetics
@@ -278,7 +290,7 @@ mm & mil·limetres \\
 
 %\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
 
-\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 \bibliography{Bibliography}
 
 \end{document}  

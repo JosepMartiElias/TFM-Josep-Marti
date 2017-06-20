@@ -1,7 +1,7 @@
 \select@language {catalan}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing.\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing \cite {FritzingBib}.\relax }}{6}{figure.caption.16}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Fotografia del robot.\relax }}{6}{figure.caption.17}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de flux del funcionament general.\relax }}{7}{figure.caption.18}
 \addvspace {10\p@ }
@@ -44,7 +44,7 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Representaci\IeC {\'o} d'un moviment amb l'ordre G02.\relax }}{42}{figure.caption.142}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Logo d'Arduino.\relax }}{45}{figure.caption.169}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Placa Arduino UNO.\relax }}{46}{figure.caption.171}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing.\relax }}{47}{figure.caption.173}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Diagrama de connexi\IeC {\'o} dels components realitzada amb el programa Fritzing \cite {FritzingBib}.\relax }}{47}{figure.caption.173}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Logo de la tecnologia Bluetooth.\relax }}{53}{figure.caption.281}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces M\IeC {\`o}dul HC-05.\relax }}{53}{figure.caption.283}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces P\IeC {\`a}gina inicial.\relax }}{57}{figure.caption.327}
@@ -59,6 +59,7 @@
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Dibuix de la lletra \textit {i} millorat.\relax }}{69}{figure.caption.490}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de Gantt de la programaci\IeC {\'o} temporal del projecte.\relax }}{72}{figure.caption.493}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
