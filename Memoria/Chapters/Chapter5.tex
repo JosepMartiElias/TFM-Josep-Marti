@@ -52,7 +52,7 @@ Cal destacar un error present en tots els dibuixos, i és la oscil·lació de la
 	\begin{figure}[H]
 		\centering
 		\includegraphics{resultatLletra}
-		\caption{Dibuix d'una lletra "i" en Inkscape (a) i fet pel robot (b).}
+		\caption{Dibuix d'una lletra \textit{i} en Inkscape (a) i dibuixada pel robot (b).}
 		\label{fig:Lletra}
 	\end{figure}
 	La forma de la lletra és manté bastant similar a la original, es pot veure com s'ha pogut tancar el cos i que manté té una forma molt aproximada. Cal destacar però, que hi ha diferents errors. En primer lloc, cal dir que la línia diagonal que no pertany al dibuix s'ha creat degut a un error de muntatge, ja que al acabar s'ha desenganxat l'accionador del servo que s'encarrega d'aixecar el retolador. Aquí el principal error s'acumula a la realització del punt de la "i". Al crear la trajectòria en Inkscape, aquest no detecta el pun com una circumferència perfecta i la crea a partir de molts arcs de petites dimensions. Això provoca constants aturades del robot per tal de realitzar rotacions molt petites i l'error que s'acumula és molt gran. Al ser la primera part que es dibuixa, distorsiona tota la imatge que queda desviada. Aixó s'observa al punt, veient que no s'acaba de tancar la silueta per la part superior. Al arribar a l'últim punt de la circumferència que dibuixa el robot, aquest gira 90 graus, però com que aquest punt no coincideix amb l'inicial, la direcció del robot no es l'esperada. Això provoca aquesta desviació. 
@@ -61,11 +61,14 @@ Cal destacar un error present en tots els dibuixos, i és la oscil·lació de la
 	\begin{figure}[H]
 		\centering
 		\includegraphics{resultatLletra2}
-		\caption{Dibuix de la lletra "i" millorat.}
+		\caption{Dibuix de la lletra \textit{i} millorat.}
 		\label{fig:Lletra2}
 	\end{figure}
 	El canvi és clar, l'error més elevat es comet al realitzar el petits moviments circulars del punt. Així s'aconsegueix un punt més definit i una lletra més ben posicionada.
 	
+	Els errors que es poden observar es localitzen principalment en el calibratge del robot. A part dels aspectes que s'han essmentat, també existeixen possibles errors de disseny i construcció que poden provocar aquests errors, per exemple un mal centratge de les rodes, que aquestes no siguin perfectament perpendiculars a l'eix, que existeixi un petit lliscament entre l'eix i la roda o la deformació de les juntes que actuen com a neumàtic que pot ser diferent al llarg del recorregut. També és possible que a causa de la fricció algún pas del motor no es realitzi com toca i aixó provoqui aquest error.  
+	
+	Per millorar els errors de disseny o vibracions del motor caldria redissenyar les peces, adquirir nous components amb millors prestacions i millorar els materials que el composen per exemple. Aixó reduiria l'error en llaç obert considerablement. Per altra banda, es podria estudiar les diferents vies que existeixen per tancar el llaç de control i intentar corregir aquest error com s'explica més endevant en l'apartat \ref{sec:treballsfuturs} de possibles treballs futurs, ja que no entra a l'abast d'aquest projecte. 
 	
 	
 	
