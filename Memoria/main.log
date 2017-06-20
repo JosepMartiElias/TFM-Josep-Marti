@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  20 JUN 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  20 JUN 2017 22:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1352,7 +1352,7 @@ Cap\IeC {\'\i }tol 1.
 [1
 
 
-] <logo1.png, id=566, 91.09032pt x 113.67468pt>
+] <logo1.png, id=601, 91.09032pt x 113.67468pt>
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 58.
@@ -1376,13 +1376,13 @@ Cap\IeC {\'\i }tol 2.
 ------------------------------------------------------------------------------
  2 Principis de funcionament
 ------------------------------------------------------------------------------
-<RobotFritz.png, id=581, 727.25034pt x 697.27167pt>
+<RobotFritz.png, id=616, 727.25034pt x 697.27167pt>
 File: RobotFritz.png Graphic file (type png)
  <use RobotFritz.png>
 Package pdftex.def Info: RobotFritz.png used on input line 25.
 (pdftex.def)             Requested size: 290.89497pt x 278.90372pt.
 
-[5] <RobotFoto.jpg, id=587, 2137.9875pt x 2178.1375pt>
+[5] <RobotFoto.jpg, id=622, 2137.9875pt x 2178.1375pt>
 File: RobotFoto.jpg Graphic file (type jpg)
  <use RobotFoto.jpg>
 Package pdftex.def Info: RobotFoto.jpg used on input line 34.
@@ -1393,7 +1393,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 40.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [6 <./RobotFritz.png> <./RobotFoto.jpg>]
-<Flux.pdf, id=593, 525.68436pt x 146.07373pt>
+<Flux.pdf, id=628, 525.68436pt x 146.07373pt>
 File: Flux.pdf Graphic file (type pdf)
  <use Flux.pdf>
 Package pdftex.def Info: Flux.pdf used on input line 43.
@@ -1415,7 +1415,7 @@ Cap\IeC {\'\i }tol 3.
 ------------------------------------------------------------------------------
  3 Elements principals
 ------------------------------------------------------------------------------
-[9] <Unipolar.pdf, id=620, 364.64331pt x 133.3502pt>
+[9] <Unipolar.pdf, id=655, 364.64331pt x 133.3502pt>
 File: Unipolar.pdf Graphic file (type pdf)
  <use Unipolar.pdf>
 Package pdftex.def Info: Unipolar.pdf used on input line 40.
@@ -1426,7 +1426,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 46.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [10 <./Unipolar.pdf>]
-<Bipolar.pdf, id=647, 128.14174pt x 140.91446pt>
+<Bipolar.pdf, id=682, 128.14174pt x 140.91446pt>
 File: Bipolar.pdf Graphic file (type pdf)
  <use Bipolar.pdf>
 Package pdftex.def Info: Bipolar.pdf used on input line 49.
@@ -1442,7 +1442,7 @@ ted-to.pdf Sequencia_1_fase.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_1_fase-eps-converted-to.pdf, id=648, 112.42pt x 98.3675pt>
+<Sequencia_1_fase-eps-converted-to.pdf, id=683, 112.42pt x 98.3675pt>
 File: Sequencia_1_fase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_1_fase-eps-converted-to.pdf>
@@ -1465,7 +1465,7 @@ rted-to.pdf Sequencia_2_fases.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_2_fases-eps-converted-to.pdf, id=669, 113.42375pt x 98.3675pt>
+<Sequencia_2_fases-eps-converted-to.pdf, id=704, 113.42375pt x 98.3675pt>
 File: Sequencia_2_fases-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_2_fases-eps-converted-to.pdf>
@@ -1483,7 +1483,7 @@ erted-to.pdf Sequencia_halfstep.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_halfstep-eps-converted-to.pdf, id=670, 189.70876pt x 112.42pt>
+<Sequencia_halfstep-eps-converted-to.pdf, id=705, 189.70876pt x 112.42pt>
 File: Sequencia_halfstep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_halfstep-eps-converted-to.pdf>
@@ -1495,7 +1495,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 116.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [12 <./Sequencia_2_fases-eps-converted-to.pdf>]
-<Multistepper-grafic.pdf, id=680, 405.28143pt x 252.08679pt>
+<Multistepper-grafic.pdf, id=715, 405.28143pt x 252.08679pt>
 File: Multistepper-grafic.pdf Graphic file (type pdf)
 
 <use Multistepper-grafic.pdf>
@@ -1505,7 +1505,7 @@ File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 147.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [13 <./Sequencia_halfstep-eps-converted-to.pdf>] <NEMA14.jpg, id=688, 104.3097
+ [13 <./Sequencia_halfstep-eps-converted-to.pdf>] <NEMA14.jpg, id=723, 104.3097
 pt x 78.2925pt>
 File: NEMA14.jpg Graphic file (type jpg)
  <use NEMA14.jpg>
@@ -1517,7 +1517,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 162.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [14 <./Multistepper-grafic.pdf>]
-<PontH.pdf, id=713, 168.93213pt x 141.99348pt>
+<PontH.pdf, id=748, 168.93213pt x 141.99348pt>
 File: PontH.pdf Graphic file (type pdf)
  <use PontH.pdf>
 Package pdftex.def Info: PontH.pdf used on input line 197.
@@ -1527,14 +1527,14 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 201.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
-[15 <./NEMA14.jpg>] <PontHfuncionament.pdf, id=718, 368.7135pt x 141.99348pt>
+[15 <./NEMA14.jpg>] <PontHfuncionament.pdf, id=753, 368.7135pt x 141.99348pt>
 File: PontHfuncionament.pdf Graphic file (type pdf)
 
 <use PontHfuncionament.pdf>
 Package pdftex.def Info: PontHfuncionament.pdf used on input line 206.
 (pdftex.def)             Requested size: 368.7126pt x 141.99312pt.
 
-<driverpins.pdf, id=719, 366.51529pt x 259.69823pt>
+<driverpins.pdf, id=754, 366.51529pt x 259.69823pt>
 File: driverpins.pdf Graphic file (type pdf)
  <use driverpins.pdf>
 Package pdftex.def Info: driverpins.pdf used on input line 223.
@@ -1550,7 +1550,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 251.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
-[17 <./driverpins.pdf>] <elevacio.pdf, id=784, 287.38066pt x 119.0317pt>
+[17 <./driverpins.pdf>] <elevacio.pdf, id=819, 287.38066pt x 119.0317pt>
 File: elevacio.pdf Graphic file (type pdf)
 
 <use elevacio.pdf>
@@ -1561,7 +1561,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 283.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [18 <./elevacio.pdf>]
-<senyal_servo.pdf, id=795, 219.86342pt x 284.08034pt>
+<senyal_servo.pdf, id=830, 219.86342pt x 284.08034pt>
 File: senyal_servo.pdf Graphic file (type pdf)
  <use senyal_servo.pdf>
 Package pdftex.def Info: senyal_servo.pdf used on input line 302.
@@ -1571,7 +1571,7 @@ File: logo1.png Graphic file (type png)
 <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 306.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [19] <flux_servo.pdf, id=800, 414.09908pt x 83.38553pt>
+ [19] <flux_servo.pdf, id=835, 414.09908pt x 83.38553pt>
 File: flux_servo.pdf Graphic file (type pdf)
 
 <use flux_servo.pdf>
@@ -1581,7 +1581,7 @@ File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 341.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [20 <./senyal_servo.pdf> <./flux_servo.pdf>] <bateria.png, id=844, 319.94531pt
+ [20 <./senyal_servo.pdf> <./flux_servo.pdf>] <bateria.png, id=879, 319.94531pt
  x 233.37187pt>
 File: bateria.png Graphic file (type png)
  <use bateria.png>
@@ -1593,7 +1593,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 356.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [21 <./bateria.png>]
-<retolador.png, id=850, 501.875pt x 501.875pt>
+<retolador.png, id=885, 501.875pt x 501.875pt>
 File: retolador.png Graphic file (type png)
  <use retolador.png>
 Package pdftex.def Info: retolador.png used on input line 361.
@@ -1609,14 +1609,14 @@ Cap\IeC {\'\i }tol 4.
 ------------------------------------------------------------------------------
  4 Disseny de l'estructura
 ------------------------------------------------------------------------------
-<RobotSW.png, id=855, 426.46828pt x 491.96297pt>
+<RobotSW.png, id=890, 426.46828pt x 491.96297pt>
 File: RobotSW.png Graphic file (type png)
  <use RobotSW.png>
 Package pdftex.def Info: RobotSW.png used on input line 15.
 (pdftex.def)             Requested size: 255.88293pt x 295.18005pt.
  [23
 
- <./RobotSW.png>] <xassis.pdf, id=862, 300.19553pt x 232.61806pt>
+ <./RobotSW.png>] <xassis.pdf, id=897, 300.19553pt x 232.61806pt>
 File: xassis.pdf Graphic file (type pdf)
  <use xassis.pdf>
 Package pdftex.def Info: xassis.pdf used on input line 26.
@@ -1632,13 +1632,13 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 48.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [25]
-<guia.pdf, id=887, 194.8068pt x 152.34515pt>
+<guia.pdf, id=922, 194.8068pt x 152.34515pt>
 File: guia.pdf Graphic file (type pdf)
  <use guia.pdf>
 Package pdftex.def Info: guia.pdf used on input line 51.
 (pdftex.def)             Requested size: 194.8063pt x 152.34477pt.
 
-<GuiaServo.pdf, id=888, 287.38066pt x 119.0317pt>
+<GuiaServo.pdf, id=923, 287.38066pt x 119.0317pt>
 File: GuiaServo.pdf Graphic file (type pdf)
  <use GuiaServo.pdf>
 Package pdftex.def Info: GuiaServo.pdf used on input line 60.
@@ -1649,13 +1649,13 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 69.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [26 <./guia.pdf> <./GuiaServo.pdf>]
-<suport.pdf, id=904, 259.65807pt x 198.37915pt>
+<suport.pdf, id=939, 259.65807pt x 198.37915pt>
 File: suport.pdf Graphic file (type pdf)
  <use suport.pdf>
 Package pdftex.def Info: suport.pdf used on input line 74.
 (pdftex.def)             Requested size: 259.65742pt x 198.37866pt.
 
-<bolaboja.pdf, id=905, 190.49269pt x 128.51714pt>
+<bolaboja.pdf, id=940, 190.49269pt x 128.51714pt>
 File: bolaboja.pdf Graphic file (type pdf)
  <use bolaboja.pdf>
 Package pdftex.def Info: bolaboja.pdf used on input line 85.
@@ -1666,7 +1666,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 88.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [27 <./suport.pdf>]
-<pla.pdf, id=921, 187.40031pt x 200.62152pt>
+<pla.pdf, id=956, 187.40031pt x 200.62152pt>
 File: pla.pdf Graphic file (type pdf)
  <use pla.pdf>
 Package pdftex.def Info: pla.pdf used on input line 94.
@@ -1679,7 +1679,7 @@ Package pdftex.def Info: logo1.png used on input line 106.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 [28 <./bolaboja.pdf> <./pla.pdf>]
-<roda.pdf, id=935, 158.18297pt x 175.71246pt>
+<roda.pdf, id=970, 158.18297pt x 175.71246pt>
 File: roda.pdf Graphic file (type pdf)
  <use roda.pdf>
 Package pdftex.def Info: roda.pdf used on input line 115.
@@ -1689,7 +1689,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 124.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
-[29 <./roda.pdf>] <tubs.pdf, id=953, 439.43384pt x 218.8175pt>
+[29 <./roda.pdf>] <tubs.pdf, id=988, 439.43384pt x 218.8175pt>
 File: tubs.pdf Graphic file (type pdf)
  <use tubs.pdf>
 Package pdftex.def Info: tubs.pdf used on input line 129.
@@ -1708,7 +1708,7 @@ Cap\IeC {\'\i }tol 5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<figuretry.pdf, id=963, 427.18024pt x 165.21423pt>
+<figuretry.pdf, id=998, 427.18024pt x 165.21423pt>
 File: figuretry.pdf Graphic file (type pdf)
  <use figuretry.pdf>
 Package pdftex.def Info: figuretry.pdf used on input line 104.
@@ -1733,7 +1733,7 @@ Package epstopdf Info: Source file: <inkscape-logo.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<inkscape-logo-eps-converted-to.pdf, id=993, 101.37875pt x 101.37875pt>
+<inkscape-logo-eps-converted-to.pdf, id=1028, 101.37875pt x 101.37875pt>
 File: inkscape-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use inkscape-logo-eps-converted-to.pdf>
@@ -1756,7 +1756,7 @@ d-to.pdf 1PropDocumento.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<1PropDocumento-eps-converted-to.pdf, id=998, 183.68625pt x 231.86626pt>
+<1PropDocumento-eps-converted-to.pdf, id=1033, 183.68625pt x 231.86626pt>
 File: 1PropDocumento-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1PropDocumento-eps-converted-to.pdf>
@@ -1779,7 +1779,7 @@ pdf 2trayecto.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<2trayecto-eps-converted-to.pdf, id=1006, 485.815pt x 352.31625pt>
+<2trayecto-eps-converted-to.pdf, id=1041, 485.815pt x 352.31625pt>
 File: 2trayecto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2trayecto-eps-converted-to.pdf>
@@ -1803,7 +1803,7 @@ rted-to.pdf 3PuntosReferencia.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<3PuntosReferencia-eps-converted-to.pdf, id=1018, 179.67125pt x 227.85126pt>
+<3PuntosReferencia-eps-converted-to.pdf, id=1053, 179.67125pt x 227.85126pt>
 File: 3PuntosReferencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 3PuntosReferencia-eps-converted-to.pdf>
@@ -1821,7 +1821,7 @@ Package epstopdf Info: Source file: <4tool.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<4tool-eps-converted-to.pdf, id=1019, 477.785pt x 258.9675pt>
+<4tool-eps-converted-to.pdf, id=1054, 477.785pt x 258.9675pt>
 File: 4tool-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4tool-eps-converted-to.pdf>
@@ -1843,7 +1843,7 @@ to.pdf 5Trajectoria.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<5Trajectoria-eps-converted-to.pdf, id=1027, 303.1325pt x 173.64874pt>
+<5Trajectoria-eps-converted-to.pdf, id=1062, 303.1325pt x 173.64874pt>
 File: 5Trajectoria-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5Trajectoria-eps-converted-to.pdf>
@@ -1855,7 +1855,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 214.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [37 <./4tool-eps-converted-to.pdf> <./5Trajectoria-eps-converted-to.pdf>]
-<python-logo.png, id=1038, 582.175pt x 164.615pt>
+<python-logo.png, id=1073, 582.175pt x 164.615pt>
 File: python-logo.png Graphic file (type png)
  <use python-logo.png>
 Package pdftex.def Info: python-logo.png used on input line 219.
@@ -1896,7 +1896,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 260.
 
-<G00.pdf, id=1053, 496.22992pt x 189.27312pt>
+<G00.pdf, id=1088, 496.22992pt x 189.27312pt>
 File: G00.pdf Graphic file (type pdf)
  <use G00.pdf>
 Package pdftex.def Info: G00.pdf used on input line 266.
@@ -1936,7 +1936,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 325.
 
-<G01.pdf, id=1119, 496.22992pt x 189.27312pt>
+<G01.pdf, id=1154, 496.22992pt x 189.27312pt>
 File: G01.pdf Graphic file (type pdf)
  <use G01.pdf>
 Package pdftex.def Info: G01.pdf used on input line 330.
@@ -2006,7 +2006,7 @@ File: logo1.png Graphic file (type png)
 <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 340.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [41 <./G01.pdf>] <G02.pdf, id=1163, 529.69145pt x 306.04941pt>
+ [41 <./G01.pdf>] <G02.pdf, id=1198, 529.69145pt x 306.04941pt>
 File: G02.pdf Graphic file (type pdf)
 
 <use G02.pdf>
@@ -2108,13 +2108,13 @@ File: logo1.png Graphic file (type png)
 <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 428.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [44] <arduino-logo.png, id=1233, 1204.5pt x 820.06375pt>
+ [44] <arduino-logo.png, id=1268, 1204.5pt x 820.06375pt>
 File: arduino-logo.png Graphic file (type png)
 
 <use arduino-logo.png>
 Package pdftex.def Info: arduino-logo.png used on input line 431.
 (pdftex.def)             Requested size: 120.45705pt x 82.01117pt.
- <arduino-uno.png, id=1234, 501.875pt x 377.41pt>
+ <arduino-uno.png, id=1269, 501.875pt x 377.41pt>
 File: arduino-uno.png Graphic file (type png)
 
 <use arduino-uno.png>
@@ -2176,13 +2176,13 @@ File: logo1.png Graphic file (type png)
 <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 645.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [52] <BluetoothLogo.png, id=1377, 5018.75pt x 3011.25pt>
+ [52] <BluetoothLogo.png, id=1412, 5018.75pt x 3011.25pt>
 File: BluetoothLogo.png Graphic file (type png)
 
 <use BluetoothLogo.png>
 Package pdftex.def Info: BluetoothLogo.png used on input line 648.
 (pdftex.def)             Requested size: 150.556pt x 90.3336pt.
- <HC05.jpg, id=1378, 602.25pt x 602.25pt>
+ <HC05.jpg, id=1413, 602.25pt x 602.25pt>
 File: HC05.jpg Graphic file (type jpg)
 
 <use HC05.jpg>
@@ -2204,7 +2204,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 711.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [55]
-<StartPage.png, id=1415, 355.7039pt x 316.18124pt>
+<StartPage.png, id=1450, 355.7039pt x 316.18124pt>
 File: StartPage.png Graphic file (type png)
  <use StartPage.png>
 Package pdftex.def Info: StartPage.png used on input line 742.
@@ -2220,7 +2220,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 769.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [57 <./StartPage.png>]
-<InkPage.png, id=1463, 357.20953pt x 313.5464pt>
+<InkPage.png, id=1498, 357.20953pt x 313.5464pt>
 File: InkPage.png Graphic file (type png)
  <use InkPage.png>
 Package pdftex.def Info: InkPage.png used on input line 774.
@@ -2231,7 +2231,7 @@ File: logo1.png Graphic file (type png)
 Package pdftex.def Info: logo1.png used on input line 794.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [58 <./InkPage.png>]
-<ManualPage.png, id=1480, 354.19829pt x 312.7936pt>
+<ManualPage.png, id=1515, 354.19829pt x 312.7936pt>
 File: ManualPage.png Graphic file (type png)
  <use ManualPage.png>
 Package pdftex.def Info: ManualPage.png used on input line 830.
@@ -2273,7 +2273,7 @@ Cap\IeC {\'\i }tol 6.
 ------------------------------------------------------------------------------
  6 Resultats
 ------------------------------------------------------------------------------
-<resultatLinia.pdf, id=1638, 459.44629pt x 65.93231pt>
+<resultatLinia.pdf, id=1673, 459.44629pt x 65.93231pt>
 File: resultatLinia.pdf Graphic file (type pdf)
  <use resultatLinia.pdf>
 Package pdftex.def Info: resultatLinia.pdf used on input line 18.
@@ -2283,16 +2283,16 @@ Overfull \hbox (3.56087pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<resultatQuadrat.pdf, id=1639, 274.67116pt x 258.34416pt>
+<resultatQuadrat.pdf, id=1674, 279.03127pt x 262.98453pt>
 File: resultatQuadrat.pdf Graphic file (type pdf)
 
 <use resultatQuadrat.pdf>
 Package pdftex.def Info: resultatQuadrat.pdf used on input line 27.
-(pdftex.def)             Requested size: 274.67047pt x 258.34352pt.
+(pdftex.def)             Requested size: 279.03058pt x 262.98387pt.
  [65
 
  <./resultatLinia.pdf>]
-<resultatEstrella.pdf, id=1657, 353.21861pt x 192.7441pt>
+<resultatEstrella.pdf, id=1692, 353.21861pt x 192.7441pt>
 File: resultatEstrella.pdf Graphic file (type pdf)
 
 <use resultatEstrella.pdf>
@@ -2300,28 +2300,28 @@ Package pdftex.def Info: resultatEstrella.pdf used on input line 36.
 (pdftex.def)             Requested size: 317.8938pt x 173.46806pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 41.
+Package pdftex.def Info: logo1.png used on input line 40.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [66 <./resultatQuadrat.pdf> <./resultatEstrella.pdf>] <resultatFuncionara.pdf,
- id=1677, 187.49849pt x 224.84pt>
+ [66 <./resultatQuadrat.pdf>]
+<resultatFuncionara.pdf, id=1701, 187.49849pt x 224.84pt>
 File: resultatFuncionara.pdf Graphic file (type pdf)
 
 <use resultatFuncionara.pdf>
 Package pdftex.def Info: resultatFuncionara.pdf used on input line 45.
 (pdftex.def)             Requested size: 187.49802pt x 224.83945pt.
-
-<resultatLletra.pdf, id=1678, 225.18831pt x 219.74095pt>
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 51.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [67 <./resultatEstrella.pdf> <./resultatFuncionara.pdf>]
+<resultatLletra.pdf, id=1721, 225.18831pt x 219.74095pt>
 File: resultatLletra.pdf Graphic file (type pdf)
 
 <use resultatLletra.pdf>
 Package pdftex.def Info: resultatLletra.pdf used on input line 54.
 (pdftex.def)             Requested size: 225.18774pt x 219.7404pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 58.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [67 <./resultatFuncionara.pdf>]
-<resultatLletra2.pdf, id=1687, 110.12744pt x 201.54396pt>
+
+<resultatLletra2.pdf, id=1722, 110.12744pt x 201.54396pt>
 File: resultatLletra2.pdf Graphic file (type pdf)
 
 <use resultatLletra2.pdf>
@@ -2331,12 +2331,8 @@ File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 67.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
- [68 <./resultatLletra.pdf>]
-
-LaTeX Warning: Reference `sec:treballsfuturs' on page 69 undefined on input lin
-e 71.
-
-) (Chapters/Chapter7.tex
+ [68 <./resultatLletra.pdf>])
+(Chapters/Chapter7.tex
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 3.
@@ -2385,12 +2381,126 @@ Cap\IeC {\'\i }tol 9.
 ------------------------------------------------------------------------------
  9 Conclusions i treballs futurs
 ------------------------------------------------------------------------------
-[77])
+[77]) (Appendices/AppendixA.tex
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 266.
+Package pdftex.def Info: logo1.png used on input line 3.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
  [78]
+Ap\`endix A.
+------------------------------------------------------------------------------
+ A Programes creats
+------------------------------------------------------------------------------
+[79
+
+]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 173.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [80]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 225.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [81]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 277.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [82]
+File: logo1.png Graphic file (type png)
+
+<use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 329.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [83]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 377.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [84]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 399.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [85]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 454.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+[86]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 506.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [87]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 558.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [88]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 610.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [89]
+File: logo1.png Graphic file (type png)
+
+<use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 621.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [90]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 676.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [91]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 724.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [92]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 773.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+[93]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 823.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [94]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 868.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [95]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 923.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [96]
+File: logo1.png Graphic file (type png)
+
+<use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 973.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [97]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 1024.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [98])
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 267.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [99] [100
+
+]
 ------------------------------------------------------------------------------
  Bibliografia
 ------------------------------------------------------------------------------
@@ -2398,38 +2508,34 @@ Package pdftex.def Info: logo1.png used on input line 266.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [79
-
+) [101
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DB3E301DF3F01E8BB294521BD9AFE227;13553.
+(rerunfilecheck)             Checksum: 4351594423F8D0E52170AB4C4F7B806E;14565.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 141 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28788 strings out of 493333
- 496187 string characters out of 3139188
- 812439 words of memory out of 3000000
- 31139 multiletter control sequences out of 15000+200000
+ 29901 strings out of 493333
+ 510772 string characters out of 3139188
+ 1011915 words of memory out of 3000000
+ 31300 multiletter control sequences out of 15000+200000
  18482 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,66p,1442b,2267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,66p,1442b,2275s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Progr
@@ -2449,9 +2555,9 @@ ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb
 >
-Output written on main.pdf (93 pages, 29451281 bytes).
+Output written on main.pdf (115 pages, 29655834 bytes).
 PDF statistics:
- 1949 PDF objects out of 2073 (max. 8388607)
- 595 named destinations out of 1000 (max. 500000)
- 849 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3188 PDF objects out of 3580 (max. 8388607)
+ 1543 named destinations out of 1728 (max. 500000)
+ 905 words of extra memory for PDF output out of 10000 (max. 10000000)
 
