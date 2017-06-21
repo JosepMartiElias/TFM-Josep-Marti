@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  21 JUN 2017 01:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.16)  21 JUN 2017 12:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -1234,22 +1234,22 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1280,7 +1280,7 @@ ABD: EveryShipout initializing macros
 )
 \AtBeginShipoutBox=\box55
 \c@lstlisting=\count269
-Package hyperref Info: Link coloring ON on input line 60.
+Package hyperref Info: Link coloring ON on input line 65.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1289,16 +1289,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count270
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \l on input line 60.
-LaTeX Info: Redefining \L on input line 60.
+LaTeX Info: Redefining \l on input line 65.
+LaTeX Info: Redefining \L on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1308,60 +1308,65 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+pdfTeX warning: pdflatex.exe (file ./PortadaETSEIB.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<PortadaETSEIB.pdf, id=350, 597.55246pt x 845.07718pt>
+File: PortadaETSEIB.pdf Graphic file (type pdf)
+ <use PortadaETSEIB.pdf>
+Package pdftex.def Info: PortadaETSEIB.pdf used on input line 98.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+[1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+ <./PortadaETSEIB.pdf>]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
- [2]
-------------------------------------------------------------------------------
- Agra\IeC {\@umlaut\i }ments
-------------------------------------------------------------------------------
-[3
-
-]
+[2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ------------------------------------------------------------------------------
  \IeC {\'I}ndex
 ------------------------------------------------------------------------------
-[4
+(main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
 
 
-] (main.toc [5] [6])
+] [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [7] [8
+ [5]
+[6
 
 ]
 ------------------------------------------------------------------------------
  \IeC {\'I}ndex de figures
 ------------------------------------------------------------------------------
-(main.lof [9
+(main.lof
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+ [7
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [10]
+
+[8]
 ------------------------------------------------------------------------------
  \IeC {\'I}ndex de taules
 ------------------------------------------------------------------------------
@@ -1369,19 +1374,19 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [11
+ [9
 
 
-] [12
+] [10
 
 ]
 ------------------------------------------------------------------------------
  S\IeC {\'\i }mbols
 ------------------------------------------------------------------------------
-[13
+[11
 
 
-] [14
+] [12
 
 ] (Chapters/Chapter1.tex
 Cap\IeC {\'\i }tol 1.
@@ -1391,7 +1396,7 @@ Cap\IeC {\'\i }tol 1.
 [1
 
 
-] <logo1.png, id=639, 91.09032pt x 113.67468pt>
+] <logo1.png, id=650, 91.09032pt x 113.67468pt>
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 58.
@@ -1422,13 +1427,13 @@ Cap\IeC {\'\i }tol 2.
 ------------------------------------------------------------------------------
  2 Principis de funcionament
 ------------------------------------------------------------------------------
-<RobotFritz.png, id=654, 727.25034pt x 697.27167pt>
+<RobotFritz.png, id=665, 727.25034pt x 697.27167pt>
 File: RobotFritz.png Graphic file (type png)
  <use RobotFritz.png>
 Package pdftex.def Info: RobotFritz.png used on input line 25.
 (pdftex.def)             Requested size: 290.89497pt x 278.90372pt.
 
-[5] <RobotFoto.jpg, id=662, 2137.9875pt x 2178.1375pt>
+[5] <RobotFoto.jpg, id=672, 2137.9875pt x 2178.1375pt>
 File: RobotFoto.jpg Graphic file (type jpg)
  <use RobotFoto.jpg>
 Package pdftex.def Info: RobotFoto.jpg used on input line 34.
@@ -1446,7 +1451,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./RobotFritz.png> <./RobotFoto.jpg>]
-<Flux.pdf, id=668, 525.68436pt x 146.07373pt>
+<Flux.pdf, id=679, 525.68436pt x 146.07373pt>
 File: Flux.pdf Graphic file (type pdf)
  <use Flux.pdf>
 Package pdftex.def Info: Flux.pdf used on input line 43.
@@ -1475,15 +1480,21 @@ Cap\IeC {\'\i }tol 3.
 ------------------------------------------------------------------------------
  3 Elements principals
 ------------------------------------------------------------------------------
-[9] <Unipolar.pdf, id=697, 364.64331pt x 133.3502pt>
+[9] <Unipolar.pdf, id=709, 364.64331pt x 133.3502pt>
 File: Unipolar.pdf Graphic file (type pdf)
  <use Unipolar.pdf>
 Package pdftex.def Info: Unipolar.pdf used on input line 40.
 (pdftex.def)             Requested size: 364.64241pt x 133.34987pt.
+
+<Bipolar.pdf, id=710, 128.14174pt x 140.91446pt>
+File: Bipolar.pdf Graphic file (type pdf)
+ <use Bipolar.pdf>
+Package pdftex.def Info: Bipolar.pdf used on input line 49.
+(pdftex.def)             Requested size: 128.14142pt x 140.9141pt.
 File: logo1.png Graphic file (type png)
 
 <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 46.
+Package pdftex.def Info: logo1.png used on input line 53.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1492,12 +1503,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./Unipolar.pdf>] <Bipolar.pdf, id=724, 128.14174pt x 140.91446pt>
-File: Bipolar.pdf Graphic file (type pdf)
-
-<use Bipolar.pdf>
-Package pdftex.def Info: Bipolar.pdf used on input line 49.
-(pdftex.def)             Requested size: 128.14142pt x 140.9141pt.
+[10 <./Unipolar.pdf>]
 Package epstopdf Info: Source file: <Sequencia_1_fase.eps>
 (epstopdf)                    date: 2017-04-05 00:27:25
 (epstopdf)                    size: 480261 bytes
@@ -1509,25 +1515,13 @@ ted-to.pdf Sequencia_1_fase.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_1_fase-eps-converted-to.pdf, id=725, 112.42pt x 98.3675pt>
+<Sequencia_1_fase-eps-converted-to.pdf, id=737, 112.42pt x 98.3675pt>
 File: Sequencia_1_fase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_1_fase-eps-converted-to.pdf>
 Package pdftex.def Info: Sequencia_1_fase-eps-converted-to.pdf used on input li
 ne 62.
 (pdftex.def)             Requested size: 134.90332pt x 118.04037pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 83.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./Bipolar.pdf> <./Sequencia_1_fase-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Sequencia_2_fases.eps>
 (epstopdf)                    date: 2017-04-05 00:43:10
 (epstopdf)                    size: 483450 bytes
@@ -1539,13 +1533,25 @@ rted-to.pdf Sequencia_2_fases.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_2_fases-eps-converted-to.pdf, id=746, 113.42375pt x 98.3675pt>
+<Sequencia_2_fases-eps-converted-to.pdf, id=738, 113.42375pt x 98.3675pt>
 File: Sequencia_2_fases-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_2_fases-eps-converted-to.pdf>
 Package pdftex.def Info: Sequencia_2_fases-eps-converted-to.pdf used on input l
 ine 87.
 (pdftex.def)             Requested size: 136.1078pt x 118.04037pt.
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 90.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./Bipolar.pdf> <./Sequencia_1_fase-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Sequencia_halfstep.eps>
 (epstopdf)                    date: 2017-04-05 00:42:55
 (epstopdf)                    size: 921572 bytes
@@ -1557,7 +1563,7 @@ erted-to.pdf Sequencia_halfstep.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
-<Sequencia_halfstep-eps-converted-to.pdf, id=747, 189.70876pt x 112.42pt>
+<Sequencia_halfstep-eps-converted-to.pdf, id=758, 189.70876pt x 112.42pt>
 File: Sequencia_halfstep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Sequencia_halfstep-eps-converted-to.pdf>
@@ -1566,7 +1572,7 @@ line 112.
 (pdftex.def)             Requested size: 227.64935pt x 134.90332pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 116.
+Package pdftex.def Info: logo1.png used on input line 138.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1575,8 +1581,8 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./Sequencia_2_fases-eps-converted-to.pdf>]
-<Multistepper-grafic.pdf, id=757, 405.28143pt x 252.08679pt>
+[12 <./Sequencia_2_fases-eps-converted-to.pdf> <./Sequencia_halfstep-eps-conver
+ted-to.pdf>] <Multistepper-grafic.pdf, id=771, 405.28143pt x 252.08679pt>
 File: Multistepper-grafic.pdf Graphic file (type pdf)
 
 <use Multistepper-grafic.pdf>
@@ -1584,7 +1590,7 @@ Package pdftex.def Info: Multistepper-grafic.pdf used on input line 143.
 (pdftex.def)             Requested size: 405.28044pt x 252.08617pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 147.
+Package pdftex.def Info: logo1.png used on input line 151.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1593,15 +1599,15 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./Sequencia_halfstep-eps-converted-to.pdf>]
-<NEMA14.jpg, id=765, 104.3097pt x 78.2925pt>
+[13 <./Multistepper-grafic.pdf>] <NEMA14.jpg, id=796, 104.3097pt x 78.2925pt>
 File: NEMA14.jpg Graphic file (type jpg)
- <use NEMA14.jpg>
+
+<use NEMA14.jpg>
 Package pdftex.def Info: NEMA14.jpg used on input line 158.
 (pdftex.def)             Requested size: 208.61887pt x 156.5846pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 162.
+Package pdftex.def Info: logo1.png used on input line 191.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1610,31 +1616,31 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./Multistepper-grafic.pdf>]
-<PontH.pdf, id=791, 168.93213pt x 141.99348pt>
+[14 <./NEMA14.jpg>] <PontH.pdf, id=804, 168.93213pt x 141.99348pt>
 File: PontH.pdf Graphic file (type pdf)
- <use PontH.pdf>
+
+<use PontH.pdf>
 Package pdftex.def Info: PontH.pdf used on input line 197.
 (pdftex.def)             Requested size: 168.9317pt x 141.99312pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 201.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./NEMA14.jpg>] <PontHfuncionament.pdf, id=797, 368.7135pt x 141.99348pt>
+ <PontHfuncionament.pdf, id=805, 368.7135pt x 141.99348pt>
 File: PontHfuncionament.pdf Graphic file (type pdf)
 
 <use PontHfuncionament.pdf>
 Package pdftex.def Info: PontHfuncionament.pdf used on input line 206.
 (pdftex.def)             Requested size: 368.7126pt x 141.99312pt.
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 214.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
-<driverpins.pdf, id=799, 366.51529pt x 259.69823pt>
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./PontH.pdf> <./PontHfuncionament.pdf>]
+<driverpins.pdf, id=843, 366.51529pt x 259.69823pt>
 File: driverpins.pdf Graphic file (type pdf)
  <use driverpins.pdf>
 Package pdftex.def Info: driverpins.pdf used on input line 223.
@@ -1642,7 +1648,7 @@ Package pdftex.def Info: driverpins.pdf used on input line 223.
 File: logo1.png Graphic file (type png)
 
 <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 226.
+Package pdftex.def Info: logo1.png used on input line 242.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1651,19 +1657,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./PontH.pdf> <./PontHfuncionament.pdf>]
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 251.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <./driverpins.pdf>] <elevacio.pdf, id=865, 287.38066pt x 119.0317pt>
+[16 <./driverpins.pdf>] <elevacio.pdf, id=872, 287.38066pt x 119.0317pt>
 File: elevacio.pdf Graphic file (type pdf)
 
 <use elevacio.pdf>
@@ -1671,7 +1665,7 @@ Package pdftex.def Info: elevacio.pdf used on input line 275.
 (pdftex.def)             Requested size: 287.37994pt x 119.03139pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 283.
+Package pdftex.def Info: logo1.png used on input line 279.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1680,7 +1674,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./elevacio.pdf>] <senyal_servo.pdf, id=876, 219.86342pt x 284.08034pt>
+[17] <senyal_servo.pdf, id=878, 219.86342pt x 284.08034pt>
 File: senyal_servo.pdf Graphic file (type pdf)
 
 <use senyal_servo.pdf>
@@ -1688,7 +1682,7 @@ Package pdftex.def Info: senyal_servo.pdf used on input line 302.
 (pdftex.def)             Requested size: 219.86287pt x 284.07964pt.
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 306.
+Package pdftex.def Info: logo1.png used on input line 305.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1697,15 +1691,15 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] <flux_servo.pdf, id=881, 414.09908pt x 83.38553pt>
+[18 <./elevacio.pdf>] <flux_servo.pdf, id=888, 414.09908pt x 83.38553pt>
 File: flux_servo.pdf Graphic file (type pdf)
- <use flux_servo.pdf>
+
+<use flux_servo.pdf>
 Package pdftex.def Info: flux_servo.pdf used on input line 312.
 (pdftex.def)             Requested size: 414.09805pt x 83.38531pt.
 File: logo1.png Graphic file (type png)
-
-<use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 341.
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 322.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1714,8 +1708,8 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./senyal_servo.pdf> <./flux_servo.pdf>]
-<bateria.png, id=927, 319.94531pt x 233.37187pt>
+[19 <./senyal_servo.pdf> <./flux_servo.pdf>]
+<bateria.png, id=934, 319.94531pt x 233.37187pt>
 File: bateria.png Graphic file (type png)
  <use bateria.png>
 Package pdftex.def Info: bateria.png used on input line 348.
@@ -1723,7 +1717,7 @@ Package pdftex.def Info: bateria.png used on input line 348.
 File: logo1.png Graphic file (type png)
 
 <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 356.
+Package pdftex.def Info: logo1.png used on input line 352.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -1732,13 +1726,13 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./bateria.png>] <retolador.png, id=933, 501.875pt x 501.875pt>
+[20] <retolador.png, id=941, 501.875pt x 501.875pt>
 File: retolador.png Graphic file (type png)
-
-<use retolador.png>
+ <use retolador.png>
 Package pdftex.def Info: retolador.png used on input line 361.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
-) (Chapters/Chapter4.tex
+)
+(Chapters/Chapter4.tex
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 4.
@@ -1750,19 +1744,19 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./retolador.png>]
+[21 <./bateria.png> <./retolador.png>] [22
+
+]
 Cap\IeC {\'\i }tol 4.
 ------------------------------------------------------------------------------
  4 Disseny de l'estructura
 ------------------------------------------------------------------------------
-<RobotSW.png, id=939, 426.46828pt x 491.96297pt>
+<RobotSW.png, id=951, 426.46828pt x 491.96297pt>
 File: RobotSW.png Graphic file (type png)
  <use RobotSW.png>
 Package pdftex.def Info: RobotSW.png used on input line 15.
 (pdftex.def)             Requested size: 255.88293pt x 295.18005pt.
- [23
-
- <./RobotSW.png>] <xassis.pdf, id=947, 300.19553pt x 232.61806pt>
+ [23 <./RobotSW.png>] <xassis.pdf, id=958, 300.19553pt x 232.61806pt>
 File: xassis.pdf Graphic file (type pdf)
  <use xassis.pdf>
 Package pdftex.def Info: xassis.pdf used on input line 26.
@@ -1791,13 +1785,13 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25] <guia.pdf, id=972, 194.8068pt x 152.34515pt>
+[25] <guia.pdf, id=984, 194.8068pt x 152.34515pt>
 File: guia.pdf Graphic file (type pdf)
  <use guia.pdf>
 Package pdftex.def Info: guia.pdf used on input line 51.
 (pdftex.def)             Requested size: 194.8063pt x 152.34477pt.
 
-<GuiaServo.pdf, id=973, 287.38066pt x 119.0317pt>
+<GuiaServo.pdf, id=985, 287.38066pt x 119.0317pt>
 File: GuiaServo.pdf Graphic file (type pdf)
  <use GuiaServo.pdf>
 Package pdftex.def Info: GuiaServo.pdf used on input line 60.
@@ -1815,13 +1809,13 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./guia.pdf> <./GuiaServo.pdf>]
-<suport.pdf, id=989, 259.65807pt x 198.37915pt>
+<suport.pdf, id=1001, 259.65807pt x 198.37915pt>
 File: suport.pdf Graphic file (type pdf)
  <use suport.pdf>
 Package pdftex.def Info: suport.pdf used on input line 74.
 (pdftex.def)             Requested size: 259.65742pt x 198.37866pt.
 
-<bolaboja.pdf, id=990, 190.49269pt x 128.51714pt>
+<bolaboja.pdf, id=1002, 190.49269pt x 128.51714pt>
 File: bolaboja.pdf Graphic file (type pdf)
  <use bolaboja.pdf>
 Package pdftex.def Info: bolaboja.pdf used on input line 85.
@@ -1838,7 +1832,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./suport.pdf>] <pla.pdf, id=1006, 187.40031pt x 200.62152pt>
+[27 <./suport.pdf>] <pla.pdf, id=1018, 187.40031pt x 200.62152pt>
 File: pla.pdf Graphic file (type pdf)
 
 <use pla.pdf>
@@ -1858,7 +1852,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [28 <./bolaboja.pdf> <./pla.pdf>]
-<roda.pdf, id=1020, 158.18297pt x 175.71246pt>
+<roda.pdf, id=1032, 158.18297pt x 175.71246pt>
 File: roda.pdf Graphic file (type pdf)
  <use roda.pdf>
 Package pdftex.def Info: roda.pdf used on input line 115.
@@ -1874,7 +1868,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./roda.pdf>] <tubs.pdf, id=1038, 439.43384pt x 218.8175pt>
+[29 <./roda.pdf>] <tubs.pdf, id=1049, 439.43384pt x 218.8175pt>
 File: tubs.pdf Graphic file (type pdf)
  <use tubs.pdf>
 Package pdftex.def Info: tubs.pdf used on input line 129.
@@ -1899,7 +1893,7 @@ Cap\IeC {\'\i }tol 5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<figuretry.pdf, id=1048, 427.18024pt x 165.21423pt>
+<figuretry.pdf, id=1059, 427.18024pt x 165.21423pt>
 File: figuretry.pdf Graphic file (type pdf)
  <use figuretry.pdf>
 Package pdftex.def Info: figuretry.pdf used on input line 104.
@@ -1931,7 +1925,7 @@ Package epstopdf Info: Source file: <inkscape-logo.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<inkscape-logo-eps-converted-to.pdf, id=1082, 101.37875pt x 101.37875pt>
+<inkscape-logo-eps-converted-to.pdf, id=1094, 101.37875pt x 101.37875pt>
 File: inkscape-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use inkscape-logo-eps-converted-to.pdf>
@@ -1960,7 +1954,7 @@ Package epstopdf Info: Source file: <1PropDocumento.eps>
 d-to.pdf 1PropDocumento.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
- <1PropDocumento-eps-converted-to.pdf, id=1089, 183.68625pt x 231.86626pt>
+ <1PropDocumento-eps-converted-to.pdf, id=1101, 183.68625pt x 231.86626pt>
 File: 1PropDocumento-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1PropDocumento-eps-converted-to.pdf>
@@ -1990,7 +1984,7 @@ pdf 2trayecto.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
-<2trayecto-eps-converted-to.pdf, id=1097, 485.815pt x 352.31625pt>
+<2trayecto-eps-converted-to.pdf, id=1109, 485.815pt x 352.31625pt>
 File: 2trayecto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2trayecto-eps-converted-to.pdf>
@@ -2019,7 +2013,7 @@ Package epstopdf Info: Source file: <3PuntosReferencia.eps>
 rted-to.pdf 3PuntosReferencia.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
-<3PuntosReferencia-eps-converted-to.pdf, id=1109, 179.67125pt x 227.85126pt>
+<3PuntosReferencia-eps-converted-to.pdf, id=1120, 179.67125pt x 227.85126pt>
 File: 3PuntosReferencia-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 3PuntosReferencia-eps-converted-to.pdf>
@@ -2037,7 +2031,7 @@ Package epstopdf Info: Source file: <4tool.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<4tool-eps-converted-to.pdf, id=1110, 477.785pt x 258.9675pt>
+<4tool-eps-converted-to.pdf, id=1121, 477.785pt x 258.9675pt>
 File: 4tool-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4tool-eps-converted-to.pdf>
@@ -2066,7 +2060,7 @@ to.pdf 5Trajectoria.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<5Trajectoria-eps-converted-to.pdf, id=1118, 303.1325pt x 173.64874pt>
+<5Trajectoria-eps-converted-to.pdf, id=1129, 303.1325pt x 173.64874pt>
 File: 5Trajectoria-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 5Trajectoria-eps-converted-to.pdf>
@@ -2085,7 +2079,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./4tool-eps-converted-to.pdf> <./5Trajectoria-eps-converted-to.pdf>]
-<python-logo.png, id=1132, 582.175pt x 164.615pt>
+<python-logo.png, id=1144, 582.175pt x 164.615pt>
 File: python-logo.png Graphic file (type png)
  <use python-logo.png>
 Package pdftex.def Info: python-logo.png used on input line 219.
@@ -2133,7 +2127,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 260.
 
-<G00.pdf, id=1151, 496.22992pt x 189.27312pt>
+<G00.pdf, id=1163, 496.22992pt x 189.27312pt>
 File: G00.pdf Graphic file (type pdf)
  <use G00.pdf>
 Package pdftex.def Info: G00.pdf used on input line 266.
@@ -2186,7 +2180,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 325.
 
-<G01.pdf, id=1217, 496.22992pt x 189.27312pt>
+<G01.pdf, id=1229, 496.22992pt x 189.27312pt>
 File: G01.pdf Graphic file (type pdf)
  <use G01.pdf>
 Package pdftex.def Info: G01.pdf used on input line 330.
@@ -2263,7 +2257,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./G01.pdf>] <G02.pdf, id=1261, 529.69145pt x 306.04941pt>
+[41 <./G01.pdf>] <G02.pdf, id=1272, 529.69145pt x 306.04941pt>
 File: G02.pdf Graphic file (type pdf)
  <use G02.pdf>
 Package pdftex.def Info: G02.pdf used on input line 343.
@@ -2385,13 +2379,13 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44] <arduino-logo.png, id=1335, 1204.5pt x 820.06375pt>
+[44] <arduino-logo.png, id=1347, 1204.5pt x 820.06375pt>
 File: arduino-logo.png Graphic file (type png)
 
 <use arduino-logo.png>
 Package pdftex.def Info: arduino-logo.png used on input line 431.
 (pdftex.def)             Requested size: 120.45705pt x 82.01117pt.
- <arduino-uno.png, id=1336, 501.875pt x 377.41pt>
+ <arduino-uno.png, id=1348, 501.875pt x 377.41pt>
 File: arduino-uno.png Graphic file (type png)
 
 <use arduino-uno.png>
@@ -2505,13 +2499,13 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] <BluetoothLogo.png, id=1486, 5018.75pt x 3011.25pt>
+[52] <BluetoothLogo.png, id=1498, 5018.75pt x 3011.25pt>
 File: BluetoothLogo.png Graphic file (type png)
 
 <use BluetoothLogo.png>
 Package pdftex.def Info: BluetoothLogo.png used on input line 648.
 (pdftex.def)             Requested size: 150.556pt x 90.3336pt.
- <HC05.jpg, id=1488, 602.25pt x 602.25pt>
+ <HC05.jpg, id=1500, 602.25pt x 602.25pt>
 File: HC05.jpg Graphic file (type jpg)
 
 <use HC05.jpg>
@@ -2552,7 +2546,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] <StartPage.png, id=1528, 355.7039pt x 316.18124pt>
+[55] <StartPage.png, id=1540, 355.7039pt x 316.18124pt>
 File: StartPage.png Graphic file (type png)
  <use StartPage.png>
 Package pdftex.def Info: StartPage.png used on input line 742.
@@ -2581,7 +2575,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57 <./StartPage.png>] <InkPage.png, id=1578, 357.20953pt x 313.5464pt>
+[57 <./StartPage.png>] <InkPage.png, id=1590, 357.20953pt x 313.5464pt>
 File: InkPage.png Graphic file (type png)
 
 <use InkPage.png>
@@ -2598,7 +2592,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./InkPage.png>] <ManualPage.png, id=1595, 354.19829pt x 312.7936pt>
+[58 <./InkPage.png>] <ManualPage.png, id=1607, 354.19829pt x 312.7936pt>
 File: ManualPage.png Graphic file (type png)
 
 <use ManualPage.png>
@@ -2680,7 +2674,7 @@ Cap\IeC {\'\i }tol 6.
 ------------------------------------------------------------------------------
  6 Resultats
 ------------------------------------------------------------------------------
-<resultatLinia.pdf, id=1754, 459.44629pt x 65.93231pt>
+<resultatLinia.pdf, id=1766, 459.44629pt x 65.93231pt>
 File: resultatLinia.pdf Graphic file (type pdf)
  <use resultatLinia.pdf>
 Package pdftex.def Info: resultatLinia.pdf used on input line 18.
@@ -2690,7 +2684,7 @@ Overfull \hbox (3.56087pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<resultatQuadrat.pdf, id=1755, 279.03127pt x 262.98453pt>
+<resultatQuadrat.pdf, id=1767, 279.03127pt x 262.98453pt>
 File: resultatQuadrat.pdf Graphic file (type pdf)
 
 <use resultatQuadrat.pdf>
@@ -2699,7 +2693,7 @@ Package pdftex.def Info: resultatQuadrat.pdf used on input line 27.
  [65
 
  <./resultatLinia.pdf>]
-<resultatEstrella.pdf, id=1773, 353.21861pt x 192.7441pt>
+<resultatEstrella.pdf, id=1784, 353.21861pt x 192.7441pt>
 File: resultatEstrella.pdf Graphic file (type pdf)
 
 <use resultatEstrella.pdf>
@@ -2717,7 +2711,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [66 <./resultatQuadrat.pdf>]
-<resultatFuncionara.pdf, id=1782, 187.49849pt x 224.84pt>
+<resultatFuncionara.pdf, id=1793, 187.49849pt x 224.84pt>
 File: resultatFuncionara.pdf Graphic file (type pdf)
 
 <use resultatFuncionara.pdf>
@@ -2735,14 +2729,14 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  This may cause the page layout to be inconsistent, however.
 
 [67 <./resultatEstrella.pdf> <./resultatFuncionara.pdf>]
-<resultatLletra.pdf, id=1802, 225.18831pt x 219.74095pt>
+<resultatLletra.pdf, id=1814, 225.18831pt x 219.74095pt>
 File: resultatLletra.pdf Graphic file (type pdf)
 
 <use resultatLletra.pdf>
 Package pdftex.def Info: resultatLletra.pdf used on input line 54.
 (pdftex.def)             Requested size: 225.18774pt x 219.7404pt.
 
-<resultatLletra2.pdf, id=1803, 110.12744pt x 201.54396pt>
+<resultatLletra2.pdf, id=1815, 110.12744pt x 201.54396pt>
 File: resultatLletra2.pdf Graphic file (type pdf)
 
 <use resultatLletra2.pdf>
@@ -2829,7 +2823,28 @@ Cap\IeC {\'\i }tol 9.
 ------------------------------------------------------------------------------
  9 Conclusions i treballs futurs
 ------------------------------------------------------------------------------
-[77]) (Appendices/AppendixA.tex
+[77])
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 213.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
+------------------------------------------------------------------------------
+ Agra\IeC {\@umlaut\i }ments
+------------------------------------------------------------------------------
+[79
+
+] (main.bbl [80
+
+
+] [81]) (Appendices/AppendixA.tex
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 3.
@@ -2841,65 +2856,17 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78]
+[82]
 Ap\`endix A.
 ------------------------------------------------------------------------------
  A Programes creats
 ------------------------------------------------------------------------------
-[79
+[83
 
 ]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 173.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[80]
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 225.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[81]
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 277.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82]
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 329.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[83]
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 377.
+Package pdftex.def Info: logo1.png used on input line 168.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2911,7 +2878,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [84]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 399.
+Package pdftex.def Info: logo1.png used on input line 217.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2923,7 +2890,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [85]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 454.
+Package pdftex.def Info: logo1.png used on input line 266.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2935,7 +2902,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [86]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 506.
+Package pdftex.def Info: logo1.png used on input line 315.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2947,7 +2914,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [87]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 558.
+Package pdftex.def Info: logo1.png used on input line 361.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2959,7 +2926,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [88]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 610.
+Package pdftex.def Info: logo1.png used on input line 399.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2971,7 +2938,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [89]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 621.
+Package pdftex.def Info: logo1.png used on input line 451.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2983,7 +2950,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [90]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 676.
+Package pdftex.def Info: logo1.png used on input line 500.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -2995,7 +2962,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [91]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 724.
+Package pdftex.def Info: logo1.png used on input line 551.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3007,7 +2974,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [92]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 773.
+Package pdftex.def Info: logo1.png used on input line 598.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3019,7 +2986,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [93]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 823.
+Package pdftex.def Info: logo1.png used on input line 621.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3031,7 +2998,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [94]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 868.
+Package pdftex.def Info: logo1.png used on input line 673.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3043,7 +3010,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [95]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 923.
+Package pdftex.def Info: logo1.png used on input line 719.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3055,7 +3022,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [96]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 973.
+Package pdftex.def Info: logo1.png used on input line 768.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3067,7 +3034,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
 [97]
 File: logo1.png Graphic file (type png)
  <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 1024.
+Package pdftex.def Info: logo1.png used on input line 810.
 (pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
 
@@ -3076,7 +3043,55 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98]) (Appendices/AppendixB.tex
+[98]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 855.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 903.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 951.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 998.
+(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+
+
+Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
+ Make it at least 34.10266pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102]) (Appendices/AppendixB.tex
 File: logo1.png Graphic file (type png)
  <use logo1.png>
 Package pdftex.def Info: logo1.png used on input line 3.
@@ -3088,7 +3103,7 @@ Package Fancyhdr Warning: \footskip is too small (21.68121pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[99] [100
+[103] [104
 
 ]
 Ap\`endix B.
@@ -3125,157 +3140,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[101] <XassisPlanol.pdf, id=2888, 597.50829pt x 845.0471pt>
+[105] <XassisPlanol.pdf, id=2938, 597.50829pt x 845.0471pt>
 File: XassisPlanol.pdf Graphic file (type pdf)
 
 <use XassisPlanol.pdf>
 Package pdftex.def Info: XassisPlanol.pdf used on input line 28.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 31.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [106
 
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[102 <./XassisPlanol.pdf>] <GuiaPlanol.pdf, id=2910, 597.50829pt x 845.0471pt>
+ <./XassisPlanol.pdf>]
+<GuiaPlanol.pdf, id=2960, 597.50829pt x 845.0471pt>
 File: GuiaPlanol.pdf Graphic file (type pdf)
-
-<use GuiaPlanol.pdf>
+ <use GuiaPlanol.pdf>
 Package pdftex.def Info: GuiaPlanol.pdf used on input line 34.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 37.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
 
+[107
 
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[103 <./GuiaPlanol.pdf>] <SuportPlanol.pdf, id=2932, 597.50829pt x 845.0471pt>
+ <./GuiaPlanol.pdf>] <SuportPlanol.pdf, id=2982, 597.50829pt x 845.0471pt>
 File: SuportPlanol.pdf Graphic file (type pdf)
 
 <use SuportPlanol.pdf>
 Package pdftex.def Info: SuportPlanol.pdf used on input line 40.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 43.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [108
 
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[104 <./SuportPlanol.pdf>]
-<RodaBojaPlanol.pdf, id=2954, 597.50829pt x 845.0471pt>
+ <./SuportPlanol.pdf>]
+<RodaBojaPlanol.pdf, id=3004, 597.50829pt x 845.0471pt>
 File: RodaBojaPlanol.pdf Graphic file (type pdf)
 
 <use RodaBojaPlanol.pdf>
 Package pdftex.def Info: RodaBojaPlanol.pdf used on input line 46.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 49.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+ [109
 
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105 <./RodaBojaPlanol.pdf>]
-<RodaPlanol.pdf, id=2976, 597.50829pt x 845.0471pt>
+ <./RodaBojaPlanol.pdf>]
+<RodaPlanol.pdf, id=3027, 597.50829pt x 845.0471pt>
 File: RodaPlanol.pdf Graphic file (type pdf)
  <use RodaPlanol.pdf>
 Package pdftex.def Info: RodaPlanol.pdf used on input line 52.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: logo1.png Graphic file (type png)
 
-<use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 55.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+[110
 
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[106 <./RodaPlanol.pdf>] <TubsPlanol.pdf, id=2998, 597.50829pt x 845.0471pt>
+ <./RodaPlanol.pdf>] <TubsPlanol.pdf, id=3049, 597.50829pt x 845.0471pt>
 File: TubsPlanol.pdf Graphic file (type pdf)
 
 <use TubsPlanol.pdf>
 Package pdftex.def Info: TubsPlanol.pdf used on input line 58.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-)
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 279.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
+) [111
 
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[107 <./TubsPlanol.pdf>] [108
+ <./TubsPlanol.pdf>] [112
 
 ]
 ------------------------------------------------------------------------------
  Bibliografia
 ------------------------------------------------------------------------------
-(main.bbl [109
-
-])
-File: logo1.png Graphic file (type png)
- <use logo1.png>
-Package pdftex.def Info: logo1.png used on input line 296.
-(pdftex.def)             Requested size: 27.32729pt x 34.10266pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (21.68121pt): 
- Make it at least 34.10266pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[110]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
- (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+(main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C415B4C1BCC20C9E76918572397C4339;15786.
+(rerunfilecheck)             Checksum: 2EA9D72F598E5BB14BBED55F7B747F07;15728.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 143 (\begingroup)
+### semi simple group (level 1) entered at line 119 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30627 strings out of 493333
- 522962 string characters out of 3139188
- 1024164 words of memory out of 3000000
- 31965 multiletter control sequences out of 15000+200000
- 18482 words of font info for 70 fonts, out of 3000000 for 9000
+ 30623 strings out of 493333
+ 522973 string characters out of 3139188
+ 982465 words of memory out of 3000000
+ 31960 multiletter control sequences out of 15000+200000
+ 17533 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,66p,1442b,2362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,66p,1442b,2368s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Progr
@@ -3285,19 +3231,19 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
 ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsltt10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on main.pdf (124 pages, 29947321 bytes).
+/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsltt10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pf
+b>
+Output written on main.pdf (124 pages, 30036391 bytes).
 PDF statistics:
- 3444 PDF objects out of 3580 (max. 8388607)
+ 3461 PDF objects out of 3580 (max. 8388607)
  1578 named destinations out of 1728 (max. 500000)
- 991 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 996 words of extra memory for PDF output out of 10000 (max. 10000000)
 

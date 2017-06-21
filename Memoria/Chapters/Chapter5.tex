@@ -242,10 +242,10 @@ A partir d’aquí es defineixen una sèrie de variables globals que serviran pe
 	y0 = 0.0  #coordenades absolutes que ocupa el robot
 	pasdreta=0  #posicio absoluta del motor dret en pasos
 	pasesquerra=0  #posicio absoluta del motor dret en pasos
-	DiamRoda=50.9295  #diametre de la roda en mm
+	DiamRoda=51.9  #diametre de la roda en mm
 	RadiRoda=DiamRoda/2.0  #radi de la roda en mm
-	distDreta=60.0  #distancia en mm entre el centre de l'eix (punt del boli) i la roda dreta
-	distEsquerra=61.5  #distancia en mm entre el centre de l'eix (punt del boli) i la roda esquerra
+	distDreta=61.8  #distancia en mm entre el centre de l'eix (punt del boli) i la roda dreta
+	distEsquerra=61.9  #distancia en mm entre el centre de l'eix (punt del boli) i la roda esquerra
 	pas= math.pi *DiamRoda/StepsVolta  #mm recorreguts per pas del motor
 	direccio0=math.pi/2  #angle inicial del robot a 90 graus
 	tempsLectura=0.01  #temps per llegir l'Arduino 
@@ -272,20 +272,20 @@ Aquesta funció realitza un moviment rectilini fins al punt definit per les coor
 En el cas de l’ordre G00, el primer que cal fer és rotar el robot per tal de posicionar-lo en direcció al punt de destí ($x_{1}$, $y_{1}$). És en l'única operació que cal fer-ho, ja que, a l'utilitzar l’eina “Cuchillo tangencial” d’Inkscape , sempre que hi ha un moviment amb el retolador en posició activa primer es realitza una ordre G01 A\emph{X} que rota el robot fins a la direcció (\emph{X}) adequada per començar el moviment. En aquest cas, al tenir el retolador aixecat el propi Inkscape entén que es pot moure fins a les coordenades destí de qualsevol manera, però com que el moviment del robot és empre en una única direcció, cal rotar-lo per tal d'apuntar cap al punt final i realitzar un moviment rectilini. Aquest càlcul es fa utilitzant l’arctangent del valor de $\frac{\Delta y }{\Delta x}$ amb el següent codi:
 \begin{python}
 	if (dx != 0):
-	direccio = math.atan(dy/dx) 
+		direccio = math.atan(dy/dx) 
 	if (dx < 0 and dy >= 0):
-	direccio = direccio + math.pi 
+		direccio = direccio + math.pi 
 	elif (dx < 0 and dy < 0):
-	direccio = direccio - math.pi
-	apuntar(direccio) 
+		direccio = direccio - math.pi
+		apuntar(direccio) 
 	else:
-	if (dy > 0):
-	direccio = math.pi/2.0 
-	elif (dy<0):
-	direccio = -math.pi/2.0 
-	else:
-	direccio=direccio0
-	apuntar(direccio) 
+		if (dy > 0):
+			direccio = math.pi/2.0 
+		elif (dy<0):
+			direccio = -math.pi/2.0 
+		else:
+			direccio=direccio0
+		apuntar(direccio) 
 	direccio0=direccio
 \end{python}
 
@@ -315,11 +315,11 @@ Per acabar s’estableix la connexió amb l’Arduino. En primer lloc, s’envia
 	arduino.write(text)
 	robot=1
 	while robot==1:
-	if arduino.inWaiting()>0:
-	st=arduino.readline().strip()
-	time.sleep(tempsLectura)
-	if st=='Ready':
-	robot=0
+		if arduino.inWaiting()>0:
+			st=arduino.readline().strip()
+			time.sleep(tempsLectura)
+			if st=='Ready':
+				robot=0
 \end{python}
 
 \subsubsection{Funció G01($x_{1}$, $y_{1}$)}
@@ -374,7 +374,7 @@ Amb les noves coordenades el primer pas és calcular l’angle de circumferènci
 	angle1=math.atan2(y1,x1)
 	angle=angle0-angle1
 	if angle<0:
-	angle=2*math.pi+angle
+		angle=2*math.pi+angle
 \end{python}
 
 La funció \emph{math.atan2(y,x)} retorna la direcció d’aquest punt, i, restant les direccions del punt inicial i el punt final, es pot calcular l'angle entre ells. Si l’angle resultant és menor a \emph{0} es converteix al seu respectiu angle en positiu, sumant $2\pi$, per mantenir-se sempre a l’interval $[\emph{0},\emph{2} \pi]$.
@@ -407,10 +407,10 @@ El càlcul de passos consisteix, en primer lloc, en la decisió del sentit de gi
 	gir=direccio0-direccio1 
 	absgir=abs(gir) 
 	if (absgir > math.pi):
-	if (gir<0):
-	gir= 2.0 * math.pi + gir 
-	else:
-	gir= -2.0 * math.pi + gir
+		if (gir<0):
+			gir= 2.0 * math.pi + gir 
+		else:
+			gir= -2.0 * math.pi + gir
 \end{python}
 Si el valor de la variable \emph{gir}, que és l’angle a girar pel robot, és negatiu girarà en sentit antihorari, i sinó en sentit horari. Aquest angle mai serà superior a $\pi$. 
 
