@@ -1,0 +1,32 @@
+\setlength\topmargin{8mm}
+\onehalfspacing
+\chapter{Conclusions i treballs futurs} % Main chapter title
+
+\label{Chapter9} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\rhead[\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}]{\thepage}
+\lhead[\thepage]{\emph{Disseny, programació i implementació d'un robot de dibuix amb Arduino}}
+
+
+
+\section{Conclusions}
+
+Amb aquest projecte s'ha aconseguit crear un robot de dibuix des d'un estudi previ fins a la programació, passant pel disseny de l'estructura, el càlcul del moviment, la definició d'un mètode per convertir arxius SVG en trajectòries i aquestes en ordres del robot, la implementació d'un sistema de comunicació i la creació d'una aplicació que ho controli. Per tant, es considera que s'han assolit els objectius definits.
+
+En primer lloc, s'ha estudiat la viabilitat de realitzar aquest robot com un sistema en llaç obert, en el qual el comportament i el control dels diferents elements són bàsics per assegurar el correcte funcionament. S'ha pogut veure que, amb la tecnologia de la qual es disposava, s'ha pogut crear un prototip capaç de traçar figures de manera bastant aproximada, però que no es podria utilitzar per tasques de gran precisió. Per tal d'augmentar aquesta precisió es podrien avaluar dues vies diferents: en primer lloc, una millora dels components i una feina de redisseny que donaria lloc a un robot de millors prestacions i amb les quals es podria reduir aquest error, però mai eliminar-lo del tot. En canvi, si s'opta per tancar el llaç de control amb altres dispositius, que poguessin mesurar i corregir l'error comès, es creu que sí que es podria aconseguir un dispositiu d'alta precisió. Aquestes feines, però, quedaven fora de l'abast del projecte i ,per tant, es pot concloure que sí que és viable realitzar un robot en llaç obert tot i que la seva precisió sigui limitada. 
+
+En quant al disseny i la construcció del robot s'ha assolit el nivell esperat, ja que s'ha dissenyat i construït l'estructura, s'han escollit els elements electrònics que fan possible la realització d'aquest robot, i s'han complert les especificacions de tamany i funcionalitat desitjades. D'aquesta manera, s'ha complert amb aquest objectiu.
+
+Per acabar, s'ha dotat el robot de tot el software necessari per tal de fer-lo funcionar, des de la transformació de dibuixos realitzats per l'usuari fins a ordres dels motors, que s'envien per Bluetooth des de l'ordinador i l'Arduino les processa. Així doncs, s'han aconseguit assolir tots els objectius fins aconseguir la realització d'un robot de dibuix de manera molt satisfactòria.
+
+Al llarg de tot el projecte no només s'han assolit els objectius i subobjectius, sinó que s'ha aprofundit en temes de programació en els llenguatges Python i Arduino, s'ha realitzat un disseny complet des de la idea fins a la realització d'un dispositiu que ha permès veure totes les etapes de creació que hi ha darrere d'un producte, i s'han posat en pràctica molts aspectes treballats durant el màster.
+
+
+\section{Possibles treballs futurs} \label{sec:treballsfuturs}
+Aquest treball és una primera aproximació a la solució de la problemàtica presentada que pot donar lloc a futeres investigacions per tal d'assolir els resultats esperats. El robot creat està dissenyat en llaç obert  i presenta una precisió limitada que inhabilita la seva utilització en algunes aplicacions i s'ha dissenyat per utiltzar un retolador i dibuixar sobre un paper  en una superficie plana. 
+
+En primer lloc, es podria estudiar la manera de millorar aquesta precisió en llaç obert per tal de mantenir el projecte com un sistema de baix cost, fàcil de transoportar i utilitzar millorant els seus components i el seu disseny. 
+
+Per altra banda, per assegurar el perfecte funcionament del mateix es podria dur a terme un estudi de les diferents vies possibles per tancar un llaç de control que permeti eliminar l'error i augementar la seva precisió. Per fer-ho es podrien estudiar mètodes que actuin de forma local al robot com seria l'utilització d'una IMU que pugui localitzar i orientar el robot, o mètodes externs com ara sistemes de visió o un sistema de localització i detecció de moviments per barres de dispositius LED infrarojos, per exemple. 
+
+També seria interessant l'estudi de nous mètodes de funcionament a part de la utilització de retoladors, com podrien ser eines de tall per utilitzar sobre fusta o tela, guix per utilitzar sobre pissarres o el terra, pintura per tal de poder pintar sobre superfícies planes o qualsevol altre aplicació que es pugui imaginar. Un altre camp d'estudi podria ser la superfície sobre la qual treballa, i poder-lo adaptar a una superfície irregular o fins i tot mètodes per tal de poder treballar sobre parets verticals. 
