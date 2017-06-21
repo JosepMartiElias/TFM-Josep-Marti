@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{FritzingBib}
-Pàgina web de fritzing.
+Pàgina web de {F}ritzing.
 \newblock Disponible a: \url{http://fritzing.org/home/}.
 
 \bibitem{billschweber2015}
@@ -12,7 +12,7 @@ Bill Schweber.
 
 \bibitem{thingibox2017}
 Thingibox.
-\newblock Motor pas a pas nema14, 2017.
+\newblock Motor pas a pas {NEMA}14, 2017.
 \newblock Disponible a:
   \url{http://store.thingibox.com/es/motores/5-stepper_nema14.html}.
 
@@ -33,12 +33,12 @@ Peter Smid.
 \newblock Indutrial press inc., 2008.
 
 \bibitem{InkTutorial}
-Tutorials inkscape.
+Tutorials {I}nkscape.
 \newblock Disponible a:
   \url{https://inkscape.org/es/doc/tutorials/basic/tutorial-basic.es.html}.
 
 \bibitem{InkBib}
-Pàgina web inkscape.
+Pàgina web {I}nkscape.
 \newblock Disponible a: \url{https://inkscape.org/es/}.
 
 \bibitem{mariadolorsayalavallesp2016}
@@ -48,16 +48,16 @@ Maria Dolors~Ayala Vallespí.
 
 \bibitem{jeffreyelknerallenb.downeyichrismeyers2012}
 Allen B. Downey i Chris~Meyers Jeffrey~Elkner.
-\newblock How to think like a computer scientist: Learning with python, 2012.
+\newblock How to think like a computer scientist: Learning with {P}ython, 2012.
 \newblock Disponible a:
   \url{http://www.openbookproject.net/thinkcs/python/english2e/}.
 
 \bibitem{PythonWeb}
-Pàgina web de python.
+Pàgina web de {P}ython.
 \newblock Disponible a: \url{https://www.python.org/}.
 
 \bibitem{arduinoBib}
-Pàgina web d'arduino.
+Pàgina web d'{A}rduino.
 \newblock Disponible a: \url{https://www.arduino.cc/}.
 
 \bibitem{massimobanzi2011}
@@ -66,25 +66,25 @@ Massimo Banzi.
 \newblock O'Reily, 2009.
 
 \bibitem{guiadelallibreriaaccelstepper}
-Guia de la llibreria accelstepper.
+Guia de la llibreria {A}ccel{S}tepper.
 \newblock Disponible a:
   \url{http://www.airspayce.com/mikem/arduino/AccelStepper/}.
 
 \bibitem{guiadelallibreriamultistepper}
-Guia de la llibreria multistepper.
+Guia de la llibreria {M}ulti{S}tepper.
 \newblock Disponible a:
   \url{http://www.airspayce.com/mikem/arduino/AccelStepper/classMultiStepper.html}.
 
 \bibitem{HC05Bib}
-Informació sobre el mòdul hc-05.
+Informació sobre el mòdul {HC}-05.
 \newblock Disponible a: \url{http://www.prometec.net/bt-hc05/}.
 
 \bibitem{TkinterBib}
-Guia de la llibreria tkinter.
+Guia de la llibreria {T}kinter.
 \newblock Disponible a: \url{https://docs.python.org/2/library/tkinter.html}.
 
 \bibitem{turtleBib}
-Guia de la llibreria turtle.
+Guia de la llibreria {T}urtle.
 \newblock Disponible a: \url{https://docs.python.org/2/library/turtle.html}.
 
 \end{thebibliography}
